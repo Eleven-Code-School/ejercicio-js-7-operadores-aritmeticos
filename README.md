@@ -1,4 +1,4 @@
-# Operadores Aritméticos en Javascript - Ejercicios
+# 6.7 JS - Operadores Aritméticos en Javascript - Ejercicios
 
 ## Requisitos Generales:
 1. **Operadores a practicar**: `+`, `-`, `*`, `/`, `%`, `**`, `++`, `--`, `+=`, `-=`, `*=`, `/=`, `%=`.
