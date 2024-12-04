@@ -1,12 +1,33 @@
 // Ejercicios de Operadores Aritméticos
 
 // Ejercicio 1: Suma de productos
+const precioProducto1 = 5;
+const precioProducto2 = 10;
+const resultadoEjercicio1 = precioProducto1 + precioProducto2;
+
+console.log("El resultado de la suma de los dos productos es:", resultadoEjercicio1);
 
 // Ejercicio 2: Descuento en una compra
+const precioOriginal = 30;
+const descuento = 5;
+const resultadoDelEjercicio2 = precioOriginal - descuento;
+
+console.log("El producto con el descuento aplicado costaria:", resultadoDelEjercicio2);
 
 // Ejercicio 3: Calcula el IVA
+const precioSinIva = 25;
+const iva = 21 / 100;
+const ivaDelProducto = precioSinIva * iva;
+const precioConIva = ivaDelProducto + precioSinIva;
+
+console.log("El Precio del producto con el iva incluido seria de:", precioConIva);
 
 // Ejercicio 4: División de la cuenta
+const totalCuenta = 225;
+const numeroDePersonas = 4;
+const pagoPorPersona = totalCuenta / numeroDePersonas;
+
+console.log("El precio a pagar por persona es de:", pagoPorPersona);
 
 // Ejercicio 5: Resto de una división
 
