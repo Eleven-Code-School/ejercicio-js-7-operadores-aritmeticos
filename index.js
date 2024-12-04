@@ -267,6 +267,12 @@ if (numeroDelEjercicio36 % 3 == 0) {
     console.log("El numero:", numeroDelEjercicio36, "No es multiplo de 3");
 }
 // Ejercicio 37: Incremento con decimales
+let precioGasolina = 42.20;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina tras aumentarle 0.25 tres veces consecutivas es de:", precioGasolina);
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
