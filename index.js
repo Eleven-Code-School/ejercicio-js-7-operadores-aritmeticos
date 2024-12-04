@@ -161,6 +161,11 @@ edadActual += 5;
 console.log("La edad inicial tras pasar 5 años sera de:", edadActual);
 
 // Ejercicio 23: Cuota mensual
+let deudaTotal = 8000;
+let numeroDeMeses = 24;
+const pagoPorMeses = deudaTotal / numeroDeMeses;
+
+console.log("El pago mensual por la deuda será de:", pagoPorMeses);
 
 // Ejercicio 24: Incremento antes de imprimir
 
