@@ -92,6 +92,10 @@
     
 // Ejercicio 12: Resto acumulado
 
+    precioFinal %= 3;
+
+    console.log("12 = y nos sobra ",precioFinal,"!!!");
+
 // Ejercicio 13: Incremento antes del uso
 
 // Ejercicio 14: Decremento después del uso
