@@ -156,9 +156,15 @@
     let conversion = precio * tasaCambio;
 
     console.log("20 = La tasa es de", conversion);
-    
 
 // Ejercicio 21: Cálculo de descuentos acumulados
+
+    let precioInicial = 23.99;
+
+    precioInicial *=0.8;
+    precioInicial *=0.9;
+
+    console.log("21 = descuento acumulado", precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
