@@ -141,6 +141,11 @@ const gastoSemanal = gastoDiario * 7;
 console.log("El gasto semanal sera de:", gastoSemanal);
 
 // Ejercicio 20: Conversión de monedas
+let cantidadUSD = 70;
+let tasaDeCambio = 0.6;
+const cantidadConLaTasaIncluida = cantidadUSD * tasaDeCambio;
+
+console.log("La cantidad resultante aplicandole la tasa de cambio es de:", cantidadConLaTasaIncluida + "$");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
