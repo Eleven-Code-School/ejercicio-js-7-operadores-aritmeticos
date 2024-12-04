@@ -192,6 +192,12 @@ if (numeroDelEjercicio26 % 5 == 0) {
     console.log("El numero no es divisible entre 5.", "numero:", numeroDelEjercicio26);
 }
 // Ejercicio 27: Saldo restante después de un retiro
+let saldo = 200;
+let retiro = 20;
+retiro = 50;
+saldo -= retiro;
+
+console.log("El saldo restante despues del retiro es de:", saldo);
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
