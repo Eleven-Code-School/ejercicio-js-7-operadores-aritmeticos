@@ -82,10 +82,14 @@
     let exponencial = var1 ** var2;
 
     console.log("10 = ",exponencial);
-    
 
 // Ejercicio 11: Reducción de precios
 
+    let precioFinal = 10;
+    precioFinal *= 0.9;
+
+    console.log("11 = Precio final es: ",precioFinal);
+    
 // Ejercicio 12: Resto acumulado
 
 // Ejercicio 13: Incremento antes del uso
