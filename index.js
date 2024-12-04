@@ -46,6 +46,16 @@ if ((numero % 2) === 0) {
 }
 
 // Ejercicio 7: Multiplica ingredientes
+let numeroDeRecetas = 4;
+
+const ingrediente1 = 20 * numeroDeRecetas;
+const ingrediente2 = 35 * numeroDeRecetas;
+const ingrediente3 = 4 * numeroDeRecetas;
+const ingrediente4 = 21 * numeroDeRecetas;
+const cantidadObtenida = ingrediente1 + ingrediente2 + ingrediente3 + ingrediente4;
+
+console.log("El numero de ingredientes no variara dependiendo de si aumentas la cantidad en la receta xD, pero su cantidad maxima resultante si:", cantidadObtenida);
+
 
 // Ejercicio 8: Incremento en la cuenta
 
