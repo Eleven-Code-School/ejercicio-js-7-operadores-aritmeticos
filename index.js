@@ -78,9 +78,16 @@ console.log ("el total de ahorros con un aumento de 10 es "+aumentoDiez)
 let deuda = 50
 
 menosQuince = deuda -= 15 ;
-console.log("su deuda agregando un -15 es " + menosQuince)
+console.log("su deuda agregando un -15 es " + menosQuince);
 
 // Ejercicio 10: Calcula un exponente
+
+let base = 56 ;
+let exponente = 3;
+
+totalExponente = base ** exponente;
+
+console.log ( "la base " + base + " elevado a " + exponente + " es " + totalExponente)
 
 // Ejercicio 11: Reducción de precios
 
