@@ -315,9 +315,14 @@
     let promedio = (c + d + e + f+ g)/5;
 
     console.log("38 = El promedio es", promedio);
-    
 
 // Ejercicio 39: Cálculo del descuento acumulado
+
+    precioInicial *= 0.3;
+    precioInicial *= 0.15;
+
+    console.log("39 = Descuento acumulado", precioInicial);
+    
 
 // Ejercicio 40: Ajuste de inventario con restos
 
