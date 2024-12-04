@@ -210,6 +210,11 @@
 
 // Ejercicio 27: Saldo restante después de un retiro
 
+    let saldo = a - b;
+
+    console.log("27 = El saldo es:", saldo);
+    
+
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
 // Ejercicio 29: Conversión de días
