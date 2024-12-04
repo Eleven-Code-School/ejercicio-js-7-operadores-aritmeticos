@@ -86,8 +86,19 @@ precioProducto *= 0.9; // Aqui estoy calculando el 90% del precio original
 console.log("El producto con su descuenta aplicado es de", precioProducto);
 
 // Ejercicio 12: Resto acumulado
+let cantidad = 200;
+cantidad %= 3;
+
+console.log("El resto de una cantidad al dividirlo por 3 es de:", cantidad);
 
 // Ejercicio 13: Incremento antes del uso
+let dias = 7;
+dias = ++dias;
+dias = ++dias;
+dias = ++dias;
+dias = ++dias;
+
+console.log("El resultado del ejercicio 13 es de:", dias, "dias");
 
 // Ejercicio 14: Decremento después del uso
 
