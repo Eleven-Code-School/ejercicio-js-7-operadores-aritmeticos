@@ -335,6 +335,17 @@
     
 // Ejercicio 41: Cálculo del interés compuesto
 
+    const capIni = 3000;
+    const interes = 0.16;
+    const periodo = 12;
+
+    let intcomp = capIni * (1 + interes) ** periodo
+
+    console.log("41 = El interes compuesto despues de",capIni,"€ despues de",
+        periodo,"meses, es de",intcomp.toFixed(2),"€");
+    
+
+
 // Ejercicio 42: Incremento y resto en un ciclo
 
 // Ejercicio 43: Comparación de superficies
