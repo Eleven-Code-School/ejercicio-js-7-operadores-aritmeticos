@@ -135,6 +135,10 @@ inventario += 50;
 console.log("El inventario inicial de 200 al sumarle 50 resulta en:", inventario);
 
 // Ejercicio 19: Gasto semanal
+let gastoDiario = 4;
+const gastoSemanal = gastoDiario * 7;
+
+console.log("El gasto semanal sera de:", gastoSemanal);
 
 // Ejercicio 20: Conversión de monedas
 
