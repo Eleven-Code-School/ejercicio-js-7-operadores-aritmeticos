@@ -192,7 +192,9 @@
 
 // Ejercicio 25: Decremento después de imprimir
 
-    
+    --cuotaMensual;
+
+    console.log("25 =",cuotaMensual,"€ al mes.");
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
