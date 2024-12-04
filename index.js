@@ -71,9 +71,14 @@ let totalAhorros = 52;
 
 aumentoDiez = totalAhorros += 10 ;
 
-console.log (aumentoDiez)
+console.log ("el total de ahorros con un aumento de 10 es "+aumentoDiez)
 
 // Ejercicio 9: Decremento de una deuda
+
+let deuda = 50
+
+menosQuince = deuda -= 15 ;
+console.log("su deuda agregando un -15 es " + menosQuince)
 
 // Ejercicio 10: Calcula un exponente
 
