@@ -36,7 +36,26 @@ console.log ( "a cada persona le toca de " + cuentaDividida );
 
 // Ejercicio 5: Resto de una división
 
+let totalChocolates = 678 ;
+let personas = 50 ;
+
+let resultadoDivision = ( totalChocolates % personas);
+
+console.log ( "el restante al repartir los chocolates es " + resultadoDivision)
+
+
 // Ejercicio 6: ¿Es un número par?
+
+let numero = 2 ;
+
+if (numero % 2 === 0) {
+    console.log ( numero + " es par")
+} else {
+        console.log ( numero + " es impar ")
+    }
+
+
+
 
 // Ejercicio 7: Multiplica ingredientes
 
