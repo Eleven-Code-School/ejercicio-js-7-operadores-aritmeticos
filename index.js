@@ -30,6 +30,11 @@ const pagoPorPersona = totalCuenta / numeroDePersonas;
 console.log("El precio a pagar por persona es de:", pagoPorPersona);
 
 // Ejercicio 5: Resto de una división
+const totalOnzasDeChocolate = 14;
+const totalPersonasQueQuierenChocolate = 3;
+const onzasDeChocolateRestantes = totalOnzasDeChocolate % totalPersonasQueQuierenChocolate;
+
+console.log("Las onzas de chocolate que sobran despues de repartirlo equitativamente han sido de:", onzasDeChocolateRestantes);
 
 // Ejercicio 6: ¿Es un número par?
 
