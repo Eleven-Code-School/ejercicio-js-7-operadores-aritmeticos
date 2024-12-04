@@ -168,6 +168,13 @@
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
+    let edad = 38;
+
+    edad += 5;
+
+    console.log("22 = Dentro de 5 años tendre",edad,"años.");
+    
+
 // Ejercicio 23: Cuota mensual
 
 // Ejercicio 24: Incremento antes de imprimir
