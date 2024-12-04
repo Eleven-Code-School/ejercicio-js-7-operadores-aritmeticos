@@ -217,6 +217,11 @@
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
+    let areaCuad = a ** 2;
+
+    console.log("28 = El area del cuadrado es de",areaCuad,"m2");
+    
+
 // Ejercicio 29: Conversión de días
 
 // Ejercicio 30: Cálculo de propinas
