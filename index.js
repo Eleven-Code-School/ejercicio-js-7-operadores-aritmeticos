@@ -354,10 +354,13 @@
     ++number;
     ++number;
     ++number;
+    ++number;
+    ++number;
+    ++number;
 
-    console.log("42 = ",number);
-    
+    number % 5;
 
+    console.log("42 =",number);
 
 
 // Ejercicio 43: Comparación de superficies
@@ -369,7 +372,7 @@
     let circlearea = (radiocirculo ** 2) * 3.14;
 
     if (cubearea < circlearea) {
-        console.log("42 = El cuadrado es menor que el circulo");
+        console.log("43 = El cuadrado es menor que el circulo");
         
     } else {
         console.log("43 = El circulo es menor que el cuadrado");
