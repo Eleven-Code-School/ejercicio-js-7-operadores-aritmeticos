@@ -354,9 +354,6 @@
     ++number;
     ++number;
     ++number;
-    ++number;
-    ++number;
-    ++number;
 
     console.log("42 = ",number);
     
