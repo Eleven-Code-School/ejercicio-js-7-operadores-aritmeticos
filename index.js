@@ -109,6 +109,10 @@ console.log("El resultado del ejercicio 14 es de:", cantidadEx14--);
 console.log("El resultado del ejercicio 14 es de:", cantidadEx14--);
 
 // Ejercicio 15: Ajuste del salario
+let salario = 1540;
+salario *= 1.05;
+
+console.log("El salario se incrementara si le aplicamos un 5 porciento hasta un total de:", salario);
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
