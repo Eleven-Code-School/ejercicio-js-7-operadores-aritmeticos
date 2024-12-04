@@ -285,6 +285,12 @@ const promedioNumeros = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
 console.log("El Promedio resultante de los 5 numeros es de:", promedioNumeros);
 
 // Ejercicio 39: Cálculo del descuento acumulado
+let precioInicialEx39 = 40;
+precioInicialEx39 *= 0.70;
+precioInicialEx39 *= 0.85;
+
+console.log("El Resultante del descuento tras aplicarle el 30 y 15 porciento de descuento es de:", precioInicialEx39);
+
 
 // Ejercicio 40: Ajuste de inventario con restos
 
