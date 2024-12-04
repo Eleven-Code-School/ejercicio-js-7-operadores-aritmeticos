@@ -76,6 +76,14 @@
 
 // Ejercicio 10: Calcula un exponente
 
+    const var1 = 3.12;
+    const var2 = 7.32;
+
+    let exponencial = var1 ** var2;
+
+    console.log("10 = ",exponencial);
+    
+
 // Ejercicio 11: Reducción de precios
 
 // Ejercicio 12: Resto acumulado
