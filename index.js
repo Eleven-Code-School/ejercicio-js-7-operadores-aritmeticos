@@ -205,6 +205,12 @@ const perimetroDeUnCuadrado = lado * 4;
 console.log("El perimetro del cuadrado es de:", perimetroDeUnCuadrado);
 
 // Ejercicio 29: Conversión de días
+let totalDeDias = 46;
+let horasEnUnDia = 24;
+let diasReflejadosEnHoras = totalDeDias * horasEnUnDia;
+
+console.log("El numero de horas totales segun los dias es de:", diasReflejadosEnHoras);
+
 
 // Ejercicio 30: Cálculo de propinas
 
