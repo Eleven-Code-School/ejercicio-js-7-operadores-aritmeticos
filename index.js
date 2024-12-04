@@ -148,6 +148,11 @@ const cantidadConLaTasaIncluida = cantidadUSD * tasaDeCambio;
 console.log("La cantidad resultante aplicandole la tasa de cambio es de:", cantidadConLaTasaIncluida + "$");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
+let precioInicial = 90;
+precioInicial *= 0.8;
+precioInicial *= 0.9;
+
+console.log("El precio resultante tras aplicarle los dos descuentos '20%' y '10%' es de:", precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
