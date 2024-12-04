@@ -137,7 +137,17 @@
 
 // Ejercicio 18: Incremento en el inventario
 
+    let inventario = 100;
+    inventario += 50;
+
+    console.log("18 =Total inventario:", inventario);
+
 // Ejercicio 19: Gasto semanal
+
+    let gastoSemanal = precio * 7;
+
+    console.log("19 = El gasto es de",gastoSemanal,"€");
+    
 
 // Ejercicio 20: Conversión de monedas
 
