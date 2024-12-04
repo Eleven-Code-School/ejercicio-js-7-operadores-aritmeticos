@@ -104,6 +104,10 @@
     
 // Ejercicio 14: Decremento después del uso
 
+    --precioFinal;
+
+    console.log("14 = ", precioFinal);
+
 // Ejercicio 15: Ajuste del salario
 
 // Ejercicio 16: Calcula el área de un rectángulo
