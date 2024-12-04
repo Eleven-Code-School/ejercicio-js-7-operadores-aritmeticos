@@ -173,9 +173,15 @@
     edad += 5;
 
     console.log("22 = Dentro de 5 años tendre",edad,"años.");
-    
 
 // Ejercicio 23: Cuota mensual
+
+    const deuda = 9891;
+    const meses = 12;
+
+    let cuotaMensual = deuda / meses;
+
+    console.log("23 = ",cuotaMensual,"€ al mes.");
 
 // Ejercicio 24: Incremento antes de imprimir
 
