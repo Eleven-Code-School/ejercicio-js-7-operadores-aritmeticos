@@ -110,6 +110,13 @@
 
 // Ejercicio 15: Ajuste del salario
 
+    let salario = 1200;
+
+    salario *= 1.05;
+
+    console.log("15 = ", salario);
+    
+
 // Ejercicio 16: Calcula el área de un rectángulo
 
 // Ejercicio 17: Divide un premio
