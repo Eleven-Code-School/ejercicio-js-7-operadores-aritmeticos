@@ -226,6 +226,8 @@
 
     const dias = 7;
     const horas = 24;
+    const minutos = 60;
+    const segundos = 60;
 
     let semana = dias * horas;
 
@@ -256,6 +258,13 @@
     
 
 // Ejercicio 33: Conversión de horas a segundos
+
+    let totalSemana = semana * 3600;
+
+    // let totalSemana = dias * horas * minutos * segundos;
+
+    console.log("33 = Hay",totalSemana,"segundos en una semana");
+    
 
 // Ejercicio 34: Cálculo de salario semanal
 
