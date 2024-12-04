@@ -295,15 +295,27 @@
     }
 
 // Ejercicio 37: Incremento con decimales
+
     let gasolino = 1.46;
 
     gasolino += 0.25;
     gasolino += 0.25;
     gasolino += 0.25;
 
-console.log("37 = Ahora cuesta la gasolina", gasolino);
+    console.log("37 = Ahora cuesta la gasolina", gasolino);
 
 // Ejercicio 38: Calcula el promedio de 5 números
+
+    const c = 1;
+    const d = 2;
+    const e = 3;
+    const f = 4;
+    const g = 5;
+
+    let promedio = (c + d + e + f+ g)/5;
+
+    console.log("38 = El promedio es", promedio);
+    
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
