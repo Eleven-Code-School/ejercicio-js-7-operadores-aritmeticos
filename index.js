@@ -174,6 +174,14 @@ puntos = ++puntos;
 console.log("El resultado del ejercicio 24 es de:", puntos);
 
 // Ejercicio 25: Decremento después de imprimir
+let puntosDelEjercicio25 = 30;
+
+console.log("Los puntos antes del decremento es de:", puntosDelEjercicio25);
+
+puntosDelEjercicio25 = --puntosDelEjercicio25;
+
+console.log("Los puntos despues del decremento son de:", puntosDelEjercicio25);
+
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
