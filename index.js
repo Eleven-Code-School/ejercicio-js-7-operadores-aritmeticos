@@ -37,6 +37,13 @@ const onzasDeChocolateRestantes = totalOnzasDeChocolate % totalPersonasQueQuiere
 console.log("Las onzas de chocolate que sobran despues de repartirlo equitativamente han sido de:", onzasDeChocolateRestantes);
 
 // Ejercicio 6: ¿Es un número par?
+const numero = 7;
+
+if ((numero % 2) === 0) {
+    console.log("El numero resultante es par:", numero);
+} else {
+    console.log("El numero resultante es inpar:", numero);
+}
 
 // Ejercicio 7: Multiplica ingredientes
 
