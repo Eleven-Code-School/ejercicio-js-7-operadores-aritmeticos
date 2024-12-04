@@ -416,6 +416,15 @@
 
 // Ejercicio 47: Ajuste del precio con IVA y descuento
 
+    let precioProducto = 28.99;
+    let iva2 = 0.21;
+    let discount = 0.10;
+
+    let finalprice = precioProducto + iva2 - (precioProducto * discount)
+
+    console.log("47 = El precio final es de",finalprice,"€.");
+    
+
 // Ejercicio 48: Cálculo del promedio ponderado
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
