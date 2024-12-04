@@ -30,7 +30,9 @@ console.log ("El precio total es: " + precioTotal)
 let totalCuenta = 60 ;
 let numPersonas = 2;
 
-console.log ( )
+let cuentaDividida = ( totalCuenta / numPersonas);
+
+console.log ( "a cada persona le toca de " + cuentaDividida );
 
 // Ejercicio 5: Resto de una división
 
