@@ -291,9 +291,17 @@ precioInicialEx39 *= 0.85;
 
 console.log("El Resultante del descuento tras aplicarle el 30 y 15 porciento de descuento es de:", precioInicialEx39);
 
-
 // Ejercicio 40: Ajuste de inventario con restos
+let inventarioTotal = 600;
+let productosPorCaja = 4;
 
+let productosSueltos = inventarioTotal % productosPorCaja;
+
+if (productosSueltos > 0) {
+    console.log("Ninguno de los Productos se quedara fuera de las cajas");
+} else {
+    console.log("Hay un total de:", productosSueltos, "productos que no podran meterse en cajas");
+}
 // Ejercicio 41: Cálculo del interés compuesto
 
 // Ejercicio 42: Incremento y resto en un ciclo
