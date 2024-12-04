@@ -219,6 +219,10 @@ let cuentaConPropina = cuentaSinPropina + propina;
 console.log("La cuenta resultante tras añadir la propina es de:", cuentaConPropina);
 
 // Ejercicio 31: Cálculo del volumen de un cubo
+let ladoDeUnCubo = 5
+let volumenDeUnCubo = ladoDeUnCubo ** 3;
+
+console.log("El volumen del cubo sera de:", volumenDeUnCubo) + "m³";
 
 // Ejercicio 32: Incremento acumulado
 
