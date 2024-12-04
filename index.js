@@ -246,6 +246,15 @@
 
 // Ejercicio 32: Incremento acumulado
 
+    let montoAhorros = 10;
+    montoAhorros += montoAhorros * 0.1;
+    //es lo mismo que esto de debajo
+    montoAhorros *= 1.1;
+    montoAhorros *= 1.1;
+
+    console.log("32 = Total ahorros",montoAhorros,"en euros.");
+    
+
 // Ejercicio 33: Conversión de horas a segundos
 
 // Ejercicio 34: Cálculo de salario semanal
