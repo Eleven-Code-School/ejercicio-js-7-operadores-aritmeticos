@@ -390,6 +390,18 @@
     
 // Ejercicio 45: Ahorro acumulado con bonificaciones
 
+    let iniAhorros = 1000;
+    const bonificaciones =  0.10;
+
+    iniAhorros += iniAhorros * bonificaciones;
+    iniAhorros += iniAhorros * bonificaciones;
+    iniAhorros += iniAhorros * bonificaciones;
+    iniAhorros += iniAhorros * bonificaciones;
+    iniAhorros += iniAhorros * bonificaciones;
+
+    console.log("45 =",iniAhorros);
+    
+
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 
 // Ejercicio 47: Ajuste del precio con IVA y descuento
