@@ -443,4 +443,14 @@
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
+    let aproximacion = numero2;
+
+    aproximacion /= 3;
+    aproximacion /= 3;
+    aproximacion /= 3;
+    aproximacion /= 3;
+    aproximacion /= 3;
+
+    console.log("49 = La aproximacion de",numero2,"es",aproximacion.toFixed(2));
+    
 // Ejercicio 50: Ajuste salarial acumulativo
