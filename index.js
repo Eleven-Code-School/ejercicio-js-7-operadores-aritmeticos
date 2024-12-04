@@ -1,12 +1,36 @@
 // Ejercicios de Operadores Aritméticos
 
 // Ejercicio 1: Suma de productos
+let precioProducto1 = 5 ;
+let precioProducto2 = 2 ;
+
+let resultado = (precioProducto1 +  precioProducto2);
+
+console.log (resultado)
+
 
 // Ejercicio 2: Descuento en una compra
 
+let precioOriginal = 24;
+let descuento = 2 ;
+
+let descuentoAplicado= ( precioOriginal - descuento);
+console.log ("Juan el coche con descuento queda en  " + descuentoAplicado)
 // Ejercicio 3: Calcula el IVA
 
+let precio = 340;
+let iva = 0.21 ;
+
+let precioTotal = precio + (precio * iva);
+
+console.log ("El precio total es: " + precioTotal)
+
 // Ejercicio 4: División de la cuenta
+
+let totalCuenta = 60 ;
+let numPersonas = 2;
+
+console.log ( )
 
 // Ejercicio 5: Resto de una división
 
