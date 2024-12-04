@@ -69,6 +69,11 @@
 
 // Ejercicio 9: Decremento de una deuda
 
+    totalAhorros -= 7;
+
+    console.log("9 = ",totalAhorros);
+    
+
 // Ejercicio 10: Calcula un exponente
 
 // Ejercicio 11: Reducción de precios
