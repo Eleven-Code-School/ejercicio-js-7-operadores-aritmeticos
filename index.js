@@ -119,6 +119,13 @@
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
+    const base = 10;
+    const altura = 2.5;
+
+    let area = base * altura;
+
+    console.log("16 = El area es de ",area,"m2");
+
 // Ejercicio 17: Divide un premio
 
 // Ejercicio 18: Incremento en el inventario
