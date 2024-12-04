@@ -98,6 +98,10 @@
 
 // Ejercicio 13: Incremento antes del uso
 
+    ++precioFinal;
+
+    console.log("13 = ", precioFinal);
+    
 // Ejercicio 14: Decremento después del uso
 
 // Ejercicio 15: Ajuste del salario
