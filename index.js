@@ -80,6 +80,10 @@ const resultadoejercicio10 = base ** exponente;
 console.log("El resultado de elevar la base a un exponente es de:", resultadoejercicio10);
 
 // Ejercicio 11: Reducción de precios
+let precioProducto = 70;
+precioProducto *= 0.9; // Aqui estoy calculando el 90% del precio original 
+
+console.log("El producto con su descuenta aplicado es de", precioProducto);
 
 // Ejercicio 12: Resto acumulado
 
