@@ -37,6 +37,11 @@
 
 // Ejercicio 5: Resto de una división
 
+    let sobrante = precio % personas;
+
+    console.log("5 = ", sobrante);
+    
+
 // Ejercicio 6: ¿Es un número par?
 
 // Ejercicio 7: Multiplica ingredientes
