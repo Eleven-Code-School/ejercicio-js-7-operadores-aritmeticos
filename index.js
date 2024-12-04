@@ -21,7 +21,8 @@
 
 // Ejercicio 3: Calcula el IVA
 
-    let iva = (precio * 21) / 100;
+    // let iva = (precio * 21) / 100;
+    let iva = precio * 0.21;
 
     console.log("3 = ", iva);
     
@@ -217,15 +218,25 @@
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
-    let areaCuad = a ** 2;
+    let perCuad = a * 4;
 
-    console.log("28 = El area del cuadrado es de",areaCuad,"m2");
+    console.log("28 = El perimetro del cuadrado es de",perCuad,"metros");
     
-
 // Ejercicio 29: Conversión de días
 
+    const dias = 7;
+    const horas = 24;
+
+    let semana = dias * horas;
+
+    console.log("29 = Total horas",semana,"en una semana.");
+    
 // Ejercicio 30: Cálculo de propinas
 
+    let totalFactura = precio + iva;
+
+    console.log("30 = La factura asciende a",totalFactura,"€");
+    
 // Ejercicio 31: Cálculo del volumen de un cubo
 
 // Ejercicio 32: Incremento acumulado
