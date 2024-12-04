@@ -2,8 +2,8 @@
 
 // Ejercicio 1: Suma de productos
 
-    const a = 1;
-    const b = 0;
+    const a = 3;
+    const b = 2;
 
     let x = a + b;
 
@@ -54,7 +54,18 @@
 
 // Ejercicio 7: Multiplica ingredientes
 
+    let x3 = a * b;
+
+    console.log("7 = ", x3);
+    
+
 // Ejercicio 8: Incremento en la cuenta
+
+    let totalAhorros = 10;
+    totalAhorros += 10;
+
+    console.log("8 = ", totalAhorros);
+    
 
 // Ejercicio 9: Decremento de una deuda
 
