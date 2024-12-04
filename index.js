@@ -54,10 +54,18 @@ if (numero % 2 === 0) {
         console.log ( numero + " es impar ")
     }
 
-
-
-
 // Ejercicio 7: Multiplica ingredientes
+
+let cantidadOriginal = 20 ;
+
+let factorMultiplicacion = 2;
+
+let cantidadTotal = cantidadOriginal * factorMultiplicacion ;
+
+console.log ( cantidadTotal)
+
+
+
 
 // Ejercicio 8: Incremento en la cuenta
 
