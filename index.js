@@ -424,8 +424,22 @@
 
     console.log("47 = El precio final es de",finalprice,"€.");
     
-
 // Ejercicio 48: Cálculo del promedio ponderado
+
+    let nota1 = 1;
+    let nota2 = 3;
+    let nota3 = 8;
+
+    let peso1 = 2;
+    let peso2 = 4;
+    let peso3 = 5;
+
+    let prompond = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) 
+                    /
+                    (peso1 + peso2 + peso3);
+
+    console.log("48 = El promedio ponderado es:",Math.ceil(prompond));
+    
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
