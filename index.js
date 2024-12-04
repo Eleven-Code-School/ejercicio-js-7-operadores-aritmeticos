@@ -56,8 +56,11 @@ const cantidadObtenida = ingrediente1 + ingrediente2 + ingrediente3 + ingredient
 
 console.log("El numero de ingredientes no variara dependiendo de si aumentas la cantidad en la receta xD, pero su cantidad maxima resultante si:", cantidadObtenida);
 
-
 // Ejercicio 8: Incremento en la cuenta
+let totalAhorros = 40;
+totalAhorros += 10;
+
+console.log("al final del mes he conseguido un ahorro de:", totalAhorros);
 
 // Ejercicio 9: Decremento de una deuda
 
