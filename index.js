@@ -240,6 +240,11 @@ let totalDeHorasEnSegundos = horasEnTotal * segundosEnUnHora;
 console.log("El numero de horas totales reflejados en segundos es de:", totalDeHorasEnSegundos);
 
 // Ejercicio 34: Cálculo de salario semanal
+let horasTrabajadas = 40;
+const pagoPorHora = 7.5;
+let pagoSemanal = horasTrabajadas * pagoPorHora;
+
+console.log("El pago semanal segun las horas trabajadas es de:", pagoSemanal);
 
 // Ejercicio 35: Decremento acumulado
 
