@@ -65,9 +65,13 @@ let cantidadTotal = cantidadOriginal * factorMultiplicacion ;
 console.log ( cantidadTotal)
 
 
-
-
 // Ejercicio 8: Incremento en la cuenta
+
+let totalAhorros = 52;
+
+aumentoDiez = totalAhorros += 10 ;
+
+console.log (aumentoDiez)
 
 // Ejercicio 9: Decremento de una deuda
 
