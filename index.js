@@ -336,12 +336,12 @@
 // Ejercicio 41: Cálculo del interés compuesto
 
     const capIni = 3000;
-    const interes = 0.16;
+    const interes = 0.03;
     const periodo = 12;
 
     let intcomp = capIni * (1 + interes) ** periodo
 
-    console.log("41 = El interes compuesto despues de",capIni,"€ despues de",
+    console.log("41 = El interes compuesto de",capIni,"€ despues de",
         periodo,"meses, es de",intcomp.toFixed(2),"€");
     
 
@@ -381,6 +381,13 @@
 
 // Ejercicio 44: Optimización de cajas de productos
 
+    const productosTotales = 12123;
+    const capacidad = 123;
+
+    let optimo = productosTotales / capacidad;
+
+    console.log("44 = lo optimo son",Math.ceil(optimo),"cajas");
+    
 // Ejercicio 45: Ahorro acumulado con bonificaciones
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
