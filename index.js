@@ -151,6 +151,13 @@
 
 // Ejercicio 20: Conversión de monedas
 
+    const tasaCambio = 0.08;
+
+    let conversion = precio * tasaCambio;
+
+    console.log("20 = La tasa es de", conversion);
+    
+
 // Ejercicio 21: Cálculo de descuentos acumulados
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
