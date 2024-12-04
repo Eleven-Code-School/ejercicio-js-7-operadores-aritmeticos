@@ -122,6 +122,11 @@ const areaDelRectangulo = baseDelRectangulo * alturaDelRectangulo;
 console.log("El area del rectangulo es:", areaDelRectangulo + "m²");
 
 // Ejercicio 17: Divide un premio
+let premioTotal = 72;
+let numeroDeGanadores = 12;
+const premioPorGanador = premioTotal / numeroDeGanadores;
+
+console.log("El premio que recibira cada Ganador es de:", premioPorGanador);
 
 // Ejercicio 18: Incremento en el inventario
 
