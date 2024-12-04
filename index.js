@@ -258,9 +258,14 @@ pesoInicial -= 2.5 * 4;
 
 console.log("Solucion-2 El peso final tras 4 semanas perdiendo peso es de:", pesoInicial);
 
-
 // Ejercicio 36: Comprobación de múltiplos
+let numeroDelEjercicio36 = 225;
 
+if (numeroDelEjercicio36 % 3 == 0) {
+    console.log("El numero:", numeroDelEjercicio36, "es multiplo de 3, puesto que al dividilo entro 3 el resto es 0");
+} else {
+    console.log("El numero:", numeroDelEjercicio36, "No es multiplo de 3");
+}
 // Ejercicio 37: Incremento con decimales
 
 // Ejercicio 38: Calcula el promedio de 5 números
