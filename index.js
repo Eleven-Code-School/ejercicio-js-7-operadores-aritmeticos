@@ -2,9 +2,29 @@
 
 // Ejercicio 1: Suma de productos
 
+    const a = 1;
+    const b = 0;
+
+    let x = a + b;
+
+    console.log("1 = ", x);
+
 // Ejercicio 2: Descuento en una compra
 
+    const precio = 10;
+    const descuento = 1;
+
+    let x2 = precio - descuento;
+
+    console.log("2 = ", x2);
+    
+
 // Ejercicio 3: Calcula el IVA
+
+    let iva = (precio * 21) / 100;
+
+    console.log("3 = ", iva);
+    
 
 // Ejercicio 4: División de la cuenta
 
