@@ -129,6 +129,10 @@ const premioPorGanador = premioTotal / numeroDeGanadores;
 console.log("El premio que recibira cada Ganador es de:", premioPorGanador);
 
 // Ejercicio 18: Incremento en el inventario
+let inventario = 200;
+inventario += 50;
+
+console.log("El inventario inicial de 200 al sumarle 50 resulta en:", inventario);
 
 // Ejercicio 19: Gasto semanal
 
