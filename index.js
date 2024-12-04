@@ -211,8 +211,12 @@ let diasReflejadosEnHoras = totalDeDias * horasEnUnDia;
 
 console.log("El numero de horas totales segun los dias es de:", diasReflejadosEnHoras);
 
-
 // Ejercicio 30: Cálculo de propinas
+let cuentaSinPropina = 70;
+let propina = cuentaSinPropina * ( 15 / 100);
+let cuentaConPropina = cuentaSinPropina + propina;
+
+console.log("La cuenta resultante tras añadir la propina es de:", cuentaConPropina);
 
 // Ejercicio 31: Cálculo del volumen de un cubo
 
