@@ -28,6 +28,13 @@
 
 // Ejercicio 4: División de la cuenta
 
+    const personas = 4;
+
+    let totalcuenta = precio / personas;
+
+    console.log("4 = cada uno pagará : ", totalcuenta);
+    
+
 // Ejercicio 5: Resto de una división
 
 // Ejercicio 6: ¿Es un número par?
