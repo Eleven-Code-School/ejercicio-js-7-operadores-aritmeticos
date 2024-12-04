@@ -187,7 +187,7 @@ let numeroDelEjercicio26 = 327;
 
 if (numeroDelEjercicio26 % 5 == 0) {
     console.log("El numero es divisible entre 5.", "numero:", numeroDelEjercicio26);
-    
+
 } else {
     console.log("El numero no es divisible entre 5.", "numero:", numeroDelEjercicio26);
 }
@@ -213,7 +213,7 @@ console.log("El numero de horas totales segun los dias es de:", diasReflejadosEn
 
 // Ejercicio 30: Cálculo de propinas
 let cuentaSinPropina = 70;
-let propina = cuentaSinPropina * ( 15 / 100);
+let propina = cuentaSinPropina * (15 / 100);
 let cuentaConPropina = cuentaSinPropina + propina;
 
 console.log("La cuenta resultante tras añadir la propina es de:", cuentaConPropina);
@@ -247,6 +247,17 @@ let pagoSemanal = horasTrabajadas * pagoPorHora;
 console.log("El pago semanal segun las horas trabajadas es de:", pagoSemanal);
 
 // Ejercicio 35: Decremento acumulado
+let pesoInicial = 70;
+let perdidaPesoSemanal = 2.5;
+let numeroDeSemanasTranscurridas = 4;
+let pesoFinal = pesoInicial - (perdidaPesoSemanal * numeroDeSemanasTranscurridas);
+
+console.log("Solucion-1: El peso final tras 4 semanas perdiendo peso es de:", pesoFinal);
+
+pesoInicial -= 2.5 * 4;
+
+console.log("Solucion-2 El peso final tras 4 semanas perdiendo peso es de:", pesoInicial);
+
 
 // Ejercicio 36: Comprobación de múltiplos
 
