@@ -303,10 +303,44 @@ if (productosSueltos > 0) {
     console.log("Hay un total de:", productosSueltos, "productos que no podran meterse en cajas");
 }
 // Ejercicio 41: Cálculo del interés compuesto
+let capitalInicial = 155000;
+let tasaDeInteres = 0.01;
+let periodos = 40;
+let montoFinal = capitalInicial * (++tasaDeInteres) ** periodos;
+
+console.log("El monto final es de:", montoFinal.toFixed(2));
 
 // Ejercicio 42: Incremento y resto en un ciclo
+let numeroDelEjercicio42 = 42;
+
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+numeroDelEjercicio42 = ++numeroDelEjercicio42;
+
+numeroDelEjercicio42 %= 5
+
+console.log("El resto sobrante del ejercicio 42 es de:", numeroDelEjercicio42);
 
 // Ejercicio 43: Comparación de superficies
+let ladoDelCuadrado = 7;
+let radioDelCirculo = 7;
+
+let areaDelCuadrado = ladoDelCuadrado**2;
+let areaDelCirculo = Math.PI * radioDelCirculo**2;
+
+if (areaDelCuadrado / areaDelCirculo >= 1) {
+    if (areaDelCuadrado / areaDelCirculo === 1) {
+        console.log("El area del circulo y el area del cuadrado son iguales");
+    } else {
+        console.log("El area del cuadrado es Mayor que la de el circulo");
+    }
+} else {
+    console.log("El area del circulo es mayor que la del cuadrado");
+}
 
 // Ejercicio 44: Optimización de cajas de productos
 
