@@ -275,6 +275,14 @@ precioGasolina += 0.25;
 console.log("El precio de la gasolina tras aumentarle 0.25 tres veces consecutivas es de:", precioGasolina);
 
 // Ejercicio 38: Calcula el promedio de 5 números
+let numero1 = 20;
+let numero2 = 12;
+let numero3 = 7;
+let numero4 = 68;
+let numero5 = 9;
+const promedioNumeros = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+
+console.log("El Promedio resultante de los 5 numeros es de:", promedioNumeros);
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
