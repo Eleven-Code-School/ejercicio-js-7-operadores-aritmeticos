@@ -401,8 +401,18 @@
 
     console.log("45 =",iniAhorros);
     
-
 // Ejercicio 46: Comprobación de divisibilidad múltiple
+
+    let numero2 = 400;
+
+    if (numero2 % 4 === 0 && numero2 % 6 === 0) {
+        console.log("46 = El numero 400 SI es divisible entre 4 y 6");
+        
+    } else {
+        console.log("46 = El numero 400 NO es divisible entre 4 y 6");
+    }
+
+    
 
 // Ejercicio 47: Ajuste del precio con IVA y descuento
 
