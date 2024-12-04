@@ -198,6 +198,16 @@
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
+    let divisibilidad = cuotaMensual / 5;
+
+    if (divisibilidad === 0) {
+        console.log("26 = El numero anterior SI es divisible entre 5");
+        
+    } else {
+        console.log("26 = El numero anterior NO es divisible entre 5");
+        
+    }
+
 // Ejercicio 27: Saldo restante después de un retiro
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
