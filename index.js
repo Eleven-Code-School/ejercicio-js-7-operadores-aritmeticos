@@ -41,8 +41,16 @@
 
     console.log("5 = ", sobrante);
     
-
 // Ejercicio 6: ¿Es un número par?
+
+    let paroimpar = precio % 2;
+
+    if (paroimpar === 0) {
+        console.log("6 = PAR");
+        
+    } else {
+        console.log("6 = IMPAR");
+    }
 
 // Ejercicio 7: Multiplica ingredientes
 
