@@ -73,6 +73,11 @@ deuda -= 15;
 console.log("Con lo pagado durante el mes mi deuda esta quedando en :", deuda);
 
 // Ejercicio 10: Calcula un exponente
+const base = 2;
+let exponente = 3;
+const resultadoejercicio10 = base ** exponente;
+
+console.log("El resultado de elevar la base a un exponente es de:", resultadoejercicio10);
 
 // Ejercicio 11: Reducción de precios
 
