@@ -168,6 +168,10 @@ const pagoPorMeses = deudaTotal / numeroDeMeses;
 console.log("El pago mensual por la deuda será de:", pagoPorMeses);
 
 // Ejercicio 24: Incremento antes de imprimir
+let puntos = 40;
+puntos = ++puntos;
+
+console.log("El resultado del ejercicio 24 es de:", puntos);
 
 // Ejercicio 25: Decremento después de imprimir
 
