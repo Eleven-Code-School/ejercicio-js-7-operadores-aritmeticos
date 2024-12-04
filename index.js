@@ -182,9 +182,15 @@ puntosDelEjercicio25 = --puntosDelEjercicio25;
 
 console.log("Los puntos despues del decremento son de:", puntosDelEjercicio25);
 
-
 // Ejercicio 26: Comprueba divisibilidad por 5
+let numeroDelEjercicio26 = 327;
 
+if (numeroDelEjercicio26 % 5 == 0) {
+    console.log("El numero es divisible entre 5.", "numero:", numeroDelEjercicio26);
+    
+} else {
+    console.log("El numero no es divisible entre 5.", "numero:", numeroDelEjercicio26);
+}
 // Ejercicio 27: Saldo restante después de un retiro
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
