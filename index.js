@@ -101,6 +101,12 @@ dias = ++dias;
 console.log("El resultado del ejercicio 13 es de:", dias, "dias");
 
 // Ejercicio 14: Decremento después del uso
+let cantidadEx14 = 50;
+console.log("El resultado del ejercicio 14 es de:", cantidadEx14);
+console.log("El resultado del ejercicio 14 es de:", cantidadEx14--);
+console.log("El resultado del ejercicio 14 es de:", cantidadEx14--);
+console.log("El resultado del ejercicio 14 es de:", cantidadEx14--);
+console.log("El resultado del ejercicio 14 es de:", cantidadEx14--);
 
 // Ejercicio 15: Ajuste del salario
 
