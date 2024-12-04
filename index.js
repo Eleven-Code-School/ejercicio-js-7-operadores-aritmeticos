@@ -233,6 +233,11 @@ montoDeAhorros *= 1.1;
 console.log("El monto resultante tras incrementar su valor 3 veces un 10% es de:", montoDeAhorros);
 
 // Ejercicio 33: Conversión de horas a segundos
+let horasEnTotal = 4;
+let segundosEnUnHora = 3600;
+let totalDeHorasEnSegundos = horasEnTotal * segundosEnUnHora;
+
+console.log("El numero de horas totales reflejados en segundos es de:", totalDeHorasEnSegundos);
 
 // Ejercicio 34: Cálculo de salario semanal
 
