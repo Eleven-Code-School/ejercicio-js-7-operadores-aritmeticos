@@ -326,6 +326,13 @@
 
 // Ejercicio 40: Ajuste de inventario con restos
 
+    const articulos = 78162381726;
+    const cajas = 981239;
+
+    let sobran = articulos % cajas;
+
+    console.log("40 = Sobran", sobran);
+    
 // Ejercicio 41: Cálculo del interés compuesto
 
 // Ejercicio 42: Incremento y resto en un ciclo
