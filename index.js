@@ -268,7 +268,19 @@
 
 // Ejercicio 34: Cálculo de salario semanal
 
+    const horasTrabajadas = 40;
+
+    let salarioSemanal = precio * horasTrabajadas;
+
+    console.log("34 = Esta semana deberias cobrar,",salarioSemanal,"€");
+
 // Ejercicio 35: Decremento acumulado
+
+    let peso = 98;
+
+    peso -= 2.5 * 4;
+
+    console.log("35 = Ahora pesa",peso,"Kgs");
 
 // Ejercicio 36: Comprobación de múltiplos
 
