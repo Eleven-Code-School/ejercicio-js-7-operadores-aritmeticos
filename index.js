@@ -59,10 +59,18 @@ console.log("El numero de ingredientes no variara dependiendo de si aumentas la 
 // Ejercicio 8: Incremento en la cuenta
 let totalAhorros = 40;
 totalAhorros += 10;
+totalAhorros += 10;
+totalAhorros += 10;
 
 console.log("al final del mes he conseguido un ahorro de:", totalAhorros);
 
 // Ejercicio 9: Decremento de una deuda
+let deuda = 200;
+deuda -= 15;
+deuda -= 15;
+deuda -= 15;
+
+console.log("Con lo pagado durante el mes mi deuda esta quedando en :", deuda);
 
 // Ejercicio 10: Calcula un exponente
 
