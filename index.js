@@ -239,6 +239,11 @@
     
 // Ejercicio 31: Cálculo del volumen de un cubo
 
+    let volcube = a ** 3;
+
+    console.log("31 = EL volumen del cubo es de",volcube,"m3");
+    
+
 // Ejercicio 32: Incremento acumulado
 
 // Ejercicio 33: Conversión de horas a segundos
