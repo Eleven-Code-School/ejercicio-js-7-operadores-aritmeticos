@@ -348,6 +348,21 @@
 
 // Ejercicio 42: Incremento y resto en un ciclo
 
+    const cuadrado = 3;
+    const radiocirculo = 1;
+
+    let cubearea = cuadrado ** 2;
+    let circlearea = (radiocirculo ** 2) * 3.14;
+
+    if (cubearea < circlearea) {
+        console.log("42 = El cuadrado es menor que el circulo");
+        
+    } else {
+        console.log("43 = El circulo es menor que el cuadrado");
+        
+    }
+    
+
 // Ejercicio 43: Comparación de superficies
 
 // Ejercicio 44: Optimización de cajas de productos
