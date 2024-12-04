@@ -194,12 +194,15 @@ if (numeroDelEjercicio26 % 5 == 0) {
 // Ejercicio 27: Saldo restante después de un retiro
 let saldo = 200;
 let retiro = 20;
-retiro = 50;
 saldo -= retiro;
 
 console.log("El saldo restante despues del retiro es de:", saldo);
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
+let lado = 25;
+const perimetroDeUnCuadrado = lado * 4;
+
+console.log("El perimetro del cuadrado es de:", perimetroDeUnCuadrado);
 
 // Ejercicio 29: Conversión de días
 
