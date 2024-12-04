@@ -347,6 +347,23 @@
 
 
 // Ejercicio 42: Incremento y resto en un ciclo
+    
+    let number = 8;
+
+    ++number;
+    ++number;
+    ++number;
+    ++number;
+    ++number;
+    ++number;
+    ++number;
+
+    console.log("42 = ",number);
+    
+
+
+
+// Ejercicio 43: Comparación de superficies
 
     const cuadrado = 3;
     const radiocirculo = 1;
@@ -361,9 +378,6 @@
         console.log("43 = El circulo es menor que el cuadrado");
         
     }
-    
-
-// Ejercicio 43: Comparación de superficies
 
 // Ejercicio 44: Optimización de cajas de productos
 
