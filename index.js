@@ -454,3 +454,24 @@
     console.log("49 = La aproximacion de",numero2,"es",aproximacion.toFixed(2));
     
 // Ejercicio 50: Ajuste salarial acumulativo
+
+    let salarioInicial = 1100;
+    let incremento = 0.03;
+    
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+    salarioInicial += salarioInicial * incremento;
+
+    console.log("50 = El Salario tras subidas es de",salarioInicial.toFixed(2),"€");
+    
+
+

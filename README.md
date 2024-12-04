@@ -268,7 +268,8 @@ monto = capitalInicial \times (1 + tasaInteres)^{periodos}
 ---
 
 ### Ejercicio 42: Incremento y resto en un ciclo
-Crea una variable `numero`. Incrementa su valor 7 veces consecutivas y calcula el resto al dividirlo por 5.
+Crea una variable `numero`. Incrementa su valor 7 veces consecutivas y 
+calcula el resto al dividirlo por 5.
 - **Pista**: Usa `++` y `%`.
 
 ---
@@ -286,7 +287,8 @@ Crea una variable `productosTotales` y otra `capacidadCaja`. Calcula cuántas ca
 ---
 
 ### Ejercicio 45: Ahorro acumulado con bonificaciones
-Crea una variable `montoAhorro` y otra `bonificacion` (10%). Calcula el ahorro después de aplicar 5 bonificaciones consecutivas.
+Crea una variable `montoAhorro` y otra `bonificacion` (10%). 
+Calcula el ahorro después de aplicar 5 bonificaciones consecutivas.
 - **Pista**: Usa `+=` y `*`.
 
 ---
