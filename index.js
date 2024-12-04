@@ -284,6 +284,16 @@
 
 // Ejercicio 36: Comprobación de múltiplos
 
+    const numero = 12312736;
+
+    let multiplo = numero % 3;
+
+    if (multiplo === 0) {
+        console.log("36 = El numero 12312736 SI es multiple de 3");
+    } else {
+        console.log("36 = El numero 12312736 NO es multiple de 3");
+    }
+
 // Ejercicio 37: Incremento con decimales
 
 // Ejercicio 38: Calcula el promedio de 5 números
