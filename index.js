@@ -124,9 +124,16 @@
 
     let area = base * altura;
 
-    console.log("16 = El area es de ",area,"m2");
+    console.log("16 = El area es de",area,"m2");
 
 // Ejercicio 17: Divide un premio
+
+    const premio = 3000;
+    const jugadores = 12;
+
+    let cada = premio / jugadores;
+
+    console.log("17 = A cada uno le tocan", cada, "€.");
 
 // Ejercicio 18: Incremento en el inventario
 
