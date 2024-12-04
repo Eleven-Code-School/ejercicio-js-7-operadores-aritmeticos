@@ -155,6 +155,10 @@ precioInicial *= 0.9;
 console.log("El precio resultante tras aplicarle los dos descuentos '20%' y '10%' es de:", precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
+let edadActual = 31;
+edadActual += 5;
+
+console.log("La edad inicial tras pasar 5 años sera de:", edadActual);
 
 // Ejercicio 23: Cuota mensual
 
