@@ -115,6 +115,11 @@ salario *= 1.05;
 console.log("El salario se incrementara si le aplicamos un 5 porciento hasta un total de:", salario);
 
 // Ejercicio 16: Calcula el área de un rectángulo
+let baseDelRectangulo = 2;
+let alturaDelRectangulo = 5;
+const areaDelRectangulo = baseDelRectangulo * alturaDelRectangulo;
+
+console.log("El area del rectangulo es:", areaDelRectangulo + "m²");
 
 // Ejercicio 17: Divide un premio
 
