@@ -35,8 +35,16 @@ const personas = 15;
 const chocolates = totalChocolates % personas;
 console.log("Los chocolates que sobran son" , chocolates);
 
-
 // Ejercicio 6: ¿Es un número par?
+const numero = 44;
+
+if(numero % 2 == 0) {
+    console.log("El 44 es número par");
+}
+
+if(numero % 2 == 1) {
+    console.log("El número es impar");
+}
 
 // Ejercicio 7: Multiplica ingredientes
 
