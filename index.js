@@ -239,7 +239,21 @@ console.log("Este numero divido entre 5 da de resto", numeroDivisible);
 
 // Ejercicio 27: Saldo restante después de un retiro
 
+let saldo = 45;
+
+let retiro = 23;
+
+let saldoRestante = saldo - retiro;
+
+console.log("Me quedan un total de", saldoRestante, "peniques");
+
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
+
+let lado = 7;
+
+let perimetro = lado * 4;
+
+console.log("El cuadrado tiene un perimetro de", perimetro);
 
 // Ejercicio 29: Conversión de días
 
