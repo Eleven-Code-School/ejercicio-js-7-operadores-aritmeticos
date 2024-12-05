@@ -283,6 +283,14 @@ console.log("El volumen es igual a", volumen);
 
 // Ejercicio 32: Incremento acumulado
 
+let montoAhorros = 100;
+
+montoAhorros += montoAhorros * 0.1;
+montoAhorros += montoAhorros * 0.1;
+montoAhorros += montoAhorros * 0.1;
+
+console.log("El ahorro al finalizar sera de", montoAhorros);
+
 // Ejercicio 33: Conversión de horas a segundos
 
 // Ejercicio 34: Cálculo de salario semanal
