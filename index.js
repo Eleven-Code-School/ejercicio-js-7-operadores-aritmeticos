@@ -29,6 +29,12 @@ const divisionCuenta = totalCuenta / numPersonas;
 console.log("La división de la cuenta es" , divisionCuenta);
 
 // Ejercicio 5: Resto de una división
+const totalChocolates = 32;
+const personas = 15;
+
+const chocolates = totalChocolates % personas;
+console.log("Los chocolates que sobran son" , chocolates);
+
 
 // Ejercicio 6: ¿Es un número par?
 
