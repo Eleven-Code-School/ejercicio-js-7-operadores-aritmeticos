@@ -114,6 +114,11 @@ console.log ("El precio final tras el descuento es de", precioProducto);
 
 // Ejercicio 12: Resto acumulado
 
+let cantidad = 346;
+
+cantidad %= 3;
+
+console.log("El resto acumulado es", cantidad);
 // Ejercicio 13: Incremento antes del uso
 
 // Ejercicio 14: Decremento después del uso
