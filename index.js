@@ -85,9 +85,11 @@ console.log("El resto acumulado es" , cantidad);
 
 // Ejercicio 13: Incremento antes del uso
 let dias = 12;
-console.log("Los días son" , ++dias);
+console.log("Los días que nos quedan para irnos son" , ++dias);
 
 // Ejercicio 14: Decremento después del uso
+let tortillas = 54;
+console.log("Se han llevado todas las tortillas que teníamos, ahora solo nos quedan" , --tortillas);
 
 // Ejercicio 15: Ajuste del salario
 
