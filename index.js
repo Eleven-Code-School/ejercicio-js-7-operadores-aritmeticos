@@ -47,6 +47,11 @@ if(numero % 2 == 1) {
 }
 
 // Ejercicio 7: Multiplica ingredientes
+const cantidadOriginal = 150;
+const factorMultiplicacion = 5;
+
+const ingredientes = cantidadOriginal * factorMultiplicacion;
+console.log("La cantidad de ingredientes que necesito es" , ingredientes);
 
 // Ejercicio 8: Incremento en la cuenta
 
