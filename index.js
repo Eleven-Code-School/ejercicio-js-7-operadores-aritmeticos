@@ -12,8 +12,14 @@ const precioOriginal = 50;
 const descuento = 10;
 
 const precioDescuento = precioOriginal - descuento;
-console.log("El descuento es de" , precioDescuento);
+console.log("El precio con descuento es de" , precioDescuento);
+
 // Ejercicio 3: Calcula el IVA
+const precio = 75;
+const iva = 0.21;
+
+const precioIva = precio + (precio * iva);
+console.log("El precio total con IVA es de" , precioIva);
 
 // Ejercicio 4: División de la cuenta
 
