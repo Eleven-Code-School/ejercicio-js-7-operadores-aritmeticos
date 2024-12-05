@@ -119,23 +119,91 @@ let cantidad = 346;
 cantidad %= 3;
 
 console.log("El resto acumulado es", cantidad);
+
 // Ejercicio 13: Incremento antes del uso
+
+
+let dias = 14;
+
+console.log("El incremento del uso de dias es de", ++dias);
 
 // Ejercicio 14: Decremento después del uso
 
+let cantidadDecremento = 25;
+
+console.log("Ahora no se vera el decremento, hasta despues de mostrar el resultado", cantidadDecremento--);
+
 // Ejercicio 15: Ajuste del salario
 
-// Ejercicio 16: Calcula el área de un rectángulo
+let salario = 1345;
+
+salario += salario * 0.05;
+
+console.log("El salario actualizado sera de", salario);// Ejercicio 16: Calcula el área de un rectángulo
+
+// Ejercicio 16: Clacula el área de un rectángulo
+
+let baseDeUnRectangulo = 25;
+
+let alturaDeUnRectangulo = 16;
+
+let area = baseDeUnRectangulo * alturaDeUnRectangulo;
+
+console.log("El area del rectangulo es de", area);
 
 // Ejercicio 17: Divide un premio
 
+let premioTotal = 14567;
+
+let numGanadores = 4;
+
+premioCaadaUno = premioTotal / numGanadores;
+
+console.log("Cada uno de los ganadores toca a", premioCaadaUno);
 // Ejercicio 18: Incremento en el inventario
+
+let inventario = 35;
+
+inventario += inventario;
+
+console.log("El incremento del inventario se queda en", inventario);
 
 // Ejercicio 19: Gasto semanal
 
+let gastoDiario = 89;
+
+let gastoSemanal = gastoDiario * 7;
+
+console.log("El gasto semanal es de", gastoSemanal);
 // Ejercicio 20: Conversión de monedas
 
+
+let cantidadUSD = 3456; 
+
+let tasaCambio = 0.7;
+
+let cantidadGBP = cantidadUSD * tasaCambio;
+
+console.log("La cantidad que obtienes en libras es de", cantidadGBP);
+
 // Ejercicio 21: Cálculo de descuentos acumulados
+
+let precioInicial = 345;
+
+precioInicial *= 0.8;
+
+console.log("El precio tras el primer descuento sera", precioInicial);
+
+
+precioInicial *= 0.9;
+
+console.log("El precio final sera de", precioInicial);
+
+
+
+// precioInicial *= 0.10;
+
+// console.log("El precio final sera de", precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
