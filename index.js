@@ -197,23 +197,45 @@ console.log("El precio tras el primer descuento sera", precioInicial);
 
 precioInicial *= 0.9;
 
-console.log("El precio final sera de", precioInicial);
-
-
-
-// precioInicial *= 0.10;
-
-// console.log("El precio final sera de", precioInicial);
+console.log("El precio final sera de",precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
+let edadActual = 30;
+
+edadActual += 5;
+
+console.log("Mi edad en cinco años sera de", edadActual);
+
 // Ejercicio 23: Cuota mensual
+
+let deudaTotal = 3409;
+
+let meses = 5;
+
+let deudaMensual = deudaTotal / meses;
+
+console.log("La deuda a pagar cada mes restante es de", deudaMensual);
 
 // Ejercicio 24: Incremento antes de imprimir
 
+let puntos = 5;
+
+console.log("Los puntos que me van a dar son un total de", ++puntos);
+
 // Ejercicio 25: Decremento después de imprimir
 
+let turnos =7;
+
+console.log("Me quedan un totral de", turnos--);
+
 // Ejercicio 26: Comprueba divisibilidad por 5
+
+let numeroDivisible = 3455;
+
+numeroDivisible %= 5;
+
+console.log("Este numero divido entre 5 da de resto", numeroDivisible);
 
 // Ejercicio 27: Saldo restante después de un retiro
 
