@@ -84,7 +84,8 @@ cantidad %= 30;
 console.log("El resto acumulado es" , cantidad);
 
 // Ejercicio 13: Incremento antes del uso
-
+let dias = 12;
+console.log("Los días son" , ++dias);
 
 // Ejercicio 14: Decremento después del uso
 
