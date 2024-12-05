@@ -78,6 +78,10 @@ precioProducto *= 0.9;
 console.log("El precio con descuento se queda en" , precioProducto);
 
 // Ejercicio 12: Resto acumulado
+let cantidad = 130;
+cantidad %= 30;
+
+console.log("El resto acumulado es" , cantidad);
 
 // Ejercicio 13: Incremento antes del uso
 
