@@ -54,6 +54,10 @@ const ingredientes = cantidadOriginal * factorMultiplicacion;
 console.log("La cantidad de ingredientes que necesito es" , ingredientes);
 
 // Ejercicio 8: Incremento en la cuenta
+let totalAhorros = 840;
+totalAhorros += 20;
+
+console.log("El total de ahorros con el incremento es de" , totalAhorros);
 
 // Ejercicio 9: Decremento de una deuda
 
