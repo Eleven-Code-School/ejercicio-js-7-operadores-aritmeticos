@@ -80,11 +80,37 @@ cantidadFinal = cantidadOriginal * factorMultiplicacion;
 console.log("La cantidad de los ingredientes ahora es", cantidadFinal);
 // Ejercicio 8: Incremento en la cuenta
 
+let totalAhorros = 2050; 
+
+totalAhorros += 10;
+
+console.log("Los ahorros de estos ultimos años ascienden a", totalAhorros);
+
 // Ejercicio 9: Decremento de una deuda
+
+let deuda = 102783;
+
+deuda -= 15;
+
+console.log("La deuda es un total de", deuda, "euros");
 
 // Ejercicio 10: Calcula un exponente
 
+let base = 40; 
+
+let exponente = 4;
+
+const numeroFinalTrasExponente = base ** exponente;
+
+console.log("Queda en", numeroFinalTrasExponente);
+
 // Ejercicio 11: Reducción de precios
+
+let precioProducto = 345;
+
+precioProducto *= 0.9;
+
+console.log ("El precio final tras el descuento es de", precioProducto);
 
 // Ejercicio 12: Resto acumulado
 
