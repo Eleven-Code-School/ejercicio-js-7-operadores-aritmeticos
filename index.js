@@ -66,6 +66,10 @@ deuda -= 15;
 console.log("La deuda se ha reducido en", deuda);
 
 // Ejercicio 10: Calcula un exponente
+const base = 6;
+const exponente = 6;
+
+console.log("El resultado de elevar base a exponente es de" , (base ** exponente));
 
 // Ejercicio 11: Reducción de precios
 
