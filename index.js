@@ -257,6 +257,12 @@ console.log("El cuadrado tiene un perimetro de", perimetro);
 
 // Ejercicio 29: Conversión de días
 
+let diasQueLlevoSinBeber = 56;
+
+let horasQueLlevoSinBeber = diasQueLlevoSinBeber * 24;
+
+console.log("Lleo un total de", horasQueLlevoSinBeber, "horas sin probar alcohol");
+
 // Ejercicio 30: Cálculo de propinas
 
 // Ejercicio 31: Cálculo del volumen de un cubo
