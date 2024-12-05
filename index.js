@@ -60,6 +60,10 @@ totalAhorros += 20;
 console.log("El total de ahorros con el incremento es de" , totalAhorros);
 
 // Ejercicio 9: Decremento de una deuda
+let deuda = 348;
+deuda -= 15;
+
+console.log("La deuda se ha reducido en", deuda);
 
 // Ejercicio 10: Calcula un exponente
 
