@@ -265,7 +265,21 @@ console.log("Lleo un total de", horasQueLlevoSinBeber, "horas sin probar alcohol
 
 // Ejercicio 30: Cálculo de propinas
 
+let cuenta = 789;
+
+let propina = cuenta * 0.15;
+
+let cuentaTotal = cuenta + propina;
+
+console.log("El total de la cuenta asciende a", cuentaTotal);
+
 // Ejercicio 31: Cálculo del volumen de un cubo
+
+let ladoVolumen = 78;
+
+let volumen = ladoVolumen ** 3;
+
+console.log("El volumen es igual a", volumen);
 
 // Ejercicio 32: Incremento acumulado
 
