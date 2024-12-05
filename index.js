@@ -87,11 +87,18 @@ console.log("El resto acumulado es" , cantidad);
 let dias = 12;
 console.log("Los días que nos quedan para irnos son" , ++dias);
 
+
 // Ejercicio 14: Decremento después del uso
 let tortillas = 54;
 console.log("Se han llevado todas las tortillas que teníamos, ahora solo nos quedan" , --tortillas);
 
 // Ejercicio 15: Ajuste del salario
+let salario = 1650;
+salario += 0.05;
+
+let  ajusteSalarial = salario += salario * 0.05;
+console.log("El ajuste salarial es de" , ajusteSalarial);
+
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
