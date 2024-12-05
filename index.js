@@ -72,6 +72,10 @@ const exponente = 6;
 console.log("El resultado de elevar base a exponente es de" , (base ** exponente));
 
 // Ejercicio 11: Reducción de precios
+let precioProducto = 54;
+precioProducto *= 0.9;
+
+console.log("El precio con descuento se queda en" , precioProducto);
 
 // Ejercicio 12: Resto acumulado
 
