@@ -22,6 +22,11 @@ const precioIva = precio + (precio * iva);
 console.log("El precio total con IVA es de" , precioIva);
 
 // Ejercicio 4: División de la cuenta
+const totalCuenta = 225;
+const numPersonas = 16;
+
+const divisionCuenta = totalCuenta / numPersonas;
+console.log("La división de la cuenta es" , divisionCuenta);
 
 // Ejercicio 5: Resto de una división
 
@@ -40,6 +45,7 @@ console.log("El precio total con IVA es de" , precioIva);
 // Ejercicio 12: Resto acumulado
 
 // Ejercicio 13: Incremento antes del uso
+
 
 // Ejercicio 14: Decremento después del uso
 
