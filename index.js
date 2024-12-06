@@ -192,6 +192,17 @@ console.log("Con ", cantidadUSD, "$ tengo ", cambioEUR, "€")
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
+let precioInicial = 300;
+
+precioInicial*=0.8;
+
+console.log("Primer precio reducido: ", precioInicial, "€");
+
+precioInicial*=0.9;
+
+console.log("Segundo precio reducido: ", precioInicial, "€");
+
+
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
 // Ejercicio 23: Cuota mensual
