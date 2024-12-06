@@ -130,11 +130,11 @@ cantidad = 44;
 
 console.log("Cantidad actual: ", cantidad);
 
-console.log("Cantidad reducida: ", --cantidad);
+console.log("Cantidad reduciéndose: ", --cantidad);
 
-console.log("Cantidad reducida: ", --cantidad);
+console.log("Cantidad reduciéndose: ", --cantidad);
 
-console.log("Cantidad reducida: ", --cantidad);
+console.log("Cantidad reduciéndose: ", --cantidad);
 
 // Ejercicio 15: Ajuste del salario
 
@@ -178,14 +178,17 @@ let gastoDiario = 45;
 
 let gastoSemanal = gastoDiario*7;
 
-let gastoMensual = gastoSemanal*4;
-
 console.log("Gasto semanal: ", gastoSemanal);
-console.log("Gasto mensual: ", gastoMensual);
-
-
 
 // Ejercicio 20: Conversión de monedas
+
+let cantidadUSD = 1500;
+
+let tasaCambio = 0.94;
+
+let cambioEUR = cantidadUSD * tasaCambio;
+
+console.log("Con ", cantidadUSD, "$ tengo ", cambioEUR, "€")
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
