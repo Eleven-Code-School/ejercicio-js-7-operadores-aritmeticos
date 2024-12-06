@@ -76,7 +76,7 @@ console.log("Ingredientes triplicados: ", factorMultiplicacion, " ingredientes")
 
 let totalAhorros = 100;
 
-totalAhorros +=10;
+totalAhorros += 10;
 
 console.log("Ahorros: ", totalAhorros, "€");
 
@@ -84,7 +84,7 @@ console.log("Ahorros: ", totalAhorros, "€");
 
 let deuda = 250;
 
-deuda -=15;
+deuda -= 15;
 
 console.log("Deuda: ", deuda, "€");
 
@@ -99,6 +99,12 @@ const numeroElevado = base ** exponente;
 console.log("Base elevada al exponente: ", numeroElevado);
 
 // Ejercicio 11: Reducción de precios
+
+let precioProducto3 = 200;
+
+const precioReducido = precioProducto3 *=0.9;
+
+console.log("Precio reducido: ", precioReducido, "€");
 
 // Ejercicio 12: Resto acumulado
 
