@@ -66,11 +66,11 @@ let cantidadOriginal = 7;
 
 let factorMultiplicacion = cantidadOriginal * 2;
 
-console.log("Ingredientes duplicados: ", factorMultiplicacion);
+console.log("Ingredientes duplicados: ", factorMultiplicacion, " ingredientes");
 
 factorMultiplicacion = cantidadOriginal * 3;
 
-console.log("Ingredientes triplicados: ", factorMultiplicacion);
+console.log("Ingredientes triplicados: ", factorMultiplicacion, " ingredientes");
 
 // Ejercicio 8: Incremento en la cuenta
 
@@ -78,10 +78,16 @@ let totalAhorros = 100;
 
 totalAhorros +=10;
 
-console.log("Ahorros: ", totalAhorros);
-
+console.log("Ahorros: ", totalAhorros, "€");
 
 // Ejercicio 9: Decremento de una deuda
+
+let deuda = 250;
+
+deuda -=15;
+
+console.log("Deuda: ", deuda, "€");
+
 
 // Ejercicio 10: Calcula un exponente
 
