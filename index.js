@@ -146,6 +146,14 @@ console.log("Nuevo salario: ", salario, "€");
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
+base = 14;
+
+let altura = 8;
+
+let areaRectangulo = base * altura;
+
+console.log("Área del rectángulo: ", areaRectangulo, "m2");
+
 // Ejercicio 17: Divide un premio
 
 // Ejercicio 18: Incremento en el inventario
