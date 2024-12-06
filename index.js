@@ -104,9 +104,18 @@ let precioProducto3 = 200;
 
 const precioReducido = precioProducto3 *=0.9;
 
+//El 0.9 viene de que el 0.1 sería el descuento.
+
 console.log("Precio reducido: ", precioReducido, "€");
 
 // Ejercicio 12: Resto acumulado
+
+let cantidad = 5;
+
+let restoAcumulado = cantidad %=3;
+
+console.log("Resto acumulado: ", restoAcumulado);
+
 
 // Ejercicio 13: Incremento antes del uso
 
