@@ -40,8 +40,17 @@ const aPagar = totalCuenta / personas;
 
 console.log("Precio por persona: ", aPagar, "€");
 
-
 // Ejercicio 5: Resto de una división
+
+let totalChocolates = 18;
+
+personas = 4;
+
+const chocolatesSobrantes = totalChocolates % personas;
+
+console.log("Chocolates sobrantes: ", chocolatesSobrantes, "chocolates");
+
+
 
 // Ejercicio 6: ¿Es un número par?
 
