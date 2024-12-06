@@ -262,6 +262,13 @@ console.log("Tras retirar", retiro, "€, el saldo disponible es de", nuevoSaldo
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
+let lado = 5;
+
+let perimetroCuadrado = lado * 4;
+
+console.log("Con", lado, "metros de lado, este cuadrado tiene un perímetro de", perimetroCuadrado, "metros");
+
+
 // Ejercicio 29: Conversión de días
 
 // Ejercicio 30: Cálculo de propinas
