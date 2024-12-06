@@ -172,8 +172,18 @@ inventario+=50;
 
 console.log("Inventario incrementado: ", inventario);
 
-
 // Ejercicio 19: Gasto semanal
+
+let gastoDiario = 45;
+
+let gastoSemanal = gastoDiario*7;
+
+let gastoMensual = gastoSemanal*4;
+
+console.log("Gasto semanal: ", gastoSemanal);
+console.log("Gasto mensual: ", gastoMensual);
+
+
 
 // Ejercicio 20: Conversión de monedas
 
