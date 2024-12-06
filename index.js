@@ -116,8 +116,14 @@ let restoAcumulado = cantidad %=3;
 
 console.log("Resto acumulado: ", restoAcumulado);
 
-
 // Ejercicio 13: Incremento antes del uso
+
+let dias = 2;
+
+dias = ++dias;
+
+console.log("Incremento de días: ", dias);
+
 
 // Ejercicio 14: Decremento después del uso
 
