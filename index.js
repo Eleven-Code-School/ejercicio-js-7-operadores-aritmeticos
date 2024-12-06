@@ -102,7 +102,7 @@ console.log("Base elevada al exponente: ", numeroElevado);
 
 let precioProducto3 = 200;
 
-const precioReducido = precioProducto3 *=0.9;
+const precioReducido = (precioProducto3 *= 0.9);
 
 //El 0.9 viene de que el 0.1 sería el 10% descuento.
 
@@ -112,7 +112,7 @@ console.log("Precio reducido: ", precioReducido, "€");
 
 let cantidad = 5;
 
-let restoAcumulado = cantidad %=3;
+let restoAcumulado = (cantidad %= 3);
 
 console.log("Resto acumulado: ", restoAcumulado);
 
@@ -140,7 +140,7 @@ console.log("Cantidad reduciéndose: ", --cantidad);
 
 let salario = 2500;
 
-salario +=salario * 5/100;
+salario += (salario * 5) / 100;
 
 console.log("Nuevo salario: ", salario, "€");
 
@@ -168,7 +168,7 @@ console.log("Premio por ganador: ", premioPorCabeza, "€");
 
 let inventario = 25;
 
-inventario+=50;
+inventario += 50;
 
 console.log("Inventario incrementado: ", inventario);
 
@@ -176,7 +176,7 @@ console.log("Inventario incrementado: ", inventario);
 
 let gastoDiario = 45;
 
-let gastoSemanal = gastoDiario*7;
+let gastoSemanal = gastoDiario * 7;
 
 console.log("Gasto semanal: ", gastoSemanal);
 
@@ -188,19 +188,19 @@ let tasaCambio = 0.94;
 
 let cambioEUR = cantidadUSD * tasaCambio;
 
-console.log("Con ", cantidadUSD, "$ tengo ", cambioEUR, "€")
+console.log("Con ", cantidadUSD, "$ tengo ", cambioEUR, "€");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
 let precioInicial = 300;
 
-precioInicial*=0.8;
+precioInicial *= 0.8;
 
 //Hice primero precioInicial -=precioInicial*=0.2; 0.8 implica el 80% del precio inicial, que es lo que vale ahora
 
 console.log("Primer precio reducido: ", precioInicial, "€");
 
-precioInicial*=0.9;
+precioInicial *= 0.9;
 
 //Hice primero precioInicial -=precioInicial*=0.1; misma razón que la primera reducción
 
@@ -210,7 +210,7 @@ console.log("Segundo precio reducido: ", precioInicial, "€");
 
 let edadActual = 37;
 
-edadActual+=5; 
+edadActual += 5;
 
 console.log("Tengo", edadActual, "años. Dentro de 5 años tendré", edadActual, "años");
 
@@ -231,10 +231,14 @@ let puntos = 15;
 ++puntos;
 
 console.log(puntos);
-console.log(puntos);
-
 
 // Ejercicio 25: Decremento después de imprimir
+
+let turnos = 5;
+
+console.log("El final se acerca... ", turnos, "turnos restantes");
+
+console.log("El final se acerta... ", --turnos, "turnos restantes");
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
