@@ -242,6 +242,13 @@ console.log("El final se acerta... ", --turnos, "turnos restantes");
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
+numero = 32;
+
+if (numero % 5 === 0) {
+	console.log("El número", numero, "es divisible entre 5");
+} else {
+    console.log("El número", numero, "no es divisible entre 5")
+}
 // Ejercicio 27: Saldo restante después de un retiro
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
