@@ -72,9 +72,14 @@ factorMultiplicacion = cantidadOriginal * 3;
 
 console.log("Ingredientes triplicados: ", factorMultiplicacion);
 
-
-
 // Ejercicio 8: Incremento en la cuenta
+
+let totalAhorros = 100;
+
+totalAhorros +=10;
+
+console.log("Ahorros: ", totalAhorros);
+
 
 // Ejercicio 9: Decremento de una deuda
 
