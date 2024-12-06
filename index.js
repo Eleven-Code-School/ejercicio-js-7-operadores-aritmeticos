@@ -2,6 +2,14 @@
 
 // Ejercicio 1: Suma de productos
 
+let precioProducto1 = 4;
+let precioProducto2 = 8;
+
+const sumaDeProductos = precioProducto1 + precioProducto2;
+
+console.log("Suma de productos: ", sumaDeProductos);
+
+
 // Ejercicio 2: Descuento en una compra
 
 // Ejercicio 3: Calcula el IVA
