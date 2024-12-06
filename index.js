@@ -52,15 +52,27 @@ console.log("Chocolates sobrantes: ", chocolatesSobrantes, "chocolates");
 
 // Ejercicio 6: ¿Es un número par?
 
-let numero = 9;
+let numero = 12;
 
 if (numero % 2 === 0) {
-	console.log("Es par");
+	console.log(numero, " es par");
 } else {
-	console.log("Es impar");
+	console.log(numero, " es impar");
 }
 
 // Ejercicio 7: Multiplica ingredientes
+
+let cantidadOriginal = 7;
+
+let factorMultiplicacion = cantidadOriginal * 2;
+
+console.log("Ingredientes duplicados: ", factorMultiplicacion);
+
+factorMultiplicacion = cantidadOriginal * 3;
+
+console.log("Ingredientes triplicados: ", factorMultiplicacion);
+
+
 
 // Ejercicio 8: Incremento en la cuenta
 
