@@ -20,8 +20,15 @@ const precioConDescuento = precioOriginal - descuento;
 
 console.log("Precio con descuento: ", precioConDescuento);
 
-
 // Ejercicio 3: Calcula el IVA
+
+precioOriginal = 100;
+
+iva = 21 / 100;
+
+const precioConIva = (precioOriginal * iva) + precioOriginal;
+
+console.log(precioConIva);
 
 // Ejercicio 4: División de la cuenta
 
