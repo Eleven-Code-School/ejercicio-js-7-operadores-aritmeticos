@@ -251,6 +251,15 @@ if (numero % 5 === 0) {
 }
 // Ejercicio 27: Saldo restante después de un retiro
 
+let saldo = 5000;
+
+let retiro = 400;
+
+let nuevoSaldo = saldo - retiro;
+
+console.log("Tras retirar", retiro, "€, el saldo disponible es de", nuevoSaldo, "€");
+
+
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
 // Ejercicio 29: Conversión de días
