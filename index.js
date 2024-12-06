@@ -286,8 +286,14 @@ let cuentaFinal = cuenta +  propina;
 
 console.log("La cuenta final con la propina es de", cuentaFinal, "€");
 
-
 // Ejercicio 31: Cálculo del volumen de un cubo
+
+lado = 4;
+
+let volumenCubo = lado ** 3;
+
+console.log("Con", lado, "metros de lado, el volumen del cubo es de", volumenCubo, "m3");
+
 
 // Ejercicio 32: Incremento acumulado
 
