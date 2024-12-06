@@ -156,6 +156,15 @@ console.log("Área del rectángulo: ", areaRectangulo, "m2");
 
 // Ejercicio 17: Divide un premio
 
+let premioTotal = 400000;
+
+let numGanadores = 20;
+
+let premioPorCabeza = premioTotal / numGanadores;
+
+console.log("Premio por ganador: ", premioPorCabeza, "€");
+
+
 // Ejercicio 18: Incremento en el inventario
 
 // Ejercicio 19: Gasto semanal
