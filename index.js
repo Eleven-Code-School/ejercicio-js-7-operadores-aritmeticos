@@ -8,7 +8,7 @@ let precioProducto2 = 8;
 
 const sumaDeProductos = precioProducto1 + precioProducto2;
 
-console.log("Suma de productos: ", sumaDeProductos);
+console.log("Suma de productos: ", sumaDeProductos, "€");
 
 // Ejercicio 2: Descuento en una compra
 
@@ -18,7 +18,7 @@ let descuento = 5;
 
 const precioConDescuento = precioOriginal - descuento;
 
-console.log("Precio con descuento: ", precioConDescuento);
+console.log("Precio con descuento: ", precioConDescuento, "€");
 
 // Ejercicio 3: Calcula el IVA
 
@@ -28,9 +28,18 @@ iva = 21 / 100;
 
 const precioConIva = (precioOriginal * iva) + precioOriginal;
 
-console.log(precioConIva);
+console.log("Precio con IVA: ", precioConIva, "€");
 
 // Ejercicio 4: División de la cuenta
+
+let totalCuenta = 245;
+
+let personas = 10;
+
+const aPagar = totalCuenta / personas;
+
+console.log("Precio por persona: ", aPagar, "€");
+
 
 // Ejercicio 5: Resto de una división
 
