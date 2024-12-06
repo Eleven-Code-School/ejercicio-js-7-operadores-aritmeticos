@@ -266,10 +266,16 @@ let lado = 5;
 
 let perimetroCuadrado = lado * 4;
 
-console.log("Con", lado, "metros de lado, este cuadrado tiene un perímetro de", perimetroCuadrado, "metros");
-
+console.log("Con", lado, "metros de lado, este cuadrado tiene un perímetro de", perimetroCuadrado, "metro");
 
 // Ejercicio 29: Conversión de días
+
+dias = 365;
+
+let diasAHoras = dias * 24;
+
+console.log("En", dias, "hay", diasAHoras, "horas");
+
 
 // Ejercicio 30: Cálculo de propinas
 
