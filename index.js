@@ -164,8 +164,14 @@ let premioPorCabeza = premioTotal / numGanadores;
 
 console.log("Premio por ganador: ", premioPorCabeza, "€");
 
-
 // Ejercicio 18: Incremento en el inventario
+
+let inventario = 25;
+
+inventario+=50;
+
+console.log("Inventario incrementado: ", inventario);
+
 
 // Ejercicio 19: Gasto semanal
 
