@@ -26,7 +26,7 @@ precioOriginal = 100;
 
 iva = 21 / 100;
 
-const precioConIva = (precioOriginal * iva) + precioOriginal;
+const precioConIva = precioOriginal * iva + precioOriginal;
 
 console.log("Precio con IVA: ", precioConIva, "€");
 
@@ -50,9 +50,15 @@ const chocolatesSobrantes = totalChocolates % personas;
 
 console.log("Chocolates sobrantes: ", chocolatesSobrantes, "chocolates");
 
-
-
 // Ejercicio 6: ¿Es un número par?
+
+let numero = 9;
+
+if (numero % 2 === 0) {
+	console.log("Es par");
+} else {
+	console.log("Es impar");
+}
 
 // Ejercicio 7: Multiplica ingredientes
 
