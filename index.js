@@ -104,7 +104,7 @@ let precioProducto3 = 200;
 
 const precioReducido = precioProducto3 *=0.9;
 
-//El 0.9 viene de que el 0.1 sería el descuento.
+//El 0.9 viene de que el 0.1 sería el 10% descuento.
 
 console.log("Precio reducido: ", precioReducido, "€");
 
@@ -136,8 +136,13 @@ console.log("Cantidad reducida: ", --cantidad);
 
 console.log("Cantidad reducida: ", --cantidad);
 
-
 // Ejercicio 15: Ajuste del salario
+
+let salario = 2500;
+
+salario +=salario * 5/100;
+
+console.log("Nuevo salario: ", salario, "€");
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
