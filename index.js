@@ -55,9 +55,9 @@ console.log("Chocolates sobrantes: ", chocolatesSobrantes, "chocolates");
 let numero = 12;
 
 if (numero % 2 === 0) {
-	console.log(numero, " es par");
+	console.log("El ", numero, "es un número par");
 } else {
-	console.log(numero, " es impar");
+	console.log("El", numero, "es un número impar");
 }
 
 // Ejercicio 7: Multiplica ingredientes
@@ -66,11 +66,11 @@ let cantidadOriginal = 7;
 
 let factorMultiplicacion = cantidadOriginal * 2;
 
-console.log("Ingredientes duplicados: ", factorMultiplicacion, " ingredientes");
+console.log("Ingredientes duplicados: ", factorMultiplicacion, "ingredientes");
 
 factorMultiplicacion = cantidadOriginal * 3;
 
-console.log("Ingredientes triplicados: ", factorMultiplicacion, " ingredientes");
+console.log("Ingredientes triplicados: ", factorMultiplicacion, "ingredientes");
 
 // Ejercicio 8: Incremento en la cuenta
 
@@ -196,14 +196,23 @@ let precioInicial = 300;
 
 precioInicial*=0.8;
 
+//Hice primero precioInicial -=precioInicial*=0.2; 0.8 implica el 80% del precio inicial, que es lo que vale ahora
+
 console.log("Primer precio reducido: ", precioInicial, "€");
 
 precioInicial*=0.9;
 
+//Hice primero precioInicial -=precioInicial*=0.1; misma razón que la primera reducción
+
 console.log("Segundo precio reducido: ", precioInicial, "€");
 
-
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
+
+let edadActual = 37;
+
+edadActual+=5; 
+
+console.log("Tengo", edadActual, "años. Dentro de 5 años tendré", edadActual, "años");
 
 // Ejercicio 23: Cuota mensual
 
