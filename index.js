@@ -124,8 +124,18 @@ dias = ++dias;
 
 console.log("Incremento de días: ", dias);
 
-
 // Ejercicio 14: Decremento después del uso
+
+cantidad = 44;
+
+console.log("Cantidad actual: ", cantidad);
+
+console.log("Cantidad reducida: ", --cantidad);
+
+console.log("Cantidad reducida: ", --cantidad);
+
+console.log("Cantidad reducida: ", --cantidad);
+
 
 // Ejercicio 15: Ajuste del salario
 
