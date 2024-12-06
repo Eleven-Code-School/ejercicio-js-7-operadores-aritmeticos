@@ -224,8 +224,15 @@ let cuotaMensual = deudaTotal / meses;
 
 console.log("Tengo una cuota mensual a devolver de", cuotaMensual, "€ al mes durante los próximos", meses, "meses");
 
-
 // Ejercicio 24: Incremento antes de imprimir
+
+let puntos = 15;
+
+++puntos;
+
+console.log(puntos);
+console.log(puntos);
+
 
 // Ejercicio 25: Decremento después de imprimir
 
