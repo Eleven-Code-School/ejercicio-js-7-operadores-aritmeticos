@@ -276,8 +276,16 @@ let diasAHoras = dias * 24;
 
 console.log("En", dias, "hay", diasAHoras, "horas");
 
-
 // Ejercicio 30: Cálculo de propinas
+
+let cuenta = 200;
+
+let propina = cuenta*15/100;
+
+let cuentaFinal = cuenta +  propina;
+
+console.log("La cuenta final con la propina es de", cuentaFinal, "€");
+
 
 // Ejercicio 31: Cálculo del volumen de un cubo
 
