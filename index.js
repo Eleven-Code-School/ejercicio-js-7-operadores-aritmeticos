@@ -88,8 +88,15 @@ deuda -=15;
 
 console.log("Deuda: ", deuda, "€");
 
-
 // Ejercicio 10: Calcula un exponente
+
+let base = 3;
+
+let exponente = 4;
+
+const numeroElevado = base ** exponente;
+
+console.log("Base elevada al exponente: ", numeroElevado);
 
 // Ejercicio 11: Reducción de precios
 
