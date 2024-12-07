@@ -393,6 +393,19 @@ console.log("El promedio entre estos 5 números es de", promedio);
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
+precioInicial = 100;
+
+console.log("El precio de este producto es de", precioInicial, "€");
+
+precioInicial *= 0.7;
+
+console.log("El precio rebajado del producto es de", precioInicial, "€");
+
+precioInicial *= 0.85;
+
+console.log("El precio rebajado del producto ahora es de", precioInicial, "€");
+
+
 // Ejercicio 40: Ajuste de inventario con restos
 
 // Ejercicio 41: Cálculo del interés compuesto
