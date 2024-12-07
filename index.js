@@ -312,6 +312,13 @@ console.log("Mis ahorros han aumentado a: ", montoAhorros, "€");
 
 // Ejercicio 33: Conversión de horas a segundos
 
+let horas = 24;
+
+let horasASegundos = horas * 3600;
+
+console.log("En", horas, "horas hay", horasASegundos, "segundos");
+
+
 // Ejercicio 34: Cálculo de salario semanal
 
 // Ejercicio 35: Decremento acumulado
