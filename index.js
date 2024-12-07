@@ -55,9 +55,9 @@ console.log("Chocolates sobrantes: ", chocolatesSobrantes, "chocolates");
 let numero = 12;
 
 if (numero % 2 === 0) {
-	console.log("El ", numero, "es un número par");
+	console.log("El número", numero, "es un número par");
 } else {
-	console.log("El", numero, "es un número impar");
+	console.log("El número", numero, "es un número impar");
 }
 
 // Ejercicio 7: Multiplica ingredientes
@@ -245,9 +245,9 @@ console.log("El final se acerta... ", --turnos, "turnos restantes");
 numero = 32;
 
 if (numero % 5 === 0) {
-	console.log("El número", numero, "es divisible entre 5");
+	console.log("El número", numero, "es múltiplo de 5");
 } else {
-	console.log("El número", numero, "no es divisible entre 5");
+	console.log("El número", numero, "no es múltiplo de entre 5");
 }
 // Ejercicio 27: Saldo restante después de un retiro
 
@@ -331,25 +331,31 @@ console.log("Esta semana voy a cobrar", cobroMensual, "€");
 
 let peso = 106;
 
-peso -=2.5;
+peso -= 2.5;
 
 console.log("Ahora estoy en", peso, "kilos");
 
-peso -=2.5;
+peso -= 2.5;
 
 console.log("Ahora estoy en", peso, "kilos");
 
-peso -=2.5;
+peso -= 2.5;
 
 console.log("Ahora estoy en", peso, "kilos");
 
-peso -=2.5;
+peso -= 2.5;
 
 console.log("Ahora estoy en", peso, "kilos");
-
-
 
 // Ejercicio 36: Comprobación de múltiplos
+
+numero = 81;
+
+if (numero % 3 === 0) {
+	console.log("El número", numero, "es múltiplo de 3");
+} else {
+	console.log("El número", numero, "no es múltiplo de 3");
+}
 
 // Ejercicio 37: Incremento con decimales
 
