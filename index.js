@@ -415,8 +415,19 @@ let productosSobrantes = inventarioTotal % productosPorCaja;
 
 console.log("Tras las ventas han sobrado",productosSobrantes, "productos");
 
-
 // Ejercicio 41: Cálculo del interés compuesto
+
+let capitalInicial = 20000;
+
+let tasaInteres = 1.3;
+
+let periodos = 2;
+
+let montoFinal = capitalInicial * ((1 + tasaInteres) ** periodos);
+
+console.log(montoFinal);
+
+//ESTE NO LO PILLO
 
 // Ejercicio 42: Incremento y resto en un ciclo
 
