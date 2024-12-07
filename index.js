@@ -457,14 +457,34 @@ let areaCirculo = radioCirculo ** 2 * Math.PI;
 
 console.log(areaCirculo);
 if (areaCuadrado > areaCirculo) {
-	console.log("Si el cuadrado tiene", ladoCuadrado, "metros de lado y el círculo", radioCirculo, "metros de radio, el área del cuadrado es mayor que la del círculo");
-	
+	console.log(
+		"Si el cuadrado tiene",
+		ladoCuadrado,
+		"metros de lado y el círculo",
+		radioCirculo,
+		"metros de radio, el área del cuadrado es mayor que la del círculo"
+	);
 } else {
-	console.log("Si el cuadrado tiene", ladoCuadrado, "metros de lado y el círculo", radioCirculo, "metros de radio, el área del círculo es mayor que la del cuadrado");
-	
+	console.log(
+		"Si el cuadrado tiene",
+		ladoCuadrado,
+		"metros de lado y el círculo",
+		radioCirculo,
+		"metros de radio, el área del círculo es mayor que la del cuadrado"
+	);
 }
 
 // Ejercicio 44: Optimización de cajas de productos
+
+let productosTotales = 93;
+
+let capacidadCaja = 8;
+
+let numeroCajasNecesarias = productosTotales / capacidadCaja;
+
+console.log("Necesitamos", Math.round(numeroCajasNecesarias), "para guardar todos los productos");
+
+
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
 
