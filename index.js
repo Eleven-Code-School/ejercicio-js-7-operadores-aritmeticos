@@ -247,7 +247,7 @@ numero = 32;
 if (numero % 5 === 0) {
 	console.log("El número", numero, "es divisible entre 5");
 } else {
-    console.log("El número", numero, "no es divisible entre 5")
+	console.log("El número", numero, "no es divisible entre 5");
 }
 // Ejercicio 27: Saldo restante después de un retiro
 
@@ -258,7 +258,6 @@ let retiro = 400;
 let nuevoSaldo = saldo - retiro;
 
 console.log("Tras retirar", retiro, "€, el saldo disponible es de", nuevoSaldo, "€");
-
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
@@ -280,9 +279,9 @@ console.log("En", dias, "hay", diasAHoras, "horas");
 
 let cuenta = 200;
 
-let propina = cuenta*15/100;
+let propina = (cuenta * 15) / 100;
 
-let cuentaFinal = cuenta +  propina;
+let cuentaFinal = cuenta + propina;
 
 console.log("La cuenta final con la propina es de", cuentaFinal, "€");
 
@@ -318,8 +317,16 @@ let horasASegundos = horas * 3600;
 
 console.log("En", horas, "horas hay", horasASegundos, "segundos");
 
-
 // Ejercicio 34: Cálculo de salario semanal
+
+let horasTrabajadas = 150;
+
+let pagoPorHora = 15;
+
+let cobroMensual = horasTrabajadas * pagoPorHora;
+
+console.log("Este mes voy a cobrar", cobroMensual, "€");
+
 
 // Ejercicio 35: Decremento acumulado
 
