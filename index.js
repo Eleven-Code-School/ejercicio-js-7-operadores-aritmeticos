@@ -413,7 +413,7 @@ let productosPorCaja = 73;
 
 let productosSobrantes = inventarioTotal % productosPorCaja;
 
-console.log("Tras las ventas han sobrado",productosSobrantes, "productos");
+console.log("Tras las ventas han sobrado", productosSobrantes, "productos");
 
 // Ejercicio 41: Cálculo del interés compuesto
 
@@ -443,12 +443,26 @@ console.log(++numero);
 
 let restoNumero = numero % 5;
 
-console.log("El resto es ",restoNumero);
-
-
-
+console.log("El resto es ", restoNumero);
 
 // Ejercicio 43: Comparación de superficies
+
+let ladoCuadrado = 4;
+
+let areaCuadrado = ladoCuadrado ** 2;
+
+let radioCirculo = 3;
+
+let areaCirculo = radioCirculo ** 2 * Math.PI;
+
+console.log(areaCirculo);
+if (areaCuadrado > areaCirculo) {
+	console.log("Si el cuadrado tiene", ladoCuadrado, "metros de lado y el círculo", radioCirculo, "metros de radio, el área del cuadrado es mayor que la del círculo");
+	
+} else {
+	console.log("Si el cuadrado tiene", ladoCuadrado, "metros de lado y el círculo", radioCirculo, "metros de radio, el área del círculo es mayor que la del cuadrado");
+	
+}
 
 // Ejercicio 44: Optimización de cajas de productos
 
