@@ -294,8 +294,21 @@ let volumenCubo = lado ** 3;
 
 console.log("Con", lado, "metros de lado, el volumen del cubo es de", volumenCubo, "m3");
 
-
 // Ejercicio 32: Incremento acumulado
+
+let montoAhorros = 1000;
+
+montoAhorros += montoAhorros * 0.1;
+
+console.log("Mis ahorros han aumentado a: ", montoAhorros, "€");
+
+montoAhorros += montoAhorros * 0.1;
+
+console.log("Mis ahorros han aumentado a: ", montoAhorros, "€");
+
+montoAhorros += montoAhorros * 0.1;
+
+console.log("Mis ahorros han aumentado a: ", montoAhorros, "€");
 
 // Ejercicio 33: Conversión de horas a segundos
 
