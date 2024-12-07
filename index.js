@@ -405,8 +405,16 @@ precioInicial *= 0.85;
 
 console.log("El precio rebajado del producto ahora es de", precioInicial, "€");
 
-
 // Ejercicio 40: Ajuste de inventario con restos
+
+let inventarioTotal = 3480;
+
+let productosPorCaja = 73;
+
+let productosSobrantes = inventarioTotal % productosPorCaja;
+
+console.log("Tras las ventas han sobrado",productosSobrantes, "productos");
+
 
 // Ejercicio 41: Cálculo del interés compuesto
 
