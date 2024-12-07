@@ -319,16 +319,35 @@ console.log("En", horas, "horas hay", horasASegundos, "segundos");
 
 // Ejercicio 34: Cálculo de salario semanal
 
-let horasTrabajadas = 150;
+let horasTrabajadas = 40;
 
 let pagoPorHora = 15;
 
 let cobroMensual = horasTrabajadas * pagoPorHora;
 
-console.log("Este mes voy a cobrar", cobroMensual, "€");
-
+console.log("Esta semana voy a cobrar", cobroMensual, "€");
 
 // Ejercicio 35: Decremento acumulado
+
+let peso = 106;
+
+peso -=2.5;
+
+console.log("Ahora estoy en", peso, "kilos");
+
+peso -=2.5;
+
+console.log("Ahora estoy en", peso, "kilos");
+
+peso -=2.5;
+
+console.log("Ahora estoy en", peso, "kilos");
+
+peso -=2.5;
+
+console.log("Ahora estoy en", peso, "kilos");
+
+
 
 // Ejercicio 36: Comprobación de múltiplos
 
