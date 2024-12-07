@@ -423,13 +423,30 @@ let tasaInteres = 1.3;
 
 let periodos = 2;
 
-let montoFinal = capitalInicial * ((1 + tasaInteres) ** periodos);
+let montoFinal = capitalInicial * Math.pow((1 + tasaInteres) ** periodos);
 
 console.log(montoFinal);
 
 //ESTE NO LO PILLO
 
 // Ejercicio 42: Incremento y resto en un ciclo
+
+numero = 62;
+
+console.log(++numero);
+console.log(++numero);
+console.log(++numero);
+console.log(++numero);
+console.log(++numero);
+console.log(++numero);
+console.log(++numero);
+
+let restoNumero = numero % 5;
+
+console.log("El resto es ",restoNumero);
+
+
+
 
 // Ejercicio 43: Comparación de superficies
 
