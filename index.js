@@ -375,8 +375,21 @@ precioGasolina += 0.25;
 
 console.log("El precio de la gasolina a subido a", precioGasolina, "€");
 
-
 // Ejercicio 38: Calcula el promedio de 5 números
+
+let numero1 = 26;
+
+let numero2 = 84;
+
+let numero3 = 9;
+
+let numero4 = 45;
+
+let numero5 = 61;
+
+let promedio = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+
+console.log("El promedio entre estos 5 números es de", promedio);
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
