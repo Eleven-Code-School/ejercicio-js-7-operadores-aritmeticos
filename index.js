@@ -359,6 +359,23 @@ if (numero % 3 === 0) {
 
 // Ejercicio 37: Incremento con decimales
 
+let precioGasolina = 1.04;
+
+console.log("El precio inicial de la gasolina es de", precioGasolina, "€ por litro");
+
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina a subido a", precioGasolina, "€");
+
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina a subido a", precioGasolina, "€");
+
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina a subido a", precioGasolina, "€");
+
+
 // Ejercicio 38: Calcula el promedio de 5 números
 
 // Ejercicio 39: Cálculo del descuento acumulado
