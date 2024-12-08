@@ -516,12 +516,25 @@ numero = 48;
 
 if (numero % 4 === 0 && numero % 6 === 0) {
 	console.log("El número", numero, "es múltiplo de 4 y de 6");
-	
 } else {
 	console.log("El número", numero, "no es múltiplo de 4 y de 6");
 }
 
 // Ejercicio 47: Ajuste del precio con IVA y descuento
+
+precioInicial = 1540;
+
+iva = 0.21;
+
+let ivaAplicado = precioInicial * iva;
+
+descuento = 0.1;
+
+let descuentoAplicado = precioInicial * descuento;
+
+let precioFinal = precioInicial + ivaAplicado - descuentoAplicado;
+
+console.log("El precio tras aplicar IVA y descuentos es de", precioFinal, "€");
 
 // Ejercicio 48: Cálculo del promedio ponderado
 
