@@ -512,6 +512,15 @@ console.log("El ahorro acumulado es de:", montoAhorro, "€");
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 
+numero = 48;
+
+if (numero % 4 === 0 && numero % 6 === 0) {
+	console.log("El número", numero, "es múltiplo de 4 y de 6");
+	
+} else {
+	console.log("El número", numero, "no es múltiplo de 4 y de 6");
+}
+
 // Ejercicio 47: Ajuste del precio con IVA y descuento
 
 // Ejercicio 48: Cálculo del promedio ponderado
