@@ -538,6 +538,20 @@ console.log("El precio tras aplicar IVA y descuentos es de", precioFinal, "€")
 
 // Ejercicio 48: Cálculo del promedio ponderado
 
+// El valor del peso es sobre una nota de 10. Ej: un peso de 0.2 es un 20% sobre los 10 puntos de la nota final.
+
+let nota1 = 9;
+let nota2 = 4;
+let nota3 = 8.5;
+
+let peso1 = 0.2;
+let peso2 = 0.5;
+let peso3 = 0.3;
+
+let promedioPonderado = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
+
+console.log("La nota final tras realizar el promedio ponderado entre las evaluaciones es de", promedioPonderado);
+
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
 // Ejercicio 50: Ajuste salarial acumulativo
