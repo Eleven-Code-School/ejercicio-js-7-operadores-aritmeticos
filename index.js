@@ -482,11 +482,33 @@ let capacidadCaja = 8;
 
 let numeroCajasNecesarias = productosTotales / capacidadCaja;
 
-console.log("Necesitamos", Math.round(numeroCajasNecesarias), "para guardar todos los productos");
-
-
+console.log("Necesitamos", Math.round(numeroCajasNecesarias), "cajas para guardar todos los productos");
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
+
+let montoAhorro = 1300;
+
+let bonificacion = 0.1;
+
+montoAhorro += montoAhorro * bonificacion;
+
+console.log(montoAhorro);
+
+montoAhorro += montoAhorro * bonificacion;
+
+console.log(montoAhorro);
+
+montoAhorro += montoAhorro * bonificacion;
+
+console.log(montoAhorro);
+
+montoAhorro += montoAhorro * bonificacion;
+
+console.log(montoAhorro);
+
+montoAhorro += montoAhorro * bonificacion;
+
+console.log("El ahorro acumulado es de:", montoAhorro, "€");
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 
