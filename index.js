@@ -101,12 +101,30 @@ console.log("El ajuste salarial es de" , ajusteSalarial);
 
 
 // Ejercicio 16: Calcula el área de un rectángulo
+const base1 = 20;
+const altura = 14;
+
+const areaRectangulo = base1 * altura;
+console.log("El área de un rectángulo es" , areaRectangulo);
 
 // Ejercicio 17: Divide un premio
+const premioTotal = 460;
+const numGanadores = 12;
+
+const premio = premioTotal / numGanadores;
+console.log("Cada uno recibirá" , premio);
 
 // Ejercicio 18: Incremento en el inventario
+let inventarioIncremento = 360;
+inventarioIncremento += 50;
+
+let incremento  = inventarioIncremento += inventarioIncremento;
+console.log("El incremento del inventario es de" , incremento);
 
 // Ejercicio 19: Gasto semanal
+const gastoDiario = 34;
+const gastoSemanal = gastoDiario * 7;
+console.log("El gasto semanal es de" , gastoSemanal);
 
 // Ejercicio 20: Conversión de monedas
 
