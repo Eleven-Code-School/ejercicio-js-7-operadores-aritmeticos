@@ -203,6 +203,17 @@ const divisionPremio = premioTotal / numGanadores;
 console.log ("Cada uno recibe", divisionPremio);
 
 // Ejercicio 18: Incremento en el inventario
+let inventario = 100; 
+
+inventario += 50;
+
+console.log("Incremento de inventario", inventario);
+
+if (salario < 100) {
+	console.log("Nos falta material");
+} else if (salario > 100) {
+	console.log("Vamos bien de inventario");
+}
 
 // Ejercicio 19: Gasto semanal
 
