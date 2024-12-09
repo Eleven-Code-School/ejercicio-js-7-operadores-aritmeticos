@@ -293,7 +293,21 @@ console.log("El ahorro al finalizar sera de", montoAhorros);
 
 // Ejercicio 33: Conversión de horas a segundos
 
+let horasConverse = 45;
+
+let horaToSeconds = horasConverse * 3600;
+
+console.log("45 horas es lo mismo que", horaToSeconds, "segundos");
+
 // Ejercicio 34: Cálculo de salario semanal
+
+let horasTrabajadas = 567;
+
+let pagoPorHora = 12;
+
+let salarioSemanal = horasTrabajadas * pagoPorHora;
+
+console.log("El computo total semanal es de", salarioSemanal);
 
 // Ejercicio 35: Decremento acumulado
 
