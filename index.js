@@ -310,6 +310,11 @@ const saldoRestante = saldo - retiro;
 console.log("Saldo Restante:", saldoRestante, "euros");
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
+let lado = 5;
+
+let perimetro = lado * 4;
+
+console.log("Perímetro del cuadrado", perimetro);
 
 // Ejercicio 29: Conversión de días
 
