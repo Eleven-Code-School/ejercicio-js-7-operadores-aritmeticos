@@ -194,6 +194,13 @@ const area = baseTriangulo * altura;
 console.log("Área del rectángulo:", area);
 
 // Ejercicio 17: Divide un premio
+const premioTotal = 50;
+
+const numGanadores = 2;
+
+const divisionPremio = premioTotal / numGanadores;
+
+console.log ("Cada uno recibe", divisionPremio);
 
 // Ejercicio 18: Incremento en el inventario
 
