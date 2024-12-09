@@ -329,8 +329,8 @@ console.log("El resto sobrante del ejercicio 42 es de:", numeroDelEjercicio42);
 let ladoDelCuadrado = 7;
 let radioDelCirculo = 7;
 
-let areaDelCuadrado = ladoDelCuadrado**2;
-let areaDelCirculo = Math.PI * radioDelCirculo**2;
+let areaDelCuadrado = ladoDelCuadrado ** 2;
+let areaDelCirculo = Math.PI * radioDelCirculo ** 2;
 
 if (areaDelCuadrado / areaDelCirculo >= 1) {
     if (areaDelCuadrado / areaDelCirculo === 1) {
@@ -343,6 +343,15 @@ if (areaDelCuadrado / areaDelCirculo >= 1) {
 }
 
 // Ejercicio 44: Optimización de cajas de productos
+let productosTotales = 404;
+const capacidadCaja = 4;
+let numeroDeCajasNecesarias = (productosTotales / capacidadCaja);
+
+if ((productosTotales % capacidadCaja) === 0) {
+    console.log("El numero de cajas que se necesitaran para almacenar todos los productos será de", numeroDeCajasNecesarias, "cajas");
+} else {
+    console.log("El numero de cajas que se necesitaran para almacenar todos los productos será de", Math.ceil(numeroDeCajasNecesarias), "cajas");
+}
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
 
