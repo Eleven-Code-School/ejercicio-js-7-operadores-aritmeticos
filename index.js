@@ -238,6 +238,15 @@ let conversionMoneda = cantidadUSD * tasaCambio;
 console.log("La cantidad convertida es", conversionMoneda, "euros");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
+let precioInicial = 200; 
+
+let descuento1 = precioInicial * 0.20;
+precioInicial -= descuento1; 
+
+let descuento2 = precioInicial * 0.10; 
+precioInicial -= descuento2; 
+
+console.log("Precio final", precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
