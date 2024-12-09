@@ -288,6 +288,15 @@ if (puntos > 30) {
 }
 
 // Ejercicio 25: Decremento después de imprimir
+let turno = 5;
+
+console.log("Tengo", --turno, "turnos");
+
+if (turno > 10) {
+	console.log("Qué pereza");
+} else if (turno < 2) {
+	console.log("Bueno son pocos");
+}
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
