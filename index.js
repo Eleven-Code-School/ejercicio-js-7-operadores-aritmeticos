@@ -146,6 +146,16 @@ if (cantidad === 0) {
 }
 
 // Ejercicio 13: Incremento antes del uso
+let dias = 10;
+
+console.log("Incremento +1 día", ++dias);
+
+if (dias < 1) {
+	console.log("Son pocos días");
+}
+if (dias > 1) {
+	console.log("Son muchos días");
+}
 
 // Ejercicio 14: Decremento después del uso
 
