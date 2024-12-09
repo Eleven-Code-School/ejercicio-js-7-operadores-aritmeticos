@@ -127,12 +127,31 @@ const gastoSemanal = gastoDiario * 7;
 console.log("El gasto semanal es de" , gastoSemanal);
 
 // Ejercicio 20: Conversión de monedas
+const cantidadUSD = 240;
+const tasaCambio = 0.94;
+
+const conversion = cantidadUSD * tasaCambio;
+console.log("El valor tras la conversión es de" , conversion);
 
 // Ejercicio 21: Cálculo de descuentos acumulados
+let precioInicial = 80;
+precioInicial *= 0.80;
+precioInicial*= 0.90;
+
+console.log("El precio del pantalón con los descuentos quedaría en" , precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
+let edadActual = 33;
+edadActual += 5;
+
+console.log("En 5 años cunpliré" , edadActual , "años");
 
 // Ejercicio 23: Cuota mensual
+let deudaTotal = 560;
+let meses = 12;
+
+let cuotaMensual = deudaTotal / meses;
+console.log("La cuota mensual es" , cuotaMensual);
 
 // Ejercicio 24: Incremento antes de imprimir
 
