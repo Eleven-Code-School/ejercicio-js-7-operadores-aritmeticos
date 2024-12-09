@@ -255,13 +255,26 @@ edadActual += 5;
 
 console.log("En 5 años tendré", edadActual, "años");
 
-if (gastoSemanal > 30) {
+if (edadActual > 30) {
 	console.log("Que depresión");
-} else if (gastoSemanal < 30) {
+} else if (edadActual < 30) {
 	console.log("Aquí me tendría que quedar");
 }
 
 // Ejercicio 23: Cuota mensual
+const deudaTotal = 120;
+
+const meses = 12;
+
+const cuotaMensual = deudaTotal / meses;
+
+console.log("La cuota mensual es de", cuotaMensual, "euros");
+
+if (cuotaMensual > 30) {
+	console.log("Ya podría ser menos €");
+} else if (cuotaMensual< 30) {
+	console.log("Está bien, puedo pagarlo poco a poco");
+}
 
 // Ejercicio 24: Incremento antes de imprimir
 
