@@ -354,6 +354,23 @@ if ((productosTotales % capacidadCaja) === 0) {
 }
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
+let montoAhorro = 10;
+let bonificacion = montoAhorro * 0.1;
+montoAhorro += bonificacion;
+montoAhorro += bonificacion;
+montoAhorro += bonificacion;
+montoAhorro += bonificacion;
+montoAhorro += bonificacion;
+
+console.log("El ahorro acumulado despues de aplicar 5 bonificaciones consecutivas sera de",montoAhorro);
+
+
+
+
+
+
+
+
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 
