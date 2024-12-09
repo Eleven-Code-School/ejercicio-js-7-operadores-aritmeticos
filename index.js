@@ -362,7 +362,7 @@ montoAhorro += bonificacion;
 montoAhorro += bonificacion;
 montoAhorro += bonificacion;
 
-console.log("El ahorro acumulado despues de aplicar 5 bonificaciones consecutivas sera de",montoAhorro);
+console.log("El ahorro acumulado despues de aplicar 5 bonificaciones consecutivas sera de", montoAhorro);
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 const numeroEjercicio46 = 240;
@@ -406,13 +406,17 @@ numeroEjercicio49 /= 3;
 numeroEjercicio49 /= 3;
 numeroEjercicio49 /= 3;
 
-console.log("La raiz cubica es de ", numeroEjercicio49, "aproximadamente");
+console.log("La raiz cubica es de ", numeroEjercicio49, "aproximadamente"); // esta raiz cubica no se aproxima en absoluto
 
 numeroEjercicio49 = 80;
 let raizCubica = Math.cbrt(numeroEjercicio49);
 
-
 console.log("La raiz cúbica del numero", numeroEjercicio49, "es de", raizCubica);
 
-
 // Ejercicio 50: Ajuste salarial acumulativo
+let salarioInicial = 1200;
+let incrementoDelSalario = salarioInicial * 0.03;
+let numeroDeMesesTrabajados = 12;
+let salarioFinal = salarioInicial + (incrementoDelSalario * numeroDeMesesTrabajados)
+
+console.log("Despues de 12 meses de trabajo el salario final del trabajador es de",salarioFinal);
