@@ -216,6 +216,18 @@ if (salario < 100) {
 }
 
 // Ejercicio 19: Gasto semanal
+const gastoDiario = 20;
+
+const gastoSemanal = gastoDiario * 7;
+
+console.log("Gasto semanal", gastoSemanal);
+
+if (gastoSemanal < 50) {
+	console.log("Si seguimos así podemos ahorrar");
+} else if (gastoSemanal > 50) {
+	console.log("Deberíamos ajustar el gasto semanal");
+}
+
 
 // Ejercicio 20: Conversión de monedas
 
