@@ -134,6 +134,16 @@ if (precioProducto > 5) {
 }
 
 // Ejercicio 12: Resto acumulado
+const cantidad = 10 % 3;
+
+console.log("Resultado resto acumulado", cantidad);
+
+if (cantidad === 1) {
+	console.log("Impar");
+}
+if (cantidad === 0) {
+	console.log("Par");
+}
 
 // Ejercicio 13: Incremento antes del uso
 
