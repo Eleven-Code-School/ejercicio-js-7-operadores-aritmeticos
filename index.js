@@ -65,6 +65,19 @@ if (numero === 1) {
 }
 
 // Ejercicio 7: Multiplica ingredientes
+const cantidadOriginal = 2;
+
+const factorMultiplicacion = 3;
+
+const multiplicaIngredientes = cantidadOriginal * factorMultiplicacion;
+
+console.log("¿Cuántos ingredientes necesito?", multiplicaIngredientes);
+
+if (multiplicaIngredientes < 6) {
+    console.log("Podemos hacerla");
+} if (multiplicaIngredientes > 3) {
+    console.log("Nos hace falta varias cositas más");
+}
 
 // Ejercicio 8: Incremento en la cuenta
 
