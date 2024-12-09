@@ -30,6 +30,13 @@ const precioYIva = precio + ivaDelPrecio;
 console.log("Precio + IVA", precioYIva);
 
 // Ejercicio 4: División de la cuenta
+const totalCuenta = 60;
+
+const numPersonas = 3;
+
+const divisionDeLaCuenta = totalCuenta / numPersonas;
+
+console.log("División de la cuenta", divisionDeLaCuenta);
 
 // Ejercicio 5: Resto de una división
 
