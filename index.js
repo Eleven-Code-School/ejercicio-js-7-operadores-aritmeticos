@@ -85,31 +85,27 @@ if (multiplicaIngredientes > 3) {
 // Ejercicio 8: Incremento en la cuenta
 let totalAhorros = 3000;
 
-let incrementoCuenta = 10;
+totalAhorros += 10;
 
-let totalEnCuenta = (totalAhorros += incrementoCuenta);
+console.log("Incremento en Cuenta", totalAhorros);
 
-console.log("Incremento en Cuenta", totalEnCuenta);
-
-if (incrementoCuenta < 1000) {
+if (totalAhorros < 1000) {
 	console.log("Con esto podemos irnos de viaje");
 }
-if (incrementoCuenta > 1000) {
+if (totalAhorros > 1000) {
 	console.log("Tengo que ahorrar más");
 }
 // Ejercicio 9: Decremento de una deuda
 let deuda = 70;
 
-let deudaReducida = 15;
+deuda -= 15;
 
-let totalDeuda = deuda -= deudaReducida;
+console.log("Total de la deuda", deuda);
 
-console.log("Total de la deuda", totalDeuda);
-
-if (totalDeuda < 60) {
+if (deuda < 60) {
 	console.log("Deuda pagada");
 }
-if (totalDeuda > 60) {
+if (deuda > 60) {
 	console.log("Tengo que pagar un poco aún");
 }
 
@@ -123,6 +119,19 @@ const resultadoExponente = base ** exponente;
 console.log("Resultado Exponente", resultadoExponente);
 
 // Ejercicio 11: Reducción de precios
+
+let precioProducto = 50;
+
+precioProducto *= 0.09;
+
+console.log("Reducción de precio", precioProducto);
+
+if (precioProducto < 5) {
+	console.log("Podría reducirlo un poco más");
+}
+if (precioProducto > 5) {
+	console.log("Eso que me ahorro");
+}
 
 // Ejercicio 12: Resto acumulado
 
