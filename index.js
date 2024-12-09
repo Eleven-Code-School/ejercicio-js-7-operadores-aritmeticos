@@ -373,6 +373,16 @@ if ((numeroEjercicio46 % 4 === 0) && (numeroEjercicio46 % 6 === 0)) {
     console.log("El numero", numeroEjercicio46, "no es divisible tanto por 4 como por 6");
 }
 // Ejercicio 47: Ajuste del precio con IVA y descuento
+let precioInicialEjercicio47 = 10;
+let ivaEjercicio47 = 0.21;
+let descuentoEjercicio47 = 0.1;
+const precioFinalDelProducto = precioInicialEjercicio47 + (precioInicialEjercicio47 * ivaEjercicio47) - ((precioInicialEjercicio47 + (precioInicialEjercicio47 * ivaEjercicio47)) * descuentoEjercicio47);
+
+console.log("Precio Inicial del producto:", precioInicialEjercicio47);
+console.log("Iva para el producto:", (precioInicialEjercicio47 * ivaEjercicio47));
+console.log("Descuento para ese producto:", ((precioInicialEjercicio47 + (precioInicialEjercicio47 * ivaEjercicio47)) * descuentoEjercicio47));
+
+console.log("El precio final del producto despues de aplicarle el iva y el descuento es de", precioFinalDelProducto);
 
 // Ejercicio 48: Cálculo del promedio ponderado
 
