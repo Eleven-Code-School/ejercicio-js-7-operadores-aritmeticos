@@ -98,6 +98,20 @@ if (incrementoCuenta > 1000) {
 	console.log("Tengo que ahorrar más");
 }
 // Ejercicio 9: Decremento de una deuda
+let deuda = 70;
+
+let deudaReducida = 15;
+
+let totalDeuda = deuda -= deudaReducida;
+
+console.log("Total de la deuda", totalDeuda);
+
+if (incrementoCuenta < 60) {
+	console.log("Deuda pagada");
+}
+if (incrementoCuenta > 60) {
+	console.log("Tengo que pagar un poco aún");
+}
 
 // Ejercicio 10: Calcula un exponente
 
