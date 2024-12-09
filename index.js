@@ -1,6 +1,13 @@
 // Ejercicios de Operadores Aritméticos
 
 // Ejercicio 1: Suma de productos
+const precioProducto1 = 5;
+
+const precioProducto2 = 3;
+
+const sumaProductos = precioProducto1 + precioProducto2;
+
+console.log("sumaProductos", sumaProductos);
 
 // Ejercicio 2: Descuento en una compra
 
