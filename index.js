@@ -62,14 +62,14 @@ console.log ( cantidadTotal);
 // Ejercicio 8: Incremento en la cuenta
 
 let totalAhorros = 52;
-aumentoDiez = totalAhorros += 10 ;
+let aumentoDiez = totalAhorros += 10 ;
 
-console.log ("el total de ahorros con un aumento de 10 es "+aumentoDiez);
+console.log ("el total de ahorros con un aumento de 10 es "+ aumentoDiez);
 
 // Ejercicio 9: Decremento de una deuda
 
 let deuda = 50 ;
-menosQuince = deuda -= 15 ;
+let menosQuince = deuda -= 15 ;
 
 console.log("su deuda agregando un -15 es " + menosQuince);
 
@@ -214,10 +214,26 @@ console.log ( "su nuevo saldo es: "+ nuevoSaldo);
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
 let lado = 35;
+let perimetro= lado * 4;
+
+console.log ("el perimetro del cuadrado son " + perimetro)
 
 // Ejercicio 29: Conversión de días
 
+let days = 875;
+let HoursDays = days * 24;
+
+console.log ("multiplicados por 24 horas al dia son " + HoursDays);
+
 // Ejercicio 30: Cálculo de propinas
+
+let cuenta = 108 ;
+let propina = 0.15;
+let total = cuenta + (cuenta*propina);
+
+console.log(total)
+
+
 
 // Ejercicio 31: Cálculo del volumen de un cubo
 
