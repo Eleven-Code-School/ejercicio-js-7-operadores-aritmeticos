@@ -228,8 +228,14 @@ if (gastoSemanal < 50) {
 	console.log("Deberíamos ajustar el gasto semanal");
 }
 
-
 // Ejercicio 20: Conversión de monedas
+let cantidadUSD = 20;
+
+let tasaCambio = 2;
+
+let conversionMoneda = cantidadUSD * tasaCambio;
+
+console.log("La cantidad convertida es", conversionMoneda, "euros");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
