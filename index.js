@@ -317,8 +317,20 @@ let perimetro = lado * 4;
 console.log("Perímetro del cuadrado", perimetro);
 
 // Ejercicio 29: Conversión de días
+let diasConversion = 7;
+
+let horas = diasConversion * 24;  
+
+console.log(diasConversion + " días son " + horas + " horas");
 
 // Ejercicio 30: Cálculo de propinas
+let cuenta = 100; 
+
+let propina = cuenta * 0.15;
+
+let totalConPropina = cuenta + propina;
+
+console.log("El total es", totalConPropina, "euros");
 
 // Ejercicio 31: Cálculo del volumen de un cubo
 
