@@ -364,16 +364,14 @@ montoAhorro += bonificacion;
 
 console.log("El ahorro acumulado despues de aplicar 5 bonificaciones consecutivas sera de",montoAhorro);
 
-
-
-
-
-
-
-
-
 // Ejercicio 46: Comprobación de divisibilidad múltiple
+const numeroEjercicio46 = 240;
 
+if ((numeroEjercicio46 % 4 === 0) && (numeroEjercicio46 % 6 === 0)) {
+    console.log("El numero", numeroEjercicio46, "es divisible tanto por 4 como por 6");
+} else {
+    console.log("El numero", numeroEjercicio46, "no es divisible tanto por 4 como por 6");
+}
 // Ejercicio 47: Ajuste del precio con IVA y descuento
 
 // Ejercicio 48: Cálculo del promedio ponderado
