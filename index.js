@@ -48,9 +48,10 @@ const porcionChocolate = totalChocolates % personas;
 console.log("Porciones de chocolate", porcionChocolate);
 
 if (porcionChocolate > 1) {
-    console.log("Con esto me harto")
-} if (porcionChocolate < 1) {
-    console.log("HO, yo quería uno más");
+	console.log("Con esto me harto");
+}
+if (porcionChocolate < 1) {
+	console.log("HO, yo quería uno más");
 }
 
 // Ejercicio 6: ¿Es un número par?
@@ -59,9 +60,10 @@ const numero = 20 % 2;
 console.log("¿Es par?", numero);
 
 if (numero === 1) {
-    console.log("Impar");
-} if (numero === 0) {
-    console.log("Par");
+	console.log("Impar");
+}
+if (numero === 0) {
+	console.log("Par");
 }
 
 // Ejercicio 7: Multiplica ingredientes
@@ -74,13 +76,27 @@ const multiplicaIngredientes = cantidadOriginal * factorMultiplicacion;
 console.log("¿Cuántos ingredientes necesito?", multiplicaIngredientes);
 
 if (multiplicaIngredientes < 6) {
-    console.log("Podemos hacerla");
-} if (multiplicaIngredientes > 3) {
-    console.log("Nos hace falta varias cositas más");
+	console.log("Podemos hacerla");
+}
+if (multiplicaIngredientes > 3) {
+	console.log("Nos hace falta varias cositas más");
 }
 
 // Ejercicio 8: Incremento en la cuenta
+let totalAhorros = 3000;
 
+let incrementoCuenta = 10;
+
+let totalEnCuenta = (totalAhorros += incrementoCuenta);
+
+console.log("Incremento en Cuenta", totalEnCuenta);
+
+if (incrementoCuenta < 1000) {
+	console.log("Con esto podemos irnos de viaje");
+}
+if (incrementoCuenta > 1000) {
+	console.log("Tengo que ahorrar más");
+}
 // Ejercicio 9: Decremento de una deuda
 
 // Ejercicio 10: Calcula un exponente
