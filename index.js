@@ -170,6 +170,20 @@ if (cantidadDecremento > 1) {
 }
 
 // Ejercicio 15: Ajuste del salario
+let salario = 3000;
+
+let subidaSalario = salario * 0.5;
+
+let totalSalario = salario += subidaSalario;
+
+console.log("Subida Salario", totalSalario);
+
+if (totalSalario < 3000) {
+	console.log("Podrían subirlo un poco más");
+}
+if (totalSalario > 3000) {
+	console.log("Que sueldazo");
+}
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
