@@ -301,6 +301,13 @@ if (turno > 10) {
 // Ejercicio 26: Comprueba divisibilidad por 5
 
 // Ejercicio 27: Saldo restante después de un retiro
+const saldo = 60;
+
+const retiro = 30;
+
+const saldoRestante = saldo - retiro;
+
+console.log("Saldo Restante:", saldoRestante, "euros");
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
