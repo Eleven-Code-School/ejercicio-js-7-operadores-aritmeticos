@@ -385,6 +385,17 @@ console.log("Descuento para ese producto:", ((precioInicialEjercicio47 + (precio
 console.log("El precio final del producto despues de aplicarle el iva y el descuento es de", precioFinalDelProducto);
 
 // Ejercicio 48: Cálculo del promedio ponderado
+let nota1 = 6;
+let nota2 = 8;
+let nota3 = 10;
+
+let peso1 = 12;
+let peso2 = 16;
+let peso3 = 20;
+
+promedio = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / (peso1 + peso2 + peso3);
+
+console.log("El promedio Ponderado entre las notas y el peso es de", promedio);
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
