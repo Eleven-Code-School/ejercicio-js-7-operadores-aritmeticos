@@ -249,6 +249,17 @@ precioInicial -= descuento2;
 console.log("Precio final", precioInicial);
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
+let edadActual = 28;
+
+edadActual += 5;
+
+console.log("En 5 años tendré", edadActual, "años");
+
+if (gastoSemanal > 30) {
+	console.log("Que depresión");
+} else if (gastoSemanal < 30) {
+	console.log("Aquí me tendría que quedar");
+}
 
 // Ejercicio 23: Cuota mensual
 
