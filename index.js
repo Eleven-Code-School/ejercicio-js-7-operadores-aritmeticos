@@ -158,6 +158,16 @@ if (dias > 1) {
 }
 
 // Ejercicio 14: Decremento después del uso
+let cantidadDecremento = 8;
+
+console.log("Decremento -1 cantidad", --cantidadDecremento);
+
+if (cantidadDecremento < 1) {
+	console.log("Es poca cantidad");
+}
+if (cantidadDecremento > 1) {
+	console.log("Es mucha cantidad");
+}
 
 // Ejercicio 15: Ajuste del salario
 
