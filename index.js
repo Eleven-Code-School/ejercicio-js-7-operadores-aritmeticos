@@ -7,10 +7,16 @@ const precioProducto2 = 3;
 
 const sumaProductos = precioProducto1 + precioProducto2;
 
-console.log("sumaProductos", sumaProductos);
+console.log("Precio total", sumaProductos);
 
 // Ejercicio 2: Descuento en una compra
+const precioOriginal = 20;
 
+const descuento = 10;
+
+const precioConDescuento = precioOriginal - descuento;
+
+console.log("Precio con descuento", precioConDescuento);
 // Ejercicio 3: Calcula el IVA
 
 // Ejercicio 4: División de la cuenta
