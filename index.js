@@ -185,6 +185,13 @@ if (salario < 3000) {
 }
 
 // Ejercicio 16: Calcula el área de un rectángulo
+const baseTriangulo = 10;
+
+const altura = 5;
+
+const area = baseTriangulo * altura;
+
+console.log("Área del rectángulo:", area);
 
 // Ejercicio 17: Divide un premio
 
