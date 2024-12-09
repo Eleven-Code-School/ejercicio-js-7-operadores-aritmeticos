@@ -398,5 +398,21 @@ promedio = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) / (peso1 + peso
 console.log("El promedio Ponderado entre las notas y el peso es de", promedio);
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
+let numeroEjercicio49 = 80;
+
+numeroEjercicio49 /= 3;
+numeroEjercicio49 /= 3;
+numeroEjercicio49 /= 3;
+numeroEjercicio49 /= 3;
+numeroEjercicio49 /= 3;
+
+console.log("La raiz cubica es de ", numeroEjercicio49, "aproximadamente");
+
+numeroEjercicio49 = 80;
+let raizCubica = Math.cbrt(numeroEjercicio49);
+
+
+console.log("La raiz cúbica del numero", numeroEjercicio49, "es de", raizCubica);
+
 
 // Ejercicio 50: Ajuste salarial acumulativo
