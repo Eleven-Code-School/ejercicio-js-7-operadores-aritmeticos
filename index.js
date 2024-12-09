@@ -172,16 +172,15 @@ if (cantidadDecremento > 1) {
 // Ejercicio 15: Ajuste del salario
 let salario = 3000;
 
-let subidaSalario = salario * 0.5;
+let subidaSalario = salario * 0.05;
 
-let totalSalario = salario += subidaSalario;
+salario += subidaSalario;
 
-console.log("Subida Salario", totalSalario);
+console.log("Subida Salario", salario);
 
-if (totalSalario < 3000) {
+if (salario < 3000) {
 	console.log("Podrían subirlo un poco más");
-}
-if (totalSalario > 3000) {
+} else if (salario > 3000) {
 	console.log("Que sueldazo");
 }
 
