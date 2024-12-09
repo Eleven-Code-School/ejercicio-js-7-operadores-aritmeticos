@@ -311,32 +311,224 @@ console.log("El computo total semanal es de", salarioSemanal);
 
 // Ejercicio 35: Decremento acumulado
 
+let peso = 75;
+
+peso -= 2.5;
+
+peso-= 2.5;
+
+peso -= 2.5;
+
+peso -= 2.5;
+
+console.log("El peso al finalizar la cuarta semana es de", peso);
+
 // Ejercicio 36: Comprobación de múltiplos
 
+let numeroComprobacion = 67;
+
+if (numeroComprobacion % 3 === 0) {
+    console.log("Este numero es multiplo de 3")
+} else {
+    console.log("No es multiplo de 3");
+    
+}
 // Ejercicio 37: Incremento con decimales
+
+let precioGasolina = 3.5; 
+
+precioGasolina += 0.25;
+
+precioGasolina += 0.25;
+
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina ahora es de", precioGasolina);
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
+let numberone = 45;
+
+let numbertwo = 56; 
+
+let numberthree = 67;
+
+let numberfour = 5;
+
+let numberfive = 17;
+
+let promedio = (numberone + numberthree + numbertwo + numberfive + numberfour) / 5;
+
+console.log("El promedio de estos numeros es", promedio);
+
 // Ejercicio 39: Cálculo del descuento acumulado
+
+let initialPrice = 456;
+
+initialPrice *= 0.7;
+
+initialPrice *= 0.85;
+
+console.log("El precio tras los dos descuentos es de", initialPrice);
 
 // Ejercicio 40: Ajuste de inventario con restos
 
+let inventarioTotal = 4567; 
+
+let productosPorCaja = 45;
+
+let ajusteDeInventario = inventarioTotal % productosPorCaja;
+
+console.log("Sobran un total de", ajusteDeInventario, "productos");
+
 // Ejercicio 41: Cálculo del interés compuesto
+
+let capitalInicial = 3450;
+
+let tasaInteres = 0.005;
+
+let periodos = 4;
+
+let monto = capitalInicial * (1+ tasaInteres) ** periodos;
+
+console.log("El monto final tras 4 periodos es de", monto);
 
 // Ejercicio 42: Incremento y resto en un ciclo
 
+let elNumero = 42;
+
+// bucle for?
+
+elNumero ++;
+elNumero ++;
+elNumero ++;
+elNumero ++;
+elNumero ++;
+elNumero ++;
+elNumero ++;
+
+let resto = elNumero % 5;
+
+console.log("El resto es igual a", resto);
+
 // Ejercicio 43: Comparación de superficies
+
+let ladoCuadrado = 56;
+
+let radioCirculo = 12;
+
+let areaCuadrado = ladoCuadrado ** 2;
+
+let areaCirculo = Math.PI * (radioCirculo ** 2);
+
+
+if (areaCuadrado > areaCirculo) {
+    console.log("El area del cuadrado es mayor que el area del circulo");
+} else if (areaCuadrado < areaCirculo) {
+    console.log("El area del cuadrado es menor que la del circulo")
+} else {
+    console.log("Las areas son iguales")
+};
 
 // Ejercicio 44: Optimización de cajas de productos
 
+let productosTotales = 456;
+
+let capacidadCaja = 50;
+
+let cajasNecesarias = Math.ceil(productosTotales / capacidadCaja); 
+
+console.log("Se necesitan", cajasNecesarias, "cajas");
+
 // Ejercicio 45: Ahorro acumulado con bonificaciones
+
+let montoAhorro = 5678;
+
+let bonificacion = 0.10;
+
+montoAhorro += montoAhorro * bonificacion;
+montoAhorro += montoAhorro * bonificacion;
+montoAhorro += montoAhorro * bonificacion;
+montoAhorro += montoAhorro * bonificacion;
+montoAhorro += montoAhorro * bonificacion;
+
+console.log("El ahorro total es de", montoAhorro);
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 
+let numeroVerifica = 68;
+
+if (numeroVerifica % 4 === 0 && numeroVerifica % 6 === 0) {
+    console.log("El numero 68 es divisible entre 4 y 6");
+} else {
+    console.log("El numero 68 no es divisible entre 4 y 6");
+};
+
 // Ejercicio 47: Ajuste del precio con IVA y descuento
+
+let precioInicialDelProducto = 456;
+
+let ivaDelProducto = 0.21;
+
+let descuentoDelProducto = 0.10;
+
+let precioConIva = precioInicialDelProducto + (precioInicialDelProducto * ivaDelProducto);
+
+let precioFinalDelProducto = precioConIva -  (precioConIva * descuentoDelProducto);
+
+console.log("El prrecio final del proeducto es", precioFinalDelProducto);
 
 // Ejercicio 48: Cálculo del promedio ponderado
 
+let nota1 = 56;
+
+let nota2 = 32;
+
+let nota3 = 27;
+
+let peso1 = 4;
+
+let peso2 = 14;
+
+let peso3 = 6;
+
+let promedioDeLasNotas = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / (peso1 + peso2 + peso3);
+
+console.log("El promedio es de", promedioDeLasNotas);
+
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
+let numeroRaiz = 896;
+
+let aproximacionRaizCubica = numeroRaiz;
+
+aproximacionRaizCubica = aproximacionRaizCubica / 3;
+aproximacionRaizCubica = aproximacionRaizCubica / 3;
+aproximacionRaizCubica = aproximacionRaizCubica / 3;
+aproximacionRaizCubica = aproximacionRaizCubica / 3;
+aproximacionRaizCubica = aproximacionRaizCubica / 3;
+
+console.log("La aproximacion de la raiz cubica es de", aproximacionRaizCubica);
+
 // Ejercicio 50: Ajuste salarial acumulativo
+
+let salarioInicial = 4567;
+
+let salarioFinal = salarioInicial;
+
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+
+console.log("El salario final tras 12 meses sera de", salarioFinal);
