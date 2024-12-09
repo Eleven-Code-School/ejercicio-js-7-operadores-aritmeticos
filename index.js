@@ -234,16 +234,53 @@ let total = cuenta + (cuenta*propina);
 console.log(total)
 
 
-
 // Ejercicio 31: Cálculo del volumen de un cubo
+
+let lateral =  8;
+let volumen = lateral **3
+
+console.log(volumen) 
+
 
 // Ejercicio 32: Incremento acumulado
 
+let montoAhorros = 5;
+montoAhorros += 0.9 * 3;
+
+console.log(montoAhorros)
+
+// let montoAhorros = 5;
+// montoAhorros += montoAhorros * 0.10; // Primer incremento
+// montoAhorros += montoAhorros * 0.10; // Segundo incremento
+// montoAhorros += montoAhorros * 0.10; // Tercer incremento
+// 
+// console.log(montoAhorros);
 // Ejercicio 33: Conversión de horas a segundos
+
+let horas = 4;
+let segundos = horas * 3600 ;
+
+console.log ( horas + " horas convertidas a segundos son " + segundos )
 
 // Ejercicio 34: Cálculo de salario semanal
 
+let horasTrabajadas = 8;
+let pagoPorHora = 15;
+let diasSemana = 6;
+let salarioSemana = horasTrabajadas * pagoPorHora * diasSemana;
+
+console.log(salarioSemana)
+
+
 // Ejercicio 35: Decremento acumulado
+
+let peso = 900;
+peso -= 2.5;
+peso -= 2.5;
+peso -= 2.5;
+peso -= 2.5;
+
+console.log (peso)
 
 // Ejercicio 36: Comprobación de múltiplos
 
