@@ -49,11 +49,20 @@ console.log("Porciones de chocolate", porcionChocolate);
 
 if (porcionChocolate > 1) {
     console.log("Con esto me harto")
-} else (porcionChocolate < 1) {
+} if (porcionChocolate < 1) {
     console.log("HO, yo quería uno más");
 }
 
 // Ejercicio 6: ¿Es un número par?
+const numero = 20 % 2;
+
+console.log("¿Es par?", numero);
+
+if (numero === 1) {
+    console.log("Impar");
+} if (numero === 0) {
+    console.log("Par");
+}
 
 // Ejercicio 7: Multiplica ingredientes
 
