@@ -200,10 +200,10 @@ const numGanadores = 2;
 
 const divisionPremio = premioTotal / numGanadores;
 
-console.log ("Cada uno recibe", divisionPremio);
+console.log("Cada uno recibe", divisionPremio);
 
 // Ejercicio 18: Incremento en el inventario
-let inventario = 100; 
+let inventario = 100;
 
 inventario += 50;
 
@@ -238,13 +238,13 @@ let conversionMoneda = cantidadUSD * tasaCambio;
 console.log("La cantidad convertida es", conversionMoneda, "euros");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
-let precioInicial = 200; 
+let precioInicial = 200;
 
-let descuento1 = precioInicial * 0.20;
-precioInicial -= descuento1; 
+let descuento1 = precioInicial * 0.2;
+precioInicial -= descuento1;
 
-let descuento2 = precioInicial * 0.10; 
-precioInicial -= descuento2; 
+let descuento2 = precioInicial * 0.1;
+precioInicial -= descuento2;
 
 console.log("Precio final", precioInicial);
 
@@ -272,11 +272,20 @@ console.log("La cuota mensual es de", cuotaMensual, "euros");
 
 if (cuotaMensual > 30) {
 	console.log("Ya podría ser menos €");
-} else if (cuotaMensual< 30) {
+} else if (cuotaMensual < 30) {
 	console.log("Está bien, puedo pagarlo poco a poco");
 }
 
 // Ejercicio 24: Incremento antes de imprimir
+let puntos = 60;
+
+console.log("Tengo", ++puntos, "puntos");
+
+if (puntos > 30) {
+	console.log("Dentro de poco consigo el premio");
+} else if (puntos < 30) {
+	console.log("Qué poquitos");
+}
 
 // Ejercicio 25: Decremento después de imprimir
 
