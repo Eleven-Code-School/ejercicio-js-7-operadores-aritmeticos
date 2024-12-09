@@ -106,14 +106,21 @@ let totalDeuda = deuda -= deudaReducida;
 
 console.log("Total de la deuda", totalDeuda);
 
-if (incrementoCuenta < 60) {
+if (totalDeuda < 60) {
 	console.log("Deuda pagada");
 }
-if (incrementoCuenta > 60) {
+if (totalDeuda > 60) {
 	console.log("Tengo que pagar un poco aún");
 }
 
 // Ejercicio 10: Calcula un exponente
+const base = 2;
+
+const exponente = 6;
+
+const resultadoExponente = base ** exponente;
+
+console.log("Resultado Exponente", resultadoExponente);
 
 // Ejercicio 11: Reducción de precios
 
