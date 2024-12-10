@@ -38,7 +38,7 @@ let totalChocolates = 678 ;
 let personas = 50 ;
 let resultadoDivision = ( totalChocolates % personas);
 
-console.log ( "el restante al repartir los chocolates es " + resultadoDivision)
+console.log ( "el restante al repartir los chocolates es " + resultadoDivision);
 
 
 // Ejercicio 6: ¿Es un número par?
@@ -79,7 +79,7 @@ let base = 56 ;
 let exponente = 3;
 let totalExponente = base ** exponente;
 
-console.log ( "la base " + base + " elevado a " + exponente + " es " + totalExponente)
+console.log ( "la base " + base + " elevado a " + exponente + " es " + totalExponente);
 
 // Ejercicio 11: Reducción de precios
 
@@ -122,7 +122,7 @@ let baseAncho = 189;
 let altura = 400;
 let totalArea = baseAncho * altura;
 
-console.log (totalArea)
+console.log (totalArea);
 
 // Ejercicio 17: Divide un premio
 
@@ -168,7 +168,7 @@ console.log ( precioInicial);
 let edadActual = 33;
 edadActual += 5;
 
-console.log( "en 5 años tendria " + edadActual + " años")
+console.log( "en 5 años tendria " + edadActual + " años");
 
 
 // Ejercicio 23: Cuota mensual
@@ -177,7 +177,7 @@ let deudaTotal =  50000;
 let meses = 72;
 let cuotas = deudaTotal / meses;
 
-console.log ( cuotas )
+console.log ( cuotas );
 
 
 // Ejercicio 24: Incremento antes de imprimir
@@ -185,14 +185,14 @@ console.log ( cuotas )
 let puntos = 83;
 ++puntos;
 
-console.log(puntos)
+console.log(puntos);
 
 // Ejercicio 25: Decremento después de imprimir
 
 let turnos = 38;
 --turnos;
 
-console.log(turnos)
+console.log(turnos);
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
@@ -216,7 +216,7 @@ console.log ( "su nuevo saldo es: "+ nuevoSaldo);
 let lado = 35;
 let perimetro= lado * 4;
 
-console.log ("el perimetro del cuadrado son " + perimetro)
+console.log ("el perimetro del cuadrado son " + perimetro);
 
 // Ejercicio 29: Conversión de días
 
@@ -231,7 +231,7 @@ let cuenta = 108 ;
 let propina = 0.15;
 let total = cuenta + (cuenta*propina);
 
-console.log(total)
+console.log(total);
 
 
 // Ejercicio 31: Cálculo del volumen de un cubo
@@ -239,7 +239,7 @@ console.log(total)
 let lateral =  8;
 let volumen = lateral **3
 
-console.log(volumen) 
+console.log(volumen) ;
 
 
 // Ejercicio 32: Incremento acumulado
@@ -247,7 +247,7 @@ console.log(volumen)
 let montoAhorros = 5;
 montoAhorros += 0.9 * 3;
 
-console.log(montoAhorros)
+console.log(montoAhorros);
 
 // let montoAhorros = 5;
 // montoAhorros += montoAhorros * 0.10; // Primer incremento
@@ -260,7 +260,7 @@ console.log(montoAhorros)
 let horas = 4;
 let segundos = horas * 3600 ;
 
-console.log ( horas + " horas convertidas a segundos son " + segundos )
+console.log ( horas + " horas convertidas a segundos son " + segundos );
 
 // Ejercicio 34: Cálculo de salario semanal
 
@@ -269,7 +269,7 @@ let pagoPorHora = 15;
 let diasSemana = 6;
 let salarioSemana = horasTrabajadas * pagoPorHora * diasSemana;
 
-console.log(salarioSemana)
+console.log(salarioSemana);
 
 
 // Ejercicio 35: Decremento acumulado
@@ -280,7 +280,7 @@ peso -= 2.5;
 peso -= 2.5;
 peso -= 2.5;
 
-console.log (peso)
+console.log (peso);
 
 // Ejercicio 36: Comprobación de múltiplos
 
@@ -298,13 +298,48 @@ precioGasolina += 0.25;
 precioGasolina += 0.25;
 precioGasolina += 0.25;
 
-console.log ( precioGasolina)
+console.log ( precioGasolina);
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
+let numA = 13;
+let numB = 1;
+let numC = 3;
+let numD = 45;
+let numE = 89;
+let dividendo = 5;
+let opera= (numA+numB+numC+numD+numE) /dividendo;
+
+console.log(opera);
+
 // Ejercicio 39: Cálculo del descuento acumulado
 
+
+let precioIniciando= 7689;
+precioIniciando *= 0.7;
+precioIniciando *= 0.85;
+
+console.log(precioIniciando);
+
 // Ejercicio 40: Ajuste de inventario con restos
+
+let inventarioTotal = 476790;
+let productosPorCaja = 2435;
+let dividiendo = inventarioTotal / productosPorCaja;
+ console.log()
+
+// let inventarioTotal = 476790;  // Total de productos en el inventario
+// let productosPorCaja = 2435;  // Cantidad de productos que caben en una caja
+
+// // Calcular cuántas cajas completas se pueden llenar
+// let cajasCompletas = Math.floor(inventarioTotal / productosPorCaja);
+
+// // Calcular el residuo o los productos que sobran
+// let productosSobrantes = inventarioTotal % productosPorCaja;
+
+// console.log("Cajas completas: " + cajasCompletas);
+// console.log("Productos sobrantes: " + productosSobrantes);
+
 
 // Ejercicio 41: Cálculo del interés compuesto
 
