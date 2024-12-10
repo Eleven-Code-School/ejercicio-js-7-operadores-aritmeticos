@@ -284,7 +284,21 @@ console.log (peso)
 
 // Ejercicio 36: Comprobación de múltiplos
 
+let numerito = 5785;
+if (numerito %3===0){
+    console.log ( numerito + " es multiplo de 3 ");
+}else{
+    console.log ( numerito + " no es multiplo de 3 ");
+}
+
 // Ejercicio 37: Incremento con decimales
+
+let precioGasolina = 567;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+
+console.log ( precioGasolina)
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
