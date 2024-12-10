@@ -30,7 +30,7 @@ let precio = 73;
 let iva = 21;
 
 // Cálculo del precio total incluyendo el IVA
-const precioTotalConIva = precio * (1 + iva / 100);
+const precioTotalConIva = precio * (precio * iva / 100);
 
 console.log("El precio total con el iva es del", precioTotalConIva);
 // Ejercicio 4: División de la cuenta
@@ -122,7 +122,6 @@ console.log("El resto acumulado es", cantidad);
 
 // Ejercicio 13: Incremento antes del uso
 
-
 let dias = 14;
 
 console.log("El incremento del uso de dias es de", ++dias);
@@ -160,11 +159,12 @@ let numGanadores = 4;
 premioCaadaUno = premioTotal / numGanadores;
 
 console.log("Cada uno de los ganadores toca a", premioCaadaUno);
+
 // Ejercicio 18: Incremento en el inventario
 
 let inventario = 35;
 
-inventario += inventario;
+inventario += 50;
 
 console.log("El incremento del inventario se queda en", inventario);
 
@@ -176,7 +176,6 @@ let gastoSemanal = gastoDiario * 7;
 
 console.log("El gasto semanal es de", gastoSemanal);
 // Ejercicio 20: Conversión de monedas
-
 
 let cantidadUSD = 3456; 
 
@@ -233,9 +232,11 @@ console.log("Me quedan un totral de", turnos--);
 
 let numeroDivisible = 3455;
 
-numeroDivisible %= 5;
-
-console.log("Este numero divido entre 5 da de resto", numeroDivisible);
+if (numeroDivisible % 5 === 0) {
+    console.log("El numero es divisible entre 5")
+} else {
+    console.log("El numero no es divisible entre 5");
+};
 
 // Ejercicio 27: Saldo restante después de un retiro
 
