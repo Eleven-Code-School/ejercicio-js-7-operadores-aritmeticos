@@ -197,13 +197,13 @@ Crea una variable `cuenta` y otra `propina` (15%). Calcula la cantidad final sum
 ## Nivel Algo Más Alto (10 Ejercicios)
 
 ### Ejercicio 31: Cálculo del volumen de un cubo
-Crea una variable `lado`. Calcula el volumen del cubo usando la fórmula \(lado^3\).
+Crea una variable `lado`. Calcula el volumen del cubo usando la fórmula \(lado elevado a 3\).
 - **Pista**: Usa `**`.
 
 ---
 
 ### Ejercicio 32: Incremento acumulado
-Crea una variable `montoAhorros` con un valor inicial. Incrementa el monto en 10% tres veces consecutivas.
+Crea una variable `cantidadAhorros` con un valor inicial. Incrementa la cantidad en 10% tres veces consecutivas.
 - **Pista**: Usa `+=` y multiplicación.
 
 ---
@@ -261,7 +261,7 @@ Crea una variable `inventarioTotal` y otra `productosPorCaja`. Calcula cuántos 
 ### Ejercicio 41: Cálculo del interés compuesto
 Crea tres variables: `capitalInicial`, `tasaInteres` (en decimal) y `periodos`. Calcula el monto final con la fórmula del interés compuesto: 
 \[
-monto = capitalInicial \times (1 + tasaInteres)^{periodos}
+monto = capitalInicial \veces (1 + tasaInteres) elevado a {periodos}
 \]
 - **Pista**: Usa `**` y `*`.
 
@@ -274,8 +274,7 @@ Crea una variable `numero`. Incrementa su valor 7 veces consecutivas y calcula e
 ---
 
 ### Ejercicio 43: Comparación de superficies
-Crea dos variables `ladoCuadrado` y `radioCirculo`. Calcula el área del cuadrado y el área del círculo (\(\pi \times radio^2\)) y verifica cuál es mayor.
-- **Pista**: Usa `*` y `**`.
+Crea dos variables: ladoCuadrado para representar el lado de un cuadrado y radioCirculo para representar el radio de un círculo. Calcula el área del cuadrado y el área del círculo `(𝜋 × 𝑟𝑎𝑑𝑖𝑜 al cuadrado)`
 
 ---
 
@@ -286,7 +285,7 @@ Crea una variable `productosTotales` y otra `capacidadCaja`. Calcula cuántas ca
 ---
 
 ### Ejercicio 45: Ahorro acumulado con bonificaciones
-Crea una variable `montoAhorro` y otra `bonificacion` (10%). Calcula el ahorro después de aplicar 5 bonificaciones consecutivas.
+Crea una variable `cantidadAhorro` y otra `bonificacion` (10%). Calcula el ahorro después de aplicar 5 bonificaciones consecutivas.
 - **Pista**: Usa `+=` y `*`.
 
 ---
@@ -304,10 +303,13 @@ Crea tres variables: `precioInicial`, `iva` (21%) y `descuento` (10%). Calcula e
 ---
 
 ### Ejercicio 48: Cálculo del promedio ponderado
-Crea tres variables: `nota1`, `nota2`, `nota3`, y sus respectivos pesos `peso1`, `peso2`, `peso3`. Calcula el promedio ponderado.
-\[
-promedio = \frac{(nota1 \times peso1) + (nota2 \times peso2) + (nota3 \times peso3)}{peso1 + peso2 + peso3}
-\]
+Crea tres variables para las notas: `nota1`, `nota2` y `nota3`, y otras tres variables para sus respectivos pesos: `peso1`, `peso2` y `peso3`. Calcula el promedio ponderado de la siguiente manera:
+
+1. Multiplica cada nota por su respectivo peso.
+2. Suma los resultados obtenidos.
+3. Divide esa suma entre la suma total de los pesos.
+
+El objetivo es obtener el promedio teniendo en cuenta la importancia (peso) de cada nota.
 - **Pista**: Usa `*`, `+`, y `/`.
 
 ---

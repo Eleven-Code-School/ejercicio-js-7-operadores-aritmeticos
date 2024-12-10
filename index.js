@@ -342,8 +342,27 @@ let dividiendo = inventarioTotal / productosPorCaja;
 
 
 // Ejercicio 41: Cálculo del interés compuesto
+let capitalInicial = 2000;
+let tasaInteres = 0.05;
+let periodos = 6;
+let monto = capitalInicial * (1 + tasaInteres) ** periodos; 
+// el error estaba en dejar las llaves que encierran periodos
+console.log( "este es el cslculo del interes " + monto)
 
 // Ejercicio 42: Incremento y resto en un ciclo
+let numeroIncrementa= 768;
+++numeroIncrementa;
+++numeroIncrementa;
+++numeroIncrementa;
+++numeroIncrementa;
+++numeroIncrementa;
+++numeroIncrementa;
+++numeroIncrementa;
+let restante= numeroIncrementa % 5;
+
+console.log(restante)
+
+
 
 // Ejercicio 43: Comparación de superficies
 
