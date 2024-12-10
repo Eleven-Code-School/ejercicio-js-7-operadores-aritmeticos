@@ -26,7 +26,7 @@ precioOriginal = 100;
 
 iva = 21 / 100;
 
-const precioConIva = precioOriginal * iva + precioOriginal;
+const precioConIva = (precioOriginal * iva) + precioOriginal;
 
 console.log("Precio con IVA: ", precioConIva, "€");
 
@@ -102,19 +102,19 @@ console.log("Base elevada al exponente: ", numeroElevado);
 
 let precioProducto3 = 200;
 
-const precioReducido = (precioProducto3 *= 0.9);
+precioProducto3 *= 0.9;
 
 //El 0.9 viene de que el 0.1 sería el 10% descuento.
 
-console.log("Precio reducido: ", precioReducido, "€");
+console.log("Precio reducido: ", precioProducto3, "€");
 
 // Ejercicio 12: Resto acumulado
 
 let cantidad = 5;
 
-let restoAcumulado = (cantidad %= 3);
+cantidad %= 3;
 
-console.log("Resto acumulado: ", restoAcumulado);
+console.log("Resto acumulado: ", cantidad);
 
 // Ejercicio 13: Incremento antes del uso
 
@@ -128,13 +128,13 @@ console.log("Incremento de días: ", dias);
 
 cantidad = 44;
 
-console.log("Cantidad actual: ", cantidad);
+console.log("Cantidad actual: ", cantidad--);
 
-console.log("Cantidad reduciéndose: ", --cantidad);
+console.log("Cantidad reduciéndose: ", cantidad--);
 
-console.log("Cantidad reduciéndose: ", --cantidad);
+console.log("Cantidad reduciéndose: ", cantidad--);
 
-console.log("Cantidad reduciéndose: ", --cantidad);
+console.log("Cantidad reduciéndose: ", cantidad);
 
 // Ejercicio 15: Ajuste del salario
 
@@ -212,7 +212,7 @@ let edadActual = 37;
 
 edadActual += 5;
 
-console.log("Tengo", edadActual, "años. Dentro de 5 años tendré", edadActual, "años");
+console.log("Dentro de 5 años tendré", edadActual, "años");
 
 // Ejercicio 23: Cuota mensual
 
@@ -230,15 +230,15 @@ let puntos = 15;
 
 ++puntos;
 
-console.log(puntos);
+console.log("He acumulado", puntos, "puntos");
 
 // Ejercicio 25: Decremento después de imprimir
 
 let turnos = 5;
 
-console.log("El final se acerca... ", turnos, "turnos restantes");
+console.log("Date prisa, quedan", turnos--, "turnos");
 
-console.log("El final se acerta... ", --turnos, "turnos restantes");
+console.log("El final se acerca... ", turnos, "turnos restantes");
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
@@ -249,6 +249,7 @@ if (numero % 5 === 0) {
 } else {
 	console.log("El número", numero, "no es múltiplo de entre 5");
 }
+
 // Ejercicio 27: Saldo restante después de un retiro
 
 let saldo = 5000;
@@ -279,11 +280,11 @@ console.log("En", dias, "hay", diasAHoras, "horas");
 
 let cuenta = 200;
 
-let propina = (cuenta * 15) / 100;
+let propina = cuenta * 0.15;
 
 let cuentaFinal = cuenta + propina;
 
-console.log("La cuenta final con la propina es de", cuentaFinal, "€");
+console.log("La cuenta final con  propina es de", cuentaFinal, "€");
 
 // Ejercicio 31: Cálculo del volumen de un cubo
 
@@ -387,7 +388,7 @@ let numero4 = 45;
 
 let numero5 = 61;
 
-let promedio = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+let promedio = (numero1 + numero + numero3 + numero4 + numero5) / 5;
 
 console.log("El promedio entre estos 5 números es de", promedio);
 
@@ -554,4 +555,24 @@ console.log("La nota final tras realizar el promedio ponderado entre las evaluac
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
+//Dudo del enunciado de este ejercicio
+
+numero = 729;
+
+
+
 // Ejercicio 50: Ajuste salarial acumulativo
+
+salarioInicial = 1200;
+
+let aumentoMensual = salarioInicial * 0.03;
+
+salarioAumentado = salarioInicial += aumentoMensual;
+
+console.log(salarioAumentado);
+
+aumentoMensual;
+
+console.log(salarioAumentado);
+
+
