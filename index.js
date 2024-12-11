@@ -445,6 +445,13 @@ cantidadAhorro += cantidadAhorro * bonificacion;
 console.log("El ahorro final es:", cantidadAhorro, "euros");
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
+let numeroDivisibilidad = 40;
+
+if (numero % 4 === 0 && numero % 6 === 0) {
+    console.log("El número", numeroDivisibilidad, "es divisible tanto por 4 como por 6");
+} else {
+    console.log("El número", numeroDivisibilidad, "no es divisible tanto por 4 como por 6");
+}
 
 // Ejercicio 47: Ajuste del precio con IVA y descuento
 
