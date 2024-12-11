@@ -402,6 +402,17 @@ monto = capitalInicial * (1 + tasaInteres) ** periodos;
 console.log("El interés compuesto es:", monto);
 
 // Ejercicio 42: Incremento y resto en un ciclo
+let numeroCuarentayDos = 5;
+
+++numeroCuarentayDos;
+++numeroCuarentayDos;
+++numeroCuarentayDos;
+++numeroCuarentayDos;
+++numeroCuarentayDos;
+++numeroCuarentayDos;
+++numeroCuarentayDos;
+
+console.log("El resultado es:", numeroCuarentayDos % 5);
 
 // Ejercicio 43: Comparación de superficies
 
