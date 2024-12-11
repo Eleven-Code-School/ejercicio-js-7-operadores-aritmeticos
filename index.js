@@ -343,6 +343,13 @@ peso -= 2.5;
 console.log("Peso actual", peso);
 
 // Ejercicio 36: Comprobación de múltiplos
+const numeroMultiplo = 25;
+
+if (numeroMultiplo % 3 === 0) {
+	console.log("El número", numeroMultiplo, "es múltiplo de 3");
+} else {
+	console.log("El número", numeroMultiplo, "no es múltiplo de 3");
+}
 
 // Ejercicio 37: Incremento con decimales
 
