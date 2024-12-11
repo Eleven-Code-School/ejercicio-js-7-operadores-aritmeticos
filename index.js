@@ -391,6 +391,15 @@ let productosSobrantes = inventarioTotal % productosPorCaja;
 console.log("Sobran", productosSobrantes, "productos");
 
 // Ejercicio 41: Cálculo del interés compuesto
+let capitalInicial = 500;
+
+let tasaInteres = 1.25;
+
+let periodos = 3;
+
+monto = capitalInicial * (1 + tasaInteres) ** periodos;
+
+console.log("El interés compuesto es:", monto);
 
 // Ejercicio 42: Incremento y resto en un ciclo
 
