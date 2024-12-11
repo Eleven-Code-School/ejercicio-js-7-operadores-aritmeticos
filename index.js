@@ -432,6 +432,17 @@ let cajasCompletas = productosTotales / capacidadCaja;
 console.log("Hay", Math.round(cajasCompletas), "cajas completas");
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
+let cantidadAhorro = 9000;
+
+let bonificacion = 0.10;
+
+cantidadAhorro += cantidadAhorro * bonificacion;  
+cantidadAhorro += cantidadAhorro * bonificacion;  
+cantidadAhorro += cantidadAhorro * bonificacion;  
+cantidadAhorro += cantidadAhorro * bonificacion;  
+cantidadAhorro += cantidadAhorro * bonificacion;  
+
+console.log("El ahorro final es:", cantidadAhorro, "euros");
 
 // Ejercicio 46: Comprobación de divisibilidad múltiple
 
