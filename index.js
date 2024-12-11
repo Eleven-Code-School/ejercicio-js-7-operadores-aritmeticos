@@ -415,6 +415,13 @@ let numeroCuarentayDos = 5;
 console.log("El resultado es:", numeroCuarentayDos % 5);
 
 // Ejercicio 43: Comparación de superficies
+let ladoCuadrado = 4; 
+let radioCirculo = 3;
+
+let areaCuadrado = ladoCuadrado ** 2;
+let areaCirculo = Math.PI * (radioCirculo ** 2);
+
+console.log("El área del circulo es:", areaCirculo);
 
 // Ejercicio 44: Optimización de cajas de productos
 
