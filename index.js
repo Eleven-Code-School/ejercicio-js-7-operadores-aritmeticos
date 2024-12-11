@@ -325,6 +325,7 @@ console.log(horasConversion + " horas son " + segundosConversion + " segundos");
 
 // Ejercicio 34: Cálculo de salario semanal
 
+
 // Ejercicio 35: Decremento acumulado
 
 // Ejercicio 36: Comprobación de múltiplos
