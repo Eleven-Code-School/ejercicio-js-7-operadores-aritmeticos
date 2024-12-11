@@ -307,6 +307,14 @@ volumen = ladoCubo ** 3;
 console.log("Cálculo del volumen de un cubo", volumen);
 
 // Ejercicio 32: Incremento acumulado
+let cantidadAhorros = 50;
+
+cantidadAhorros += cantidadAhorros * 3;
+cantidadAhorros += cantidadAhorros * 3;
+cantidadAhorros += cantidadAhorros * 3;
+
+console.log("Incremento acumulado", cantidadAhorros);
+
 
 // Ejercicio 33: Conversión de horas a segundos
 let horasConversion = 24;
