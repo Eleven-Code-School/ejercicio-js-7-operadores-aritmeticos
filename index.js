@@ -289,22 +289,34 @@ let periodos = 6;
 let montofinal = capitalInicial * ( 1 + tasaIntereses) ** 6;
 console.log("El monto final es" , montofinal);
 
-// Ejercicio 42: Incremento y resto en un ciclo
-let numero6 = 88;
-numero6++;
-numero6++;
-numero6++;
-numero6++;
-numero6++;
-numero6++;
-numero6++;
+// Ejercicio 42: Incremento y resto en un ciclo. EXPLICAR. 
+let numerociclo = 88;
+++numerociclo;
+++numerociclo;
+++numerociclo;
+++numerociclo;
+++numerociclo;
+++numerociclo;
+++numerociclo;
 
-let resto = numero6 % 5;
+let resto = ++numerociclo % 5;
 console.log("El resto es" , resto);
 
-// Ejercicio 43: Comparación de superficies
+// Ejercicio 43: Comparación de superficies. EXPLICAR
+let ladoCuadrado = 6;
+let radioCirculo = 8;
 
-// Ejercicio 44: Optimización de cajas de productos
+let areaCuadrado = ladoCuadrado * 2;
+let areaCirculo = Math.PI * (radioCirculo ** 2);
+console.log("El área del cuadrado es" , areaCuadrado , "el área del círculo es" , areaCirculo);
+
+
+// Ejercicio 44: Optimización de cajas de productos. EXPLICAR
+let productosTotales = 63;
+let capacidadCaja = 12;
+let cajasCompletas = Math.ceil(productosTotales / capacidadCaja);
+
+console.log("Las cajas completas son" , cajasCompletas);
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
 
