@@ -282,8 +282,25 @@ console.log("Los productos que sobran son" , inventarioFinal);
 
 //NIVEL MUY ALTO
 // Ejercicio 41: Cálculo del interés compuesto
+let capitalInicial = 280;
+let tasaIntereses = 0.4;
+let periodos = 6;
+
+let montofinal = capitalInicial * ( 1 + tasaIntereses) ** 6;
+console.log("El monto final es" , montofinal);
 
 // Ejercicio 42: Incremento y resto en un ciclo
+let numero6 = 88;
+numero6++;
+numero6++;
+numero6++;
+numero6++;
+numero6++;
+numero6++;
+numero6++;
+
+let resto = numero6 % 5;
+console.log("El resto es" , resto);
 
 // Ejercicio 43: Comparación de superficies
 
