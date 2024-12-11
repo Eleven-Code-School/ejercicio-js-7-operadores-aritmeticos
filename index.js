@@ -454,6 +454,15 @@ if (numero % 4 === 0 && numero % 6 === 0) {
 }
 
 // Ejercicio 47: Ajuste del precio con IVA y descuento
+let precioEjercicio47 = 90;
+
+let precioConIva = 0.21;
+
+let precioDescuento = 0.10;
+
+let precioFinal = precioEjercicio47 + precioConIva - precioDescuento;
+
+console.log("El precio final es:", precioFinal);
 
 // Ejercicio 48: Cálculo del promedio ponderado
 
