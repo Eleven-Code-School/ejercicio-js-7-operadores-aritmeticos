@@ -324,7 +324,13 @@ let segundosConversion = horasConversion * 3600;
 console.log(horasConversion + " horas son " + segundosConversion + " segundos");
 
 // Ejercicio 34: Cálculo de salario semanal
+let horasTrabajadas = 120;
 
+let pagoPorHora = 20;
+
+let salarioSemanal = horasTrabajadas * pagoPorHora;
+
+console.log("Cálculo de salario semanal:", salarioSemanal);
 
 // Ejercicio 35: Decremento acumulado
 
