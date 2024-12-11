@@ -424,6 +424,12 @@ let areaCirculo = Math.PI * (radioCirculo ** 2);
 console.log("El área del circulo es:", areaCirculo);
 
 // Ejercicio 44: Optimización de cajas de productos
+let productosTotales = 600;
+let capacidadCaja = 70;
+
+let cajasCompletas = productosTotales / capacidadCaja;
+
+console.log("Hay", Math.round(cajasCompletas), "cajas completas");
 
 // Ejercicio 45: Ahorro acumulado con bonificaciones
 
