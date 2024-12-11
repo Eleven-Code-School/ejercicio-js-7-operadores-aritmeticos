@@ -352,6 +352,13 @@ if (numeroMultiplo % 3 === 0) {
 }
 
 // Ejercicio 37: Incremento con decimales
+let precioGasolina = 1.48;
+
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina es", precioGasolina, "euros");
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
