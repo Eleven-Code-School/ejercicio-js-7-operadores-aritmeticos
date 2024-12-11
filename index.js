@@ -333,6 +333,14 @@ let salarioSemanal = horasTrabajadas * pagoPorHora;
 console.log("Cálculo de salario semanal:", salarioSemanal);
 
 // Ejercicio 35: Decremento acumulado
+let peso = 65;
+
+peso -= 2.5;
+peso -= 2.5;
+peso -= 2.5;
+peso -= 2.5;
+
+console.log("Peso actual", peso);
 
 // Ejercicio 36: Comprobación de múltiplos
 
