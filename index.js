@@ -1,5 +1,5 @@
 // Ejercicios de Operadores Aritméticos
-
+ //NIVEL FÁCIL
 // Ejercicio 1: Suma de productos
 const precioProducto1 = 5;
 const precioProducto2 = 20;
@@ -36,13 +36,13 @@ const chocolates = totalChocolates % personas;
 console.log("Los chocolates que sobran son" , chocolates);
 
 // Ejercicio 6: ¿Es un número par?
-const numero = 44;
+let numero = 44;
 
-if(numero % 2 == 0) {
+if(numero % 2 === 0) {
     console.log("El 44 es número par");
 }
 
-if(numero % 2 == 1) {
+if(numero % 2 === 1) {
     console.log("El número es impar");
 }
 
@@ -96,10 +96,11 @@ console.log("Se han llevado todas las tortillas que teníamos, ahora solo nos qu
 let salario = 1650;
 salario += 0.05;
 
-let  ajusteSalarial = salario += salario * 0.05;
+let  ajusteSalarial = salario += (salario * 0.05);
 console.log("El ajuste salarial es de" , ajusteSalarial);
 
 
+//NIVEL MEDIO
 // Ejercicio 16: Calcula el área de un rectángulo
 const base1 = 20;
 const altura = 14;
@@ -136,7 +137,7 @@ console.log("El valor tras la conversión es de" , conversion);
 // Ejercicio 21: Cálculo de descuentos acumulados
 let precioInicial = 80;
 precioInicial *= 0.80;
-precioInicial*= 0.90;
+precioInicial *= 0.90;
 
 console.log("El precio del pantalón con los descuentos quedaría en" , precioInicial);
 
@@ -154,39 +155,132 @@ let cuotaMensual = deudaTotal / meses;
 console.log("La cuota mensual es" , cuotaMensual);
 
 // Ejercicio 24: Incremento antes de imprimir
+let puntos = 10;
+console.log("El valor con el incremento es de" , ++puntos);
 
-// Ejercicio 25: Decremento después de imprimir
+// Ejercicio 25: Decremento después de imprimir. EXPLICAR.
+let turnos = 35;
+console.log(turnos , "turnos");
+
+turnos--;
+console.log("Después de imprimir los turnos quedan en" , turnos);
 
 // Ejercicio 26: Comprueba divisibilidad por 5
+let numeroDivisible = 45;
 
+if(numeroDivisible % 5 === 0) {
+    console.log("El 45 es divisible por 5");
+} else {
+    console.log("El 45 no es divisible por 5");
+}
 // Ejercicio 27: Saldo restante después de un retiro
+let saldo = 843;
+let retiro = 286;
+
+let SaldoDespuesDeRetiro = saldo - retiro;
+console.log("El saldo que me queda después del retiro es de" , SaldoDespuesDeRetiro);
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
+let lado = 102;
+let perimetro = lado * 4;
+console.log("El perímetro de un cuadrado es" , perimetro);
 
 // Ejercicio 29: Conversión de días
+let dias1 = 8;
+let horas = 24;
+let conversionDias = dias1 * horas;
+console.log("8 días tienen" , conversionDias , "horas");
 
 // Ejercicio 30: Cálculo de propinas
+let cuenta = 280;
+let propina = 0.15;
+let cantidadPropina = cuenta + (cuenta * propina);
 
+console.log("La cantidad con la propina añadida es" , cantidadPropina);
+
+//NIVEL ALGO MÁS ALTO
 // Ejercicio 31: Cálculo del volumen de un cubo
+let ladoCubo = 6;
+let volumen = ladoCubo ** 3;
+console.log("El volumen del cubo es" , volumen);
 
 // Ejercicio 32: Incremento acumulado
+let cantidadAhorros = 1200;
+cantidadAhorros += cantidadAhorros * 0.10;
+cantidadAhorros += cantidadAhorros * 0.10;
+cantidadAhorros += cantidadAhorros * 0.10;
+
+console.log("La cantidad con el incremento acumulado es" , cantidadAhorros);
 
 // Ejercicio 33: Conversión de horas a segundos
+let horas1 = 18;
+let segundos = 3600;
+let conversionHorasASegundos = horas1 * segundos;
+
+console.log("La conversión de horas a segundos es" , conversionHorasASegundos);
 
 // Ejercicio 34: Cálculo de salario semanal
+let horasTrabajadas = 40;
+let pagoPorHora = 13.5;
+let salarioSemanal = horasTrabajadas * pagoPorHora;
+
+console.log("El salario semanal es de" , salarioSemanal);
 
 // Ejercicio 35: Decremento acumulado
+let peso = 88;
+peso -= 2.5;
+peso -= 2.5;
+peso -= 2.5;
+peso -= 2.5;
+
+console.log("El peso acumulado es" , peso);
+// Podría ser esta opción también?
+//let peso = 88;
+//peso -= 2.5 * 4;
+
 
 // Ejercicio 36: Comprobación de múltiplos
+let numeroMultiple = 160;
+
+if(numeroMultiple % 3 === 0) {
+    console.log("El" , numeroMultiple , "es múltiplo de 3");
+} else {
+    console.log("El" , numeroMultiple , "no es múltiplo de 3");
+}
 
 // Ejercicio 37: Incremento con decimales
+let precioGasolina = 1.43;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+precioGasolina += 0.25;
+
+console.log("El precio de la gasolina está en" , precioGasolina);
 
 // Ejercicio 38: Calcula el promedio de 5 números
+let numero1 = 12;
+let numero2 = 4;
+let numero3 = 6;
+let numero4 = 18;
+let numero5 = 20;
+
+let promedio = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+console.log("El promedio es" , promedio);
 
 // Ejercicio 39: Cálculo del descuento acumulado
+let precioInicio = 68;
+precioInicio *= 0.70;
+precioInicio *= 0.85;
+
+console.log("Con los dos descuentos consecutivos la chaqueta se queda en" , precioInicio , "euros");
 
 // Ejercicio 40: Ajuste de inventario con restos
+let inventarioTotal = 1400;
+let productosPorCaja = 25;
 
+let inventarioFinal = inventarioTotal / productosPorCaja;
+console.log("Los productos que sobran son" , inventarioFinal);
+
+//NIVEL MUY ALTO
 // Ejercicio 41: Cálculo del interés compuesto
 
 // Ejercicio 42: Incremento y resto en un ciclo
