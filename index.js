@@ -498,3 +498,22 @@ raizCubica = numeroRaiz / 3;
 console.log("La aproximación de la raíz cubica de 350 es:", raizCubica);
 
 // Ejercicio 50: Ajuste salarial acumulativo
+let salarioInicial = 1500;
+
+let salarioFinal = salarioInicial;
+
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+salarioFinal += salarioFinal * 0.3;
+
+console.log("El salario final es:", salarioFinal, "euros");
+
