@@ -485,5 +485,16 @@ promedioPonderado / sumaPesos;
 console.log("El promedio ponderado es:", promedioPonderado);
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
+let numeroRaiz = 390;
+
+let raizCubica = numeroRaiz;
+
+raizCubica = numeroRaiz / 3;
+raizCubica = numeroRaiz / 3;
+raizCubica = numeroRaiz / 3;
+raizCubica = numeroRaiz / 3;
+raizCubica = numeroRaiz / 3;
+
+console.log("La aproximación de la raíz cubica de 350 es:", raizCubica);
 
 // Ejercicio 50: Ajuste salarial acumulativo
