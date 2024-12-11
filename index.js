@@ -134,7 +134,10 @@ if (precioProducto > 5) {
 }
 
 // Ejercicio 12: Resto acumulado
-const cantidad = 10 % 3;
+let cantidad = 5;
+
+// CORRECCIÓN
+cantidad %= 3;
 
 console.log("Resultado resto acumulado", cantidad);
 
@@ -150,24 +153,10 @@ let dias = 10;
 
 console.log("Incremento +1 día", ++dias);
 
-if (dias < 1) {
-	console.log("Son pocos días");
-}
-if (dias > 1) {
-	console.log("Son muchos días");
-}
-
 // Ejercicio 14: Decremento después del uso
 let cantidadDecremento = 8;
 
 console.log("Decremento -1 cantidad", --cantidadDecremento);
-
-if (cantidadDecremento < 1) {
-	console.log("Es poca cantidad");
-}
-if (cantidadDecremento > 1) {
-	console.log("Es mucha cantidad");
-}
 
 // Ejercicio 15: Ajuste del salario
 let salario = 3000;
@@ -178,11 +167,6 @@ salario += subidaSalario;
 
 console.log("Subida Salario", salario);
 
-if (salario < 3000) {
-	console.log("Podrían subirlo un poco más");
-} else if (salario > 3000) {
-	console.log("Que sueldazo");
-}
 
 // Ejercicio 16: Calcula el área de un rectángulo
 const baseTriangulo = 10;
@@ -209,24 +193,13 @@ inventario += 50;
 
 console.log("Incremento de inventario", inventario);
 
-if (salario < 100) {
-	console.log("Nos falta material");
-} else if (salario > 100) {
-	console.log("Vamos bien de inventario");
-}
 
 // Ejercicio 19: Gasto semanal
 const gastoDiario = 20;
 
-const gastoSemanal = gastoDiario * 7;
+const gastoSemanal = gastoDiario * 7; 
 
 console.log("Gasto semanal", gastoSemanal);
-
-if (gastoSemanal < 50) {
-	console.log("Si seguimos así podemos ahorrar");
-} else if (gastoSemanal > 50) {
-	console.log("Deberíamos ajustar el gasto semanal");
-}
 
 // Ejercicio 20: Conversión de monedas
 let cantidadUSD = 20;
@@ -238,7 +211,7 @@ let conversionMoneda = cantidadUSD * tasaCambio;
 console.log("La cantidad convertida es", conversionMoneda, "euros");
 
 // Ejercicio 21: Cálculo de descuentos acumulados
-let precioInicial = 200;
+let precioInicial = 100;
 
 let descuento1 = precioInicial * 0.2;
 precioInicial -= descuento1;
@@ -248,18 +221,19 @@ precioInicial -= descuento2;
 
 console.log("Precio final", precioInicial);
 
+let precioInicial2 = 100;
+
+precioInicial2 *= 0.8;
+precioInicial2 *= 0.9;
+
+console.log("Precio final 2", precioInicial2);
+
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 let edadActual = 28;
 
 edadActual += 5;
 
 console.log("En 5 años tendré", edadActual, "años");
-
-if (edadActual > 30) {
-	console.log("Que depresión");
-} else if (edadActual < 30) {
-	console.log("Aquí me tendría que quedar");
-}
 
 // Ejercicio 23: Cuota mensual
 const deudaTotal = 120;
@@ -270,35 +244,26 @@ const cuotaMensual = deudaTotal / meses;
 
 console.log("La cuota mensual es de", cuotaMensual, "euros");
 
-if (cuotaMensual > 30) {
-	console.log("Ya podría ser menos €");
-} else if (cuotaMensual < 30) {
-	console.log("Está bien, puedo pagarlo poco a poco");
-}
-
 // Ejercicio 24: Incremento antes de imprimir
 let puntos = 60;
 
 console.log("Tengo", ++puntos, "puntos");
 
-if (puntos > 30) {
-	console.log("Dentro de poco consigo el premio");
-} else if (puntos < 30) {
-	console.log("Qué poquitos");
-}
-
 // Ejercicio 25: Decremento después de imprimir
 let turno = 5;
 
-console.log("Tengo", --turno, "turnos");
-
-if (turno > 10) {
-	console.log("Qué pereza");
-} else if (turno < 2) {
-	console.log("Bueno son pocos");
-}
+console.log("Tengo", turno--, "turnos");
 
 // Ejercicio 26: Comprueba divisibilidad por 5
+const numeroResto = 25;
+
+if (numeroResto % 5 === 0) {
+	console.log("Es divisible", numeroResto);
+}
+
+if (numeroResto % 5 !== 0) {
+	console.log("No es divisible", numeroResto);
+}
 
 // Ejercicio 27: Saldo restante después de un retiro
 const saldo = 60;
@@ -321,7 +286,9 @@ let diasConversion = 7;
 
 let horas = diasConversion * 24;  
 
-console.log(diasConversion + " días son " + horas + " horas");
+let minutos = horas * 60;
+
+console.log(diasConversion + " días son " + horas + " horas y", minutos, "minutos");
 
 // Ejercicio 30: Cálculo de propinas
 let cuenta = 100; 
@@ -333,10 +300,20 @@ let totalConPropina = cuenta + propina;
 console.log("El total es", totalConPropina, "euros");
 
 // Ejercicio 31: Cálculo del volumen de un cubo
+let ladoCubo = 4;
+
+volumen = ladoCubo ** 3;
+
+console.log("Cálculo del volumen de un cubo", volumen);
 
 // Ejercicio 32: Incremento acumulado
 
 // Ejercicio 33: Conversión de horas a segundos
+let horasConversion = 24;
+
+let segundosConversion = horasConversion * 3600;  
+
+console.log(horasConversion + " horas son " + segundosConversion + " segundos");
 
 // Ejercicio 34: Cálculo de salario semanal
 
