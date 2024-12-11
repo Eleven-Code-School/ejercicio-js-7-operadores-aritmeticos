@@ -465,6 +465,24 @@ let precioFinal = precioEjercicio47 + precioConIva - precioDescuento;
 console.log("El precio final es:", precioFinal);
 
 // Ejercicio 48: Cálculo del promedio ponderado
+let nota1 = 6;
+let nota2 = 8;
+let nota3 = 5;
+
+let peso1 = 30;
+let peso2 = 50;
+let peso3 = 20;
+
+nota1 * peso1;
+nota2 * peso2;
+nota3 * peso3;
+
+let promedioPonderado = nota1 + nota2 + nota3;
+let sumaPesos = peso1 + peso2 + peso3;
+
+promedioPonderado / sumaPesos;
+
+console.log("El promedio ponderado es:", promedioPonderado);
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
 
