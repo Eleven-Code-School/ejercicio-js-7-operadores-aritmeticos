@@ -374,8 +374,21 @@ totalSuma / 5;
 console.log("El promedio es:", totalSuma);
 
 // Ejercicio 39: Cálculo del descuento acumulado
+let precioInicial3 = 50;
+
+precioInicial3 *= 0.70;
+precioInicial3 *= 0.85;
+
+console.log("Descuento acumulado:", precioInicial3);
 
 // Ejercicio 40: Ajuste de inventario con restos
+let inventarioTotal = 2010;
+
+let productosPorCaja = 50;
+
+let productosSobrantes = inventarioTotal % productosPorCaja;
+
+console.log("Sobran", productosSobrantes, "productos");
 
 // Ejercicio 41: Cálculo del interés compuesto
 
