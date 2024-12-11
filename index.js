@@ -361,6 +361,17 @@ precioGasolina += 0.25;
 console.log("El precio de la gasolina es", precioGasolina, "euros");
 
 // Ejercicio 38: Calcula el promedio de 5 números
+let numeroUno = 20;
+let numeroDos = 30;
+let numeroTres = 80;
+let numeroCuatro = 10;
+let numeroCinco = 5;
+
+let totalSuma = numeroUno + numeroDos + numeroTres + numeroCuatro + numeroCinco;
+
+totalSuma / 5;
+
+console.log("El promedio es:", totalSuma);
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
