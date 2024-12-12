@@ -79,23 +79,3 @@
 // Ejercicio 39: Cálculo del descuento acumulado
 
 // Ejercicio 40: Ajuste de inventario con restos
-
-// Ejercicio 41: Cálculo del interés compuesto
-
-// Ejercicio 42: Incremento y resto en un ciclo
-
-// Ejercicio 43: Comparación de superficies
-
-// Ejercicio 44: Optimización de cajas de productos
-
-// Ejercicio 45: Ahorro acumulado con bonificaciones
-
-// Ejercicio 46: Comprobación de divisibilidad múltiple
-
-// Ejercicio 47: Ajuste del precio con IVA y descuento
-
-// Ejercicio 48: Cálculo del promedio ponderado
-
-// Ejercicio 49: Cálculo de la raíz cúbica aproximada
-
-// Ejercicio 50: Ajuste salarial acumulativo
