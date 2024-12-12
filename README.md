@@ -197,13 +197,13 @@ Crea una variable `cuenta` y otra `propina` (15%). Calcula la cantidad final sum
 ## Nivel Algo Más Alto (10 Ejercicios)
 
 ### Ejercicio 31: Cálculo del volumen de un cubo
-Crea una variable `lado`. Calcula el volumen del cubo usando la fórmula \(lado^3\).
+Crea una variable `lado`. Calcula el volumen del cubo usando la fórmula \(lado elevado a 3\).
 - **Pista**: Usa `**`.
 
 ---
 
 ### Ejercicio 32: Incremento acumulado
-Crea una variable `montoAhorros` con un valor inicial. Incrementa el monto en 10% tres veces consecutivas.
+Crea una variable `cantidadAhorros` con un valor inicial. Incrementa la cantidad en 10% tres veces consecutivas.
 - **Pista**: Usa `+=` y multiplicación.
 
 ---
