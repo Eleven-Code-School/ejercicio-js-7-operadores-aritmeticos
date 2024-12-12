@@ -22,7 +22,7 @@
 // Ejercicio 3: Calcula el IVA
 
     // let iva = (precio * 21) / 100;
-    let iva = precio * 0.21;
+    let iva = precio * 1.21;
 
     console.log("3 = ", iva);
     
@@ -82,7 +82,7 @@
 
     let exponencial = var1 ** var2;
 
-    console.log("10 = ",exponencial);
+    console.log("10 = ",exponencial.toFixed(2));
 
 // Ejercicio 11: Reducción de precios
 
@@ -105,7 +105,7 @@
     
 // Ejercicio 14: Decremento después del uso
 
-    --precioFinal;
+    precioFinal--;
 
     console.log("14 = ", precioFinal);
 
@@ -113,7 +113,7 @@
 
     let salario = 1200;
 
-    salario *= 1.05;
+    salario *= 1.05; //es igual a : salario += salario + (salario * 0.5)
 
     console.log("15 = ", salario);
     
@@ -193,15 +193,15 @@
 
 // Ejercicio 25: Decremento después de imprimir
 
-    --cuotaMensual;
+    cuotaMensual--;
 
     console.log("25 =",cuotaMensual,"€ al mes.");
 
 // Ejercicio 26: Comprueba divisibilidad por 5
 
-    let divisibilidad = cuotaMensual / 5;
+    let resto = cuotaMensual % 5;
 
-    if (divisibilidad === 0) {
+    if (resto === 0) {
         console.log("26 = El numero anterior SI es divisible entre 5");
         
     } else {
@@ -259,7 +259,7 @@
 
 // Ejercicio 33: Conversión de horas a segundos
 
-    let totalSemana = semana * 3600;
+    let totalSemana = dias * horas * minutos * segundos;
 
     // let totalSemana = dias * horas * minutos * segundos;
 
@@ -306,13 +306,13 @@
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
-    const c = 1;
-    const d = 2;
-    const e = 3;
-    const f = 4;
-    const g = 5;
+    const numero1 = 1;
+    const numero22 = 2;
+    const numero3 = 3;
+    const numero4 = 4;
+    const numero5 = 5;
 
-    let promedio = (c + d + e + f+ g)/5;
+    let promedio = (numero1 + numero22 + numero3 + numero4+ numero5)/5;
 
     console.log("38 = El promedio es", promedio);
 
@@ -339,12 +339,11 @@
     const interes = 0.03;
     const periodo = 12;
 
-    let intcomp = capIni * (1 + interes) ** periodo
+    let intcomp = (capIni * (1 + interes) ** periodo)
 
     console.log("41 = El interes compuesto de",capIni,"€ despues de",
         periodo,"meses, es de",intcomp.toFixed(2),"€");
     
-
 
 // Ejercicio 42: Incremento y resto en un ciclo
     
@@ -426,19 +425,19 @@
     
 // Ejercicio 48: Cálculo del promedio ponderado
 
-    let nota1 = 1;
-    let nota2 = 3;
-    let nota3 = 8;
+    let puntuacionLinea = 86;
+    let puntuacionClipping = 70;
+    let puntuacionAngulo = 89;
 
-    let peso1 = 2;
-    let peso2 = 4;
-    let peso3 = 5;
+    let peso1 = 0.5;
+    let peso2 = 0.2;
+    let peso3 = 0.3;
 
-    let prompond = ((nota1 * peso1) + (nota2 * peso2) + (nota3 * peso3)) 
+    let prompond = ((puntuacionLinea * peso1) + (puntuacionClipping * peso2) + (puntuacionAngulo * peso3)) 
                     /
                     (peso1 + peso2 + peso3);
 
-    console.log("48 = El promedio ponderado es:",Math.ceil(prompond));
+    console.log("48 = El promedio ponderado es o puntuacion TQ:",Math.ceil(prompond));
     
 
 // Ejercicio 49: Cálculo de la raíz cúbica aproximada
