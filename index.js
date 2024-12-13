@@ -38,9 +38,16 @@ console.log ("La cuenta sale a " + cuentaDividida + " euros cada uno")
 
 // Ejercicio 5: Resto de una división
 
+const totalChocolates = 63;
+const personas = 4;
 
+const chocolatesSobrantes = totalChocolates % personas;
+
+console.log ("Sobran " + chocolatesSobrantes + " chocolates")
 
 // Ejercicio 6: ¿Es un número par?
+
+
 
 // Ejercicio 7: Multiplica ingredientes
 
