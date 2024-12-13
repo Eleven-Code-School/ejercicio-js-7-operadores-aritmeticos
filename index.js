@@ -329,7 +329,15 @@ console.log ("Incremento de la gasolina " + precioGasolina)
 
 // Ejercicio 38: Calcula el promedio de 5 números
 
+let numero1 = 10;
+let numero2 = 20;
+let numero3 = 30;
+let numero4 = 40;
+let numero5 = 50;
 
+let totalNumeros = numero1 + numero2 + numero3 + numero4 + numero5 / 5;
+
+console.log ("El promedio es de " + totalNumeros)
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
