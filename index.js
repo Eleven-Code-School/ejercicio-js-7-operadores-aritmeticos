@@ -117,6 +117,12 @@ console.log ("Incremento " + dias)
 
 // Ejercicio 14: Decremento después del uso
 
+cantidad = 60;
+
+--cantidad
+
+console.log ("Decremento " + cantidad)
+
 // Ejercicio 15: Ajuste del salario
 
 // Ejercicio 16: Calcula el área de un rectángulo
