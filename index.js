@@ -146,6 +146,12 @@ console.log ("El area es de " + area)
 
 // Ejercicio 18: Incremento en el inventario
 
+let inventario = 30;
+
+inventario += 50;
+
+console.log ("Incremento en el inventario " + inventario)
+
 // Ejercicio 19: Gasto semanal
 
 // Ejercicio 20: Conversión de monedas
