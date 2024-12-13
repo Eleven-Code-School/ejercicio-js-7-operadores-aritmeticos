@@ -133,7 +133,16 @@ console.log ("Salario + incremento es igual a " + salario)
 
 // Ejercicio 16: Calcula el área de un rectángulo
 
+base = 20;
+let altura = 10;
+
+let area = base * altura;
+
+console.log ("El area es de " + area)
+
 // Ejercicio 17: Divide un premio
+
+
 
 // Ejercicio 18: Incremento en el inventario
 
