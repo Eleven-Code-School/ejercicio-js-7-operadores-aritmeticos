@@ -76,6 +76,12 @@ console.log ("Incrementando 10 al total de ahorros se queda en "  + totalAhorros
 
 // Ejercicio 9: Decremento de una deuda
 
+let deuda = 40;
+
+deuda -= 15;
+
+console.log ("Valor reducido despues de la deuda " + deuda)
+
 // Ejercicio 10: Calcula un exponente
 
 // Ejercicio 11: Reducción de precios
