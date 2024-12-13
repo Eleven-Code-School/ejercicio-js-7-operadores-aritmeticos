@@ -47,7 +47,7 @@ console.log ("Sobran " + chocolatesSobrantes + " chocolates")
 
 // Ejercicio 6: ¿Es un número par?
 
-const numero = 627;
+let numero = 627;
 
 if (numero % 2 === 0){
     console.log ("El numero es par")
@@ -220,6 +220,16 @@ turnos = --turnos;
 console.log ("Turnos " + turnos)
 
 // Ejercicio 26: Comprueba divisibilidad por 5
+
+numero = 101;
+
+if (numero % 5 === 0) {
+    console.log ("El número es divisible por 5")
+}
+
+if (numero % 5 === 1) {
+    console.log ("El número no es divisible por 5")
+}
 
 // Ejercicio 27: Saldo restante después de un retiro
 
