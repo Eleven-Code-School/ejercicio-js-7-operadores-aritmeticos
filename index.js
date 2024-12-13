@@ -125,6 +125,12 @@ console.log ("Decremento " + cantidad)
 
 // Ejercicio 15: Ajuste del salario
 
+let salario = 5000;
+
+salario += salario * 5 / 100;
+
+console.log ("Salario + incremento es igual a " + salario)
+
 // Ejercicio 16: Calcula el área de un rectángulo
 
 // Ejercicio 17: Divide un premio
