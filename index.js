@@ -176,7 +176,15 @@ console.log ("La conversión de divisa cuesta " + conversionDeMoneda)
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
+let precioInicial = 100;
+
+precioInicial *= 0.30;
+
+console.log ("El descuento incluido es de " + precioInicial)
+
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
+
+
 
 // Ejercicio 23: Cuota mensual
 
