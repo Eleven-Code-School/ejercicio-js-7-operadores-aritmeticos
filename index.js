@@ -9,11 +9,18 @@ const precioTotal = precioProducto1 + precioProducto2;
 
 console.log ("El precio del producto es de " + precioTotal + " euros")
 
-// Ejercicio 2: Descuento en una compraç
+// Ejercicio 2: Descuento en una compra
 
+const precioOriginal = 8;
+let descuento = 2;
 
+const precioFinalConDescuento = precioOriginal - descuento;
+
+console.log ("El precio final aplicando el descuento es de "  + precioFinalConDescuento + " euros")
 
 // Ejercicio 3: Calcula el IVA
+
+
 
 // Ejercicio 4: División de la cuenta
 
