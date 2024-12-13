@@ -47,7 +47,15 @@ console.log ("Sobran " + chocolatesSobrantes + " chocolates")
 
 // Ejercicio 6: ¿Es un número par?
 
+const numero = 627;
 
+if (numero % 2 === 0){
+    console.log ("El numero es par")
+}
+
+if (numero % 2 === 1) {
+    console.log ("El numero es impar")
+}
 
 // Ejercicio 7: Multiplica ingredientes
 
