@@ -203,7 +203,11 @@ console.log ("La deuda será de " + cuotaMensual + " euros cada mes")
 
 // Ejercicio 24: Incremento antes de imprimir
 
+let puntos = 10000;
 
+puntos = ++puntos;
+
+console.log (puntos)
 
 // Ejercicio 25: Decremento después de imprimir
 
