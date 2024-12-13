@@ -348,3 +348,9 @@ precioInicial *= 0.30 + 0.15;
 console.log ("El descuento es de " + precioInicial)
 
 // Ejercicio 40: Ajuste de inventario con restos
+
+let inventarioTotal = 80;
+let productosPorCaja = 6;
+
+console.log ("Sobran " + (inventarioTotal % productosPorCaja) + " productos")
+
