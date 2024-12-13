@@ -250,6 +250,12 @@ console.log ("El perímetro es de " + lado + " cm")
 
 // Ejercicio 29: Conversión de días
 
+dias = 9;
+
+dias *= 24;
+
+console.log ("En 9 días hay " + dias + " horas")
+
 // Ejercicio 30: Cálculo de propinas
 
 // Ejercicio 31: Cálculo del volumen de un cubo
