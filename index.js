@@ -321,7 +321,15 @@ if (numero % 3 !== 0) {
 
 // Ejercicio 37: Incremento con decimales
 
+let precioGasolina = 10;
+
+precioGasolina += 0.25 * 3;
+
+console.log ("Incremento de la gasolina " + precioGasolina)
+
 // Ejercicio 38: Calcula el promedio de 5 números
+
+
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
