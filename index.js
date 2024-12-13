@@ -292,6 +292,13 @@ console.log ("Son " + horas + " segundos")
 
 // Ejercicio 34: Cálculo de salario semanal
 
+let horasTrabajadas = 72;
+let pagoPorHora = 12;
+
+let pagoSemanal = horasTrabajadas * pagoPorHora;
+
+console.log ("El salario semanal es de " + pagoSemanal + " euros")
+
 // Ejercicio 35: Decremento acumulado
 
 // Ejercicio 36: Comprobación de múltiplos
