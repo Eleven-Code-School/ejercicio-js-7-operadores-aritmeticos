@@ -20,7 +20,12 @@ console.log ("El precio final aplicando el descuento es de "  + precioFinalConDe
 
 // Ejercicio 3: Calcula el IVA
 
+const precio = 500;
+const iva = 21 / 100;
 
+const precioTotalConIva = precio * iva + precio;
+
+console.log ("El precio total con el iva es de " + precioTotalConIva + " euros")
 
 // Ejercicio 4: División de la cuenta
 
