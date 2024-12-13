@@ -93,6 +93,12 @@ console.log ("La base elevada al exponente es igual a " + baseXExponente)
 
 // Ejercicio 11: Reducción de precios
 
+let precioProducto = 30;
+
+precioProducto *= 0.9;
+
+console.log ("El precio del producto con un 10% de descuento es de " + precioProducto)
+
 // Ejercicio 12: Resto acumulado
 
 // Ejercicio 13: Incremento antes del uso
