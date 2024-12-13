@@ -211,6 +211,14 @@ console.log (puntos)
 
 // Ejercicio 25: Decremento después de imprimir
 
+let turnos = 4;
+
+console.log ("Turnos " + turnos)
+
+turnos = --turnos;
+
+console.log ("Turnos " + turnos)
+
 // Ejercicio 26: Comprueba divisibilidad por 5
 
 // Ejercicio 27: Saldo restante después de un retiro
