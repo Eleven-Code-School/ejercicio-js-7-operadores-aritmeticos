@@ -242,6 +242,12 @@ console.log ("El saldo es de " + saldo)
 
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
+let lado = 20;
+
+lado *= 4;
+
+console.log ("El perímetro es de " + lado + " cm")
+
 // Ejercicio 29: Conversión de días
 
 // Ejercicio 30: Cálculo de propinas
