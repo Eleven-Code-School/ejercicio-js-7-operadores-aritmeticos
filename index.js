@@ -167,7 +167,12 @@ console.log ("El gasto semanal es de " + gastoSemanal)
 
 // Ejercicio 20: Conversión de monedas
 
+let cantidadUSD = 40;
+let tasaCambio = 2;
 
+let conversionDeMoneda = cantidadUSD * tasaCambio;
+
+console.log ("La conversión de divisa cuesta " + conversionDeMoneda)
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
