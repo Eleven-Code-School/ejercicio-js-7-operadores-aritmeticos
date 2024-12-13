@@ -109,6 +109,12 @@ console.log ("El sobrante de la division entre 3 es de " + cantidad)
 
 // Ejercicio 13: Incremento antes del uso
 
+let dias = 30;
+
+++dias
+
+console.log ("Incremento " + dias)
+
 // Ejercicio 14: Decremento después del uso
 
 // Ejercicio 15: Ajuste del salario
