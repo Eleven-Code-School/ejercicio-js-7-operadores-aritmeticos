@@ -101,6 +101,12 @@ console.log ("El precio del producto con un 10% de descuento es de " + precioPro
 
 // Ejercicio 12: Resto acumulado
 
+let cantidad = 40;
+
+cantidad %= 3;
+
+console.log ("El sobrante de la division entre 3 es de " + cantidad)
+
 // Ejercicio 13: Incremento antes del uso
 
 // Ejercicio 14: Decremento después del uso
