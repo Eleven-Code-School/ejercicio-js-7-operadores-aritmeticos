@@ -341,4 +341,10 @@ console.log ("El promedio es de " + totalNumeros)
 
 // Ejercicio 39: Cálculo del descuento acumulado
 
+precioInicial = 80;
+
+precioInicial *= 0.30 + 0.15;
+
+console.log ("El descuento es de " + precioInicial)
+
 // Ejercicio 40: Ajuste de inventario con restos
