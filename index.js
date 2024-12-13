@@ -258,6 +258,14 @@ console.log ("En 9 días hay " + dias + " horas")
 
 // Ejercicio 30: Cálculo de propinas
 
+let cuenta = 400;
+let propina = 0.15;
+
+propina = cuenta * propina;
+cuenta = cuenta + propina;
+
+console.log ("La cuenta es de " + cuenta + " euros con propina incluida")
+
 // Ejercicio 31: Cálculo del volumen de un cubo
 
 // Ejercicio 32: Incremento acumulado
