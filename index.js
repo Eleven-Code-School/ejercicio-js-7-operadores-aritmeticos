@@ -68,6 +68,12 @@ console.log ("La cantidad de gramos duplicada de harina es de " + cantidadDeRece
 
 // Ejercicio 8: Incremento en la cuenta
 
+let totalAhorros = 10;
+
+totalAhorros += 10;
+
+console.log ("Incrementando 10 al total de ahorros se queda en "  + totalAhorros)
+
 // Ejercicio 9: Decremento de una deuda
 
 // Ejercicio 10: Calcula un exponente
