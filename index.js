@@ -268,6 +268,12 @@ console.log ("La cuenta es de " + cuenta + " euros con propina incluida")
 
 // Ejercicio 31: Cálculo del volumen de un cubo
 
+lado = 4;
+
+lado = lado ** 3;
+
+console.log ("El volumen del cubo es de " + lado)
+
 // Ejercicio 32: Incremento acumulado
 
 // Ejercicio 33: Conversión de horas a segundos
