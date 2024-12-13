@@ -233,6 +233,13 @@ if (numero % 5 === 1) {
 
 // Ejercicio 27: Saldo restante después de un retiro
 
+let saldo = 1000;
+let retiro = 200;
+
+saldo -= retiro;
+
+console.log ("El saldo es de " + saldo)
+
 // Ejercicio 28: Cálculo del perímetro de un cuadrado
 
 // Ejercicio 29: Conversión de días
