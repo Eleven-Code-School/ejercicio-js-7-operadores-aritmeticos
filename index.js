@@ -29,7 +29,16 @@ console.log ("El precio total con el iva es de " + precioTotalConIva + " euros")
 
 // Ejercicio 4: División de la cuenta
 
+const totalCuenta = 200;
+const numPersonas = 8;
+
+const cuentaDividida = totalCuenta / numPersonas;
+
+console.log ("La cuenta sale a " + cuentaDividida + " euros cada uno")
+
 // Ejercicio 5: Resto de una división
+
+
 
 // Ejercicio 6: ¿Es un número par?
 
