@@ -142,7 +142,12 @@ console.log ("El area es de " + area)
 
 // Ejercicio 17: Divide un premio
 
+let premioTotal = 600;
+let numDeGanadores = 3;
 
+let premioTotalDividido = premioTotal / numDeGanadores;
+
+console.log ("El premio total ya repartido es de " + premioTotalDividido)
 
 // Ejercicio 18: Incremento en el inventario
 
