@@ -301,7 +301,15 @@ console.log ("El salario semanal es de " + pagoSemanal + " euros")
 
 // Ejercicio 35: Decremento acumulado
 
+let peso = 80;
+
+peso -= 2.5 * 4;
+
+console.log ("El peso después de 4 semanas es de " + peso + " kg")
+
 // Ejercicio 36: Comprobación de múltiplos
+
+
 
 // Ejercicio 37: Incremento con decimales
 
