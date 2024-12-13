@@ -192,7 +192,18 @@ console.log ("Mi edad dentro de 5 años será de " + edadActual + " años")
 
 // Ejercicio 23: Cuota mensual
 
+let deudaTotal = 200;
+let meses = 4;
+
+// deudaTotal /= meses;
+
+let cuotaMensual = deudaTotal / meses;
+
+console.log ("La deuda será de " + cuotaMensual + " euros cada mes")
+
 // Ejercicio 24: Incremento antes de imprimir
+
+
 
 // Ejercicio 25: Decremento después de imprimir
 
