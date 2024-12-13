@@ -59,6 +59,13 @@ if (numero % 2 === 1) {
 
 // Ejercicio 7: Multiplica ingredientes
 
+const cantidadOriginal = 20;
+const factorMultiplicacion = 2;
+
+const cantidadDeRecetaDuplicada = cantidadOriginal * factorMultiplicacion;
+
+console.log ("La cantidad de gramos duplicada de harina es de " + cantidadDeRecetaDuplicada)
+
 // Ejercicio 8: Incremento en la cuenta
 
 // Ejercicio 9: Decremento de una deuda
