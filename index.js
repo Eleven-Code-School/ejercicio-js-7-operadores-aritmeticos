@@ -309,7 +309,15 @@ console.log ("El peso después de 4 semanas es de " + peso + " kg")
 
 // Ejercicio 36: Comprobación de múltiplos
 
+numero = 100;
 
+if (numero % 3 === 0) {
+    console.log ("El número es múltiplo de 3")
+}
+
+if (numero % 3 !== 0) {
+    console.log ("El número no es múltiplo de 3")
+}
 
 // Ejercicio 37: Incremento con decimales
 
