@@ -276,7 +276,19 @@ console.log ("El volumen del cubo es de " + lado)
 
 // Ejercicio 32: Incremento acumulado
 
+let cantidadAhorros = 400;
+
+cantidadAhorros += cantidadAhorros * 0.9 * 3;
+
+console.log ("Incremento acumulado " + cantidadAhorros)
+
 // Ejercicio 33: Conversión de horas a segundos
+
+let horas = 24;
+
+horas = horas * 3600;
+
+console.log ("Son " + horas + " segundos")
 
 // Ejercicio 34: Cálculo de salario semanal
 
