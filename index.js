@@ -159,7 +159,15 @@ console.log ("Incremento en el inventario " + inventario)
 
 // Ejercicio 19: Gasto semanal
 
+let gastoDiario = 40;
+
+gastoSemanal = gastoDiario * 7;
+
+console.log ("El gasto semanal es de " + gastoSemanal)
+
 // Ejercicio 20: Conversión de monedas
+
+
 
 // Ejercicio 21: Cálculo de descuentos acumulados
 
