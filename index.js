@@ -184,7 +184,11 @@ console.log ("El descuento incluido es de " + precioInicial)
 
 // Ejercicio 22: ¿Qué edad tendré en 5 años?
 
+let edadActual = 21;
 
+edadActual += 5;
+
+console.log ("Mi edad dentro de 5 años será de " + edadActual + " años")
 
 // Ejercicio 23: Cuota mensual
 
