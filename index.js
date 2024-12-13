@@ -2,7 +2,16 @@
 
 // Ejercicio 1: Suma de productos
 
-// Ejercicio 2: Descuento en una compra
+const precioProducto1 = 5;
+const precioProducto2 = 8;
+
+const precioTotal = precioProducto1 + precioProducto2;
+
+console.log ("El precio del producto es de " + precioTotal + " euros")
+
+// Ejercicio 2: Descuento en una compraç
+
+
 
 // Ejercicio 3: Calcula el IVA
 
