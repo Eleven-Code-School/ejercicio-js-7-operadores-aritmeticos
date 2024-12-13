@@ -84,6 +84,13 @@ console.log ("Valor reducido despues de la deuda " + deuda)
 
 // Ejercicio 10: Calcula un exponente
 
+let base = 20;
+let exponente = 4;
+
+let baseXExponente = base ** exponente;
+
+console.log ("La base elevada al exponente es igual a " + baseXExponente)
+
 // Ejercicio 11: Reducción de precios
 
 // Ejercicio 12: Resto acumulado
